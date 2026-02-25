@@ -1,0 +1,18 @@
+# ============================================================
+# CALLIQ ENTERPRISE v1.5.3 - DEPENDENCIAS DEL SISTEMA
+# ============================================================
+
+# 1. Core ETL y Procesamiento de Archivos
+requests==2.31.0      # Llamadas a la API REST de AssemblyAI
+mutagen==1.47.0       # Extracción de metadatos técnicos y duración de audio
+pypdf==4.1.0          # Extracción de texto de manuales de calidad (Agente Arquitecto)
+
+# 2. Inteligencia Artificial (LLM)
+google-genai==0.3.0   # SDK oficial de Gemini para la capa cognitiva y RAG
+
+# 3. Gobernanza y Seguridad (GDPR)
+spacy==3.7.4          # Motor de NLP para la anonimización híbrida (NER)
+
+# 4. Business Intelligence y Dashboard
+pandas==2.2.1         # Manipulación de datos y exportación a CSV
+streamlit==1.32.0     # Framework para el Dashboard Ejecutivo (app.py)

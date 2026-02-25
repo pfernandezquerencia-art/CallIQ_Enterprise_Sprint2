@@ -1,0 +1,17 @@
+MANUAL DE CALIDAD: SOPORTE TÉCNICO Y ATENCIÓN AL CLIENTE (TELCO)
+
+TIPOLOGÍAS DE LLAMADA:
+- Soporte Técnico (Resolución en línea): { "Identificacion": 0.2, "Diagnostico": 0.4, "Empatia": 0.2, "Cierre": 0.2 }
+- Soporte Técnico (Agendamiento a Terreno): { "Identificacion": 0.2, "Diagnostico": 0.3, "Empatia": 0.2, "Cierre": 0.3 }
+- Reclamo Avería General (Outage): { "Identificacion": 0.2, "Diagnostico": 0.3, "Empatia": 0.3, "Cierre": 0.2 }
+
+BLOQUES A EVALUAR:
+1. Identificacion: Evalúa si el agente solicita los datos obligatorios del titular (DNI y Nombre/Apellido) y confirma los datos de contacto (teléfono o correo electrónico) o la dirección del servicio.
+2. Diagnostico: Analiza si el agente realiza un correcto "troubleshooting" (ej. preguntar por luces del módem, pedir reiniciar el equipo) o si verifica correctamente el estado del servicio en el sistema (ej. confirmar si hay una caída general en la zona).
+3. Empatia: Evalúa el trato profesional del agente, la escucha activa y su capacidad para calmar o manejar la frustración del cliente en caso de averías prolongadas, evitando interrupciones y mostrando disposición a ayudar.
+4. Cierre: Verifica si el agente confirma los próximos pasos de forma clara (agendamiento de visita, resolución del problema o escalado) y si, antes de despedirse, invita explícitamente al cliente a participar en la encuesta de satisfacción.
+
+ELIMINATORIAS (KO):
+- No solicitar el DNI o el nombre del titular para verificar la identidad al inicio de la llamada.
+- Faltar al respeto al cliente, elevar el tono de voz o usar lenguaje inapropiado.
+- Cortar la llamada abruptamente sin ofrecer una respuesta, agendamiento o estado claro del reclamo.
