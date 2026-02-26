@@ -81,8 +81,12 @@ except ImportError:
     SPACY_AVAILABLE = False
 
 # ============================================================
-# 1. CONFIGURACIÓN Y LOGGING
+# 1. CONFIGURACIÓN, SEGURIDAD Y LOGGING
 # ============================================================
+from dotenv import load_dotenv
+import os
+
+load_dotenv(override=True) # Carga las llaves desde tu archivo .env oculto
 
 logging.basicConfig(
     level=logging.INFO,
@@ -91,6 +95,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger("CallIQ_Core")
 
+# Lectura de llaves (functional & secure)
 ASSEMBLYAI_API_KEY = os.getenv("ASSEMBLYAI_API_KEY")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
@@ -101,22 +106,27 @@ LLM_MODEL_VERSION = "gemini-2.5-flash"
 LLM_TEMPERATURE = 0.1
 POLLING_TIMEOUT_SECONDS = 600
 
+# --- FUNCIONES ESENCIALES (¡NO BORRAR!) ---
+
 class SecurityError(Exception):
+    """Error personalizado para violaciones de integridad."""
     pass
 
 def compute_sha256(data):
+    """Genera un hash único para certificar la integridad de los datos."""
     if isinstance(data, (dict, list)):
         data = json.dumps(data, sort_keys=True)
     return hashlib.sha256(data.encode()).hexdigest()
 
 def validate_model_structure(model_json):
+    """Valida que el manual de calidad generado sea compatible con el motor."""
     required = ["model_name", "call_types", "blocks", "eliminatorias"]
     for key in required:
-        if key not in model_json: raise ValueError(f"Estructura inválida: falta clave '{key}'")
-    if not model_json["blocks"]: raise ValueError("El modelo debe tener al menos un bloque.")
-    if not model_json.get("call_types"): raise ValueError("El modelo debe definir al menos un 'call_type'.")
+        if key not in model_json: 
+            raise ValueError(f"Estructura inválida: falta clave '{key}'")
+    if not model_json["blocks"]: 
+        raise ValueError("El modelo debe tener al menos un bloque.")
     return True
-
 # ============================================================
 # 2. MODEL REGISTRY PERSISTENTE
 # ============================================================
@@ -176,8 +186,6 @@ class ModelRegistry:
 
 class IngestionModule:
     def process(self, audio_path):
-        if not ASSEMBLYAI_API_KEY:
-            return {"transcription": {"full_text": "Hola, soy Juan. Llamo por el impago.", "utterances": [{"speaker_id": "A", "text": "Hola, soy Juan."}]}, "meta": {"duration_sec": 120}}
         with open(audio_path, "rb") as f:
             upload_url = requests.post("https://api.assemblyai.com/v2/upload", headers=ASSEMBLY_HEADERS, data=f).json()["upload_url"]
         tid = requests.post("https://api.assemblyai.com/v2/transcript", json={"audio_url": upload_url, "speaker_labels": True, "language_code": "es"}, headers=ASSEMBLY_HEADERS).json()["id"]
@@ -322,8 +330,7 @@ class EvaluationModelBuilder:
           ]
         }}
         """
-        if not gemini_client: return {"model_name": "Mock Model", "call_types": [{"name":"standard","weights":{"Bloque_Unico":1.0}}], "blocks": [{"name":"Bloque_Unico","criteria":["Atender"]}], "eliminatorias": []}
-        
+            
         try:
             resp = gemini_client.models.generate_content(
                 model=LLM_MODEL_VERSION, contents=prompt_maestro_arquitecto, 
@@ -644,7 +651,8 @@ class PipelineController:
             import pandas as pd
             conn = sqlite3.connect(self.registry.db_path)
             df = pd.read_sql("SELECT * FROM evaluations_bi", conn)
-            filename = f"calliq_export_BI_{datetime.now().strftime('%Y%m%d')}.csv"
+            # CAMBIO: Añadido ./data/ para que no se guarde en la raíz
+            filename = f"./data/calliq_export_BI_{datetime.now().strftime('%Y%m%d')}.csv"
             df.to_csv(filename, index=False)
             logger.info(f"📊 Export BI completado con éxito: {filename}")
             conn.close()
@@ -718,14 +726,26 @@ if __name__ == "__main__":
             )
             
             if "error" not in resultado:
+                # 1. Guardar el JSON detallado de esta llamada
+                id_llamada = resultado['conversation_id']
+                nombre_json = f"evaluacion_{nombre_archivo}.json"
+                ruta_completa = os.path.join(carpeta_outputs, nombre_json)
+                
+                with open(ruta_completa, "w", encoding="utf-8") as f:
+                    json.dump(resultado, f, indent=4, ensure_ascii=False)
+                
                 print(f"✅ ÉXITO | Score Calidad: {resultado['quality_evaluation']['final_score']}/10")
-                print(f"🚨 Eliminatoria (KO): {'Sí' if resultado['quality_evaluation']['bi_export']['ko'] else 'No'}")
-                print(f"🔒 Hash Modelo: {resultado['governance']['model_integrity_hash'][:20]}...")
-                print(f"💰 Coste FinOps: ${resultado['finops']['total_transaction_cost_usd']}")
+                print(f"📊 Detalle bloques: {resultado['quality_evaluation']['details']['block_scores']}")
+                print(f"🚨 KO: {'Sí' if resultado['quality_evaluation']['bi_export']['ko'] else 'No'} | 💰 Coste: ${resultado['finops']['total_transaction_cost_usd']}")
+                print(f"💾 JSON guardado en: {ruta_completa}")
             else:
                 print(f"❌ ERROR al procesar {nombre_archivo}: {resultado.get('error', 'Error desconocido')}")
-        
-        print("\n🏁 PROCESAMIENTO BATCH FINALIZADO.")
+            
+            # 2. Exportar el CSV en cada vuelta (por si se corta a la mitad, no perder datos)
+            controller.export_bi_to_csv()
 
-    # Exportar resultados para PowerBI
-    controller.export_bi_to_csv()
+            # 3. Pausa de seguridad para que Google no bloquee la API (Error 429)
+            print("⏳ Pausa de seguridad de 12s para la API...\n")
+            time.sleep(12)
+
+        print("\n🏁 PROCESAMIENTO BATCH FINALIZADO.")

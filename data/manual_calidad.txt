@@ -1,17 +1,44 @@
-MANUAL DE CALIDAD: SOPORTE TÉCNICO Y ATENCIÓN AL CLIENTE (TELCO)
 
-TIPOLOGÍAS DE LLAMADA:
-- Soporte Técnico (Resolución en línea): { "Identificacion": 0.2, "Diagnostico": 0.4, "Empatia": 0.2, "Cierre": 0.2 }
-- Soporte Técnico (Agendamiento a Terreno): { "Identificacion": 0.2, "Diagnostico": 0.3, "Empatia": 0.2, "Cierre": 0.3 }
-- Reclamo Avería General (Outage): { "Identificacion": 0.2, "Diagnostico": 0.3, "Empatia": 0.3, "Cierre": 0.2 }
+📑 MANUAL DE EVALUACIÓN ESTRATÉGICA - EXPRESS TELECOM
+1. TIPOLOGÍAS DE LLAMADA (Ponderación de Notas)
+Soporte Técnico (Resolución): Identificación (20%), Diagnóstico (40%), Empatía (20%), Cierre (20%).
 
-BLOQUES A EVALUAR:
-1. Identificacion: Evalúa si el agente solicita los datos obligatorios del titular (DNI y Nombre/Apellido) y confirma los datos de contacto (teléfono o correo electrónico) o la dirección del servicio.
-2. Diagnostico: Analiza si el agente realiza un correcto "troubleshooting" (ej. preguntar por luces del módem, pedir reiniciar el equipo) o si verifica correctamente el estado del servicio en el sistema (ej. confirmar si hay una caída general en la zona).
-3. Empatia: Evalúa el trato profesional del agente, la escucha activa y su capacidad para calmar o manejar la frustración del cliente en caso de averías prolongadas, evitando interrupciones y mostrando disposición a ayudar.
-4. Cierre: Verifica si el agente confirma los próximos pasos de forma clara (agendamiento de visita, resolución del problema o escalado) y si, antes de despedirse, invita explícitamente al cliente a participar en la encuesta de satisfacción.
+Gestión de Avería/Visita: Identificación (20%), Diagnóstico (30%), Empatía (20%), Cierre (30%).
 
-ELIMINATORIAS (KO):
-- No solicitar el DNI o el nombre del titular para verificar la identidad al inicio de la llamada.
-- Faltar al respeto al cliente, elevar el tono de voz o usar lenguaje inapropiado.
-- Cortar la llamada abruptamente sin ofrecer una respuesta, agendamiento o estado claro del reclamo.
+2. EPÍGRAFES Y CRITERIOS DE PUNTUACIÓN (0-10)
+A. Identificación y Cumplimiento (Compliance)
+Solicitud de DNI y Nombre: (Obligatorio) +5 puntos.
+
+Validación de Datos de Contacto: (Teléfono/Email) +3 puntos.
+
+Confirmación de Dirección del Servicio: +2 puntos.
+
+Puntuación: 0 si no pide DNI; 10 si valida identidad y contacto.
+
+B. Diagnóstico y Eficacia Técnica
+Troubleshooting Activo: ¿Preguntó por las luces del módem o pidió reiniciar? (Ej: Caso 10248768001). +4 puntos.
+
+Verificación en Sistema: ¿Mencionó ver una avería masiva o estado "fuera de servicio"? (Ej: Caso 10249954001). +3 puntos.
+
+Explicación del Fallo: Capacidad de explicar al cliente por qué no tiene servicio (WiFi vs Red). +3 puntos.
+
+C. Empatía y Gestión Emocional
+Escucha Activa: No interrumpir al cliente mientras explica su problema. +3 puntos.
+
+Lenguaje Profesional: Evitar muletillas y mantener tono calmado ante quejas por falta de internet. +4 puntos.
+
+Resolución de Dudas: Responder a todas las preguntas del cliente de forma clara. +3 puntos.
+
+D. Cierre y Seguimiento
+Resumen de Acuerdo: Repetir si hay visita técnica o si debe esperar una hora (Ej: Caso 10248768001). +4 puntos.
+
+Encuesta de Satisfacción: (Obligatorio) Invitación explícita a la encuesta. +4 puntos.
+
+Despedida Formal: Desear un buen día y confirmar si hay algo más en que ayudar. +2 puntos.
+
+3. MATRIZ DE ELIMINATORIAS (KO = Nota Final 0.0)
+KO_SEGURIDAD: No solicitar el DNI para verificar al titular.
+
+KO_PROFESIONALIDAD: Faltar al respeto, reírse o ignorar al cliente.
+
+KO_GESTION: No cargar un reclamo técnico o no agendar visita cuando el sistema indica "fuera de servicio".
