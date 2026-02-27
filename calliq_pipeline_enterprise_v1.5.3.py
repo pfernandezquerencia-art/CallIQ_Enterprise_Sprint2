@@ -91,7 +91,7 @@ load_dotenv(override=True) # Carga las llaves desde tu archivo .env oculto
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(module)s - %(message)s",
-    handlers=[logging.FileHandler("pipeline.log"), logging.StreamHandler()]
+    handlers=[logging.FileHandler("pipeline.log", encoding='utf-8'), logging.StreamHandler()]
 )
 logger = logging.getLogger("CallIQ_Core")
 

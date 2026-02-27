@@ -1,0 +1,399 @@
+2026-02-25 22:15:47,453 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10231468001.mp3 ===
+2026-02-25 22:15:47,487 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0172 ===
+2026-02-25 22:15:47,491 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10231524001.mp3 ===
+2026-02-25 22:15:47,505 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-25 22:15:47,514 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10231722001.mp3 ===
+2026-02-25 22:15:47,523 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-25 22:15:47,525 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10231909001.mp3 ===
+2026-02-25 22:15:47,536 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-25 22:15:47,539 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10232448001.mp3 ===
+2026-02-25 22:15:47,548 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-25 22:15:47,549 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10232926001.mp3 ===
+2026-02-25 22:15:47,557 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-25 22:15:47,558 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10233161001.mp3 ===
+2026-02-25 22:15:47,567 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-25 22:15:47,569 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10233439001.mp3 ===
+2026-02-25 22:15:47,577 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-25 22:15:47,580 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10246870001.mp3 ===
+2026-02-25 22:15:47,588 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-25 22:15:47,590 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10247965001.mp3 ===
+2026-02-25 22:15:47,600 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-25 22:15:47,601 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10248768001.mp3 ===
+2026-02-25 22:15:47,608 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-25 22:15:47,610 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249954001.mp3 ===
+2026-02-25 22:15:47,619 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:38:42,812 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10231468001.mp3 ===
+2026-02-26 19:38:42,821 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:38:42,822 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10231524001.mp3 ===
+2026-02-26 19:38:42,827 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:38:42,828 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10231722001.mp3 ===
+2026-02-26 19:38:42,834 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:38:42,835 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10231909001.mp3 ===
+2026-02-26 19:38:42,841 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:38:42,842 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10232448001.mp3 ===
+2026-02-26 19:38:42,848 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:38:42,849 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10232926001.mp3 ===
+2026-02-26 19:38:42,855 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:38:42,856 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10233161001.mp3 ===
+2026-02-26 19:38:42,861 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:38:42,862 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10233439001.mp3 ===
+2026-02-26 19:38:42,867 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:38:42,867 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10246870001.mp3 ===
+2026-02-26 19:38:42,872 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:38:42,873 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10247965001.mp3 ===
+2026-02-26 19:38:42,878 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:38:42,879 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10248768001.mp3 ===
+2026-02-26 19:38:42,883 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:38:42,885 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249954001.mp3 ===
+2026-02-26 19:38:42,890 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:08,802 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10231468001.mp3 ===
+2026-02-26 19:45:08,811 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:08,812 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10231491001.mp3 ===
+2026-02-26 19:45:08,818 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:08,820 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10231524001.mp3 ===
+2026-02-26 19:45:08,825 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:08,826 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10231565001.mp3 ===
+2026-02-26 19:45:08,832 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:08,833 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10231595001.mp3 ===
+2026-02-26 19:45:08,840 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:08,841 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10231689001.mp3 ===
+2026-02-26 19:45:08,848 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:08,850 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10231711001.mp3 ===
+2026-02-26 19:45:08,856 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:08,857 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10231722001.mp3 ===
+2026-02-26 19:45:08,862 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:08,863 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10231763001.mp3 ===
+2026-02-26 19:45:08,868 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:08,869 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10231875001.mp3 ===
+2026-02-26 19:45:08,876 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:08,877 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10231909001.mp3 ===
+2026-02-26 19:45:08,885 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:08,886 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10231948001.mp3 ===
+2026-02-26 19:45:08,891 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:08,892 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10231958001.mp3 ===
+2026-02-26 19:45:08,899 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:08,901 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10231966001.mp3 ===
+2026-02-26 19:45:08,907 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:08,909 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10232186001.mp3 ===
+2026-02-26 19:45:08,915 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:08,915 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10232448001.mp3 ===
+2026-02-26 19:45:08,921 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:08,921 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10232530001.mp3 ===
+2026-02-26 19:45:08,926 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:08,927 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10232682001.mp3 ===
+2026-02-26 19:45:08,931 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:08,932 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10232684001.mp3 ===
+2026-02-26 19:45:08,937 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:08,938 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10232697001.mp3 ===
+2026-02-26 19:45:08,944 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:08,945 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10232705001.mp3 ===
+2026-02-26 19:45:08,951 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:08,952 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10232888001.mp3 ===
+2026-02-26 19:45:08,958 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:08,959 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10232926001.mp3 ===
+2026-02-26 19:45:08,965 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:08,967 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10232984001.mp3 ===
+2026-02-26 19:45:08,973 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:08,974 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10233161001.mp3 ===
+2026-02-26 19:45:08,979 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:08,980 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10233199001.mp3 ===
+2026-02-26 19:45:08,986 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:08,987 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10233414001.mp3 ===
+2026-02-26 19:45:08,992 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:08,993 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10233439001.mp3 ===
+2026-02-26 19:45:08,998 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:08,999 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10233540001.mp3 ===
+2026-02-26 19:45:09,005 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:09,006 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10233574001.mp3 ===
+2026-02-26 19:45:09,012 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:09,013 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10245406001.mp3 ===
+2026-02-26 19:45:09,019 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:09,021 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10245608001.mp3 ===
+2026-02-26 19:45:09,026 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:09,026 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10246432001.mp3 ===
+2026-02-26 19:45:09,031 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:09,032 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10246500001.mp3 ===
+2026-02-26 19:45:09,039 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:09,039 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10246870001.mp3 ===
+2026-02-26 19:45:09,044 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:09,045 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10247965001.mp3 ===
+2026-02-26 19:45:09,051 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:09,052 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10248092001.mp3 ===
+2026-02-26 19:45:09,058 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:09,058 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10248132001.mp3 ===
+2026-02-26 19:45:09,064 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:09,065 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10248768001.mp3 ===
+2026-02-26 19:45:09,071 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:09,072 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10248770001.mp3 ===
+2026-02-26 19:45:09,078 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:09,079 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10248839001.mp3 ===
+2026-02-26 19:45:09,087 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:09,088 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10248971001.mp3 ===
+2026-02-26 19:45:09,092 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:09,093 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10248994001.mp3 ===
+2026-02-26 19:45:09,098 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:09,099 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249028001.mp3 ===
+2026-02-26 19:45:09,105 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:09,106 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249222001.mp3 ===
+2026-02-26 19:45:09,113 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:09,114 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249696001.mp3 ===
+2026-02-26 19:45:09,119 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:09,120 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249787001.mp3 ===
+2026-02-26 19:45:09,125 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:09,126 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249864001.mp3 ===
+2026-02-26 19:45:09,131 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:09,131 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249954001.mp3 ===
+2026-02-26 19:45:09,136 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 19:45:09,137 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 16140901.mp3 ===
+2026-02-26 19:45:09,143 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0122 ===
+2026-02-26 20:39:44,505 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10231468001.mp3 ===
+2026-02-26 20:39:57,852 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 20:40:07,135 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-26 20:40:07,147 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 20:40:12,644 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-26 20:40:12,646 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 20:40:22,332 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-26 20:40:22,339 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 8.05 | KO: False | Coste: $0.0632 ===
+2026-02-26 20:40:22,340 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10231491001.mp3 ===
+2026-02-26 20:40:31,054 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 20:40:35,159 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-26 20:40:35,161 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 20:40:45,062 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-26 20:40:45,069 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 8.15 | KO: False | Coste: $0.0325 ===
+2026-02-26 20:40:45,071 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10231524001.mp3 ===
+2026-02-26 20:40:57,743 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 20:41:05,645 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-26 20:41:05,647 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 20:41:16,265 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-26 20:41:16,278 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 8.25 | KO: False | Coste: $0.0551 ===
+2026-02-26 20:41:16,279 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10231565001.mp3 ===
+2026-02-26 20:41:24,848 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 20:41:34,450 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-26 20:41:34,458 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 20:41:46,112 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-26 20:41:46,120 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 6.19 | KO: False | Coste: $0.0226 ===
+2026-02-26 20:41:46,121 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10231595001.mp3 ===
+2026-02-26 20:41:54,378 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 20:41:58,528 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-26 20:41:58,530 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 20:42:05,146 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-26 20:42:05,154 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 8.85 | KO: False | Coste: $0.0174 ===
+2026-02-26 20:42:05,155 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10231689001.mp3 ===
+2026-02-26 20:42:13,620 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 20:42:18,541 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-26 20:42:18,543 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 20:42:31,230 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-26 20:42:31,237 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 4.65 | KO: False | Coste: $0.0296 ===
+2026-02-26 20:42:31,238 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10231711001.mp3 ===
+2026-02-26 20:42:39,615 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 20:42:42,440 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-26 20:42:42,442 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 20:42:50,059 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-26 20:42:50,065 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 8.7 | KO: False | Coste: $0.0133 ===
+2026-02-26 20:42:50,067 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10231722001.mp3 ===
+2026-02-26 20:43:03,092 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 20:43:13,090 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-26 20:43:13,092 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 20:43:21,601 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-26 20:43:21,609 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 8.3 | KO: False | Coste: $0.0490 ===
+2026-02-26 20:43:21,610 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10231763001.mp3 ===
+2026-02-26 20:43:33,925 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 20:43:42,037 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-26 20:43:42,040 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 20:43:52,888 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-26 20:43:52,896 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 9.25 | KO: False | Coste: $0.0284 ===
+2026-02-26 20:43:52,897 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10231875001.mp3 ===
+2026-02-26 20:44:05,463 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 20:44:11,155 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-26 20:44:11,157 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 20:44:21,959 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-26 20:44:21,967 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: True | Coste: $0.0330 ===
+2026-02-26 20:44:21,968 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10231909001.mp3 ===
+2026-02-26 20:44:34,987 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 20:44:39,731 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-26 20:44:39,733 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 20:44:39,813 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-26 20:44:39,816 [ERROR] calliq_pipeline_enterprise_v1.5.3 - Error LLM Evaluador: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 21.439848018s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '21s'}]}}
+2026-02-26 20:44:39,823 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0420 ===
+2026-02-26 20:44:39,824 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10231948001.mp3 ===
+2026-02-26 20:44:51,790 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 20:44:51,926 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-26 20:44:51,928 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 20:44:52,015 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-26 20:44:52,016 [ERROR] calliq_pipeline_enterprise_v1.5.3 - Error LLM Evaluador: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 9.23895581s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '9s'}]}}
+2026-02-26 20:44:52,022 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0107 ===
+2026-02-26 20:44:52,023 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10231958001.mp3 ===
+2026-02-26 20:45:04,638 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 20:45:04,769 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-26 20:45:04,772 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 20:45:04,852 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-26 20:45:04,854 [ERROR] calliq_pipeline_enterprise_v1.5.3 - Error LLM Evaluador: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 56.401743782s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '56s'}]}}
+2026-02-26 20:45:04,859 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0113 ===
+2026-02-26 20:45:04,860 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10231966001.mp3 ===
+2026-02-26 20:45:13,403 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 20:45:13,615 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-26 20:45:13,616 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 20:45:13,705 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-26 20:45:13,706 [ERROR] calliq_pipeline_enterprise_v1.5.3 - Error LLM Evaluador: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 47.547833161s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '47s'}]}}
+2026-02-26 20:45:13,712 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0193 ===
+2026-02-26 20:45:13,713 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10232186001.mp3 ===
+2026-02-26 20:45:21,918 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 20:45:22,060 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-26 20:45:22,062 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 20:45:22,143 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-26 20:45:22,144 [ERROR] calliq_pipeline_enterprise_v1.5.3 - Error LLM Evaluador: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 39.112290131s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '39s'}]}}
+2026-02-26 20:45:22,151 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0161 ===
+2026-02-26 20:45:22,153 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10232448001.mp3 ===
+2026-02-26 22:07:31,304 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249222001.mp3 ===
+2026-02-26 22:07:41,777 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 22:07:48,161 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-26 22:07:48,163 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 22:07:48,250 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-26 22:07:48,252 [ERROR] calliq_pipeline_enterprise_v1.5.3 - Error LLM Evaluador: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 13.080813686s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '13s'}]}}
+2026-02-26 22:07:48,260 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0138 ===
+2026-02-26 22:07:48,261 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249696001.mp3 ===
+2026-02-26 22:08:24,585 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 22:08:30,817 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-26 22:08:30,819 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 22:08:30,909 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-26 22:08:30,911 [ERROR] calliq_pipeline_enterprise_v1.5.3 - Error LLM Evaluador: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 30.422679719s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '30s'}]}}
+2026-02-26 22:08:30,922 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0293 ===
+2026-02-26 22:08:30,923 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249787001.mp3 ===
+2026-02-26 22:08:38,996 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 22:08:39,214 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-26 22:08:39,216 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 22:08:39,301 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-26 22:08:39,302 [ERROR] calliq_pipeline_enterprise_v1.5.3 - Error LLM Evaluador: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 22.031277126s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '22s'}]}}
+2026-02-26 22:08:39,310 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0164 ===
+2026-02-26 22:08:39,311 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249864001.mp3 ===
+2026-02-26 22:09:03,302 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 22:09:03,469 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-26 22:09:03,471 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 22:09:03,561 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-26 22:09:03,563 [ERROR] calliq_pipeline_enterprise_v1.5.3 - Error LLM Evaluador: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 57.772759326s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '57s'}]}}
+2026-02-26 22:09:03,570 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0170 ===
+2026-02-26 22:09:03,571 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249954001.mp3 ===
+2026-02-26 22:09:16,264 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 22:09:16,441 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-26 22:09:16,443 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 22:09:16,540 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-26 22:09:16,541 [ERROR] calliq_pipeline_enterprise_v1.5.3 - Error LLM Evaluador: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 44.802370614s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '44s'}]}}
+2026-02-26 22:09:16,547 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: False | Coste: $0.0537 ===
+2026-02-26 22:57:56,549 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249222001.mp3 ===
+2026-02-26 22:58:04,674 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 22:58:05,018 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-26 22:58:05,020 [ERROR] calliq_pipeline_enterprise_v1.5.3 - Error en Builder Cognitivo: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 56.359359111s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '56s'}]}}
+2026-02-26 23:00:46,747 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249222001.mp3 ===
+2026-02-26 23:00:55,178 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 23:00:55,298 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-02-26 23:00:55,299 [ERROR] calliq_pipeline_enterprise_v1.5.3 - Error en Builder Cognitivo: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-26 23:02:12,503 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249222001.mp3 ===
+2026-02-26 23:02:20,563 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 23:02:20,664 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-8b:generateContent "HTTP/1.1 404 Not Found"
+2026-02-26 23:02:20,665 [ERROR] calliq_pipeline_enterprise_v1.5.3 - Error en Builder Cognitivo: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash-8b is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-26 23:02:43,245 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249222001.mp3 ===
+2026-02-26 23:02:51,422 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 23:02:51,531 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent "HTTP/1.1 404 Not Found"
+2026-02-26 23:02:51,532 [ERROR] calliq_pipeline_enterprise_v1.5.3 - Error en Builder Cognitivo: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-26 23:04:00,738 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249222001.mp3 ===
+2026-02-26 23:04:09,108 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 23:04:09,219 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-002:generateContent "HTTP/1.1 404 Not Found"
+2026-02-26 23:04:09,220 [ERROR] calliq_pipeline_enterprise_v1.5.3 - Error en Builder Cognitivo: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash-002 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-26 23:07:10,342 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249222001.mp3 ===
+2026-02-26 23:07:18,614 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 23:07:18,914 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-26 23:07:18,916 [ERROR] calliq_pipeline_enterprise_v1.5.3 - Error en Builder Cognitivo: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 42.473171718s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '42s'}]}}
+2026-02-26 23:07:48,192 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249222001.mp3 ===
+2026-02-26 23:07:56,384 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 23:07:56,490 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-02-26 23:07:56,492 [ERROR] calliq_pipeline_enterprise_v1.5.3 - Error en Builder Cognitivo: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-26 23:08:06,784 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249222001.mp3 ===
+2026-02-26 23:08:14,900 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 23:08:15,108 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-02-26 23:08:15,110 [ERROR] calliq_pipeline_enterprise_v1.5.3 - Error en Builder Cognitivo: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-26 23:09:07,787 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249222001.mp3 ===
+2026-02-26 23:09:15,857 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 23:09:15,981 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-002:generateContent "HTTP/1.1 404 Not Found"
+2026-02-26 23:09:15,982 [ERROR] calliq_pipeline_enterprise_v1.5.3 - Error en Builder Cognitivo: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash-002 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-26 23:10:52,492 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249222001.mp3 ===
+2026-02-26 23:11:00,664 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 23:11:00,768 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent "HTTP/1.1 404 Not Found"
+2026-02-26 23:11:00,769 [ERROR] calliq_pipeline_enterprise_v1.5.3 - Error en Builder Cognitivo: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-26 23:14:29,495 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249222001.mp3 ===
+2026-02-26 23:14:37,693 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 23:14:37,821 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-26 23:14:37,823 [ERROR] calliq_pipeline_enterprise_v1.5.3 - Error en Builder Cognitivo: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. ', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-02-26 23:16:52,801 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249222001.mp3 ===
+2026-02-26 23:17:01,181 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 23:17:01,329 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-26 23:17:01,337 [ERROR] calliq_pipeline_enterprise_v1.5.3 - Error en Builder Cognitivo: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. ', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-02-26 23:21:42,681 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249222001.mp3 ===
+2026-02-26 23:21:50,880 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 23:21:51,010 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-26 23:21:51,012 [ERROR] calliq_pipeline_enterprise_v1.5.3 - Error en Builder Cognitivo: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. ', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-02-26 23:22:36,754 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249222001.mp3 ===
+2026-02-26 23:22:44,791 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 23:22:44,914 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-26 23:22:44,916 [ERROR] calliq_pipeline_enterprise_v1.5.3 - Error en Builder Cognitivo: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. ', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-02-26 23:24:30,418 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249222001.mp3 ===
+2026-02-26 23:24:40,439 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-26 23:24:40,562 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-26 23:24:40,564 [ERROR] calliq_pipeline_enterprise_v1.5.3 - Error en Builder Cognitivo: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. ', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-02-27 20:57:34,877 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249222001.mp3 ===
+2026-02-27 20:57:44,994 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-27 20:57:45,218 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-27 20:57:45,223 [ERROR] calliq_pipeline_enterprise_v1.5.3 - Error en Builder Cognitivo: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. ', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-02-27 21:04:56,838 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249222001.mp3 ===
+2026-02-27 21:05:07,164 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-27 21:05:17,045 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-27 21:05:17,062 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-27 21:05:22,097 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-27 21:05:22,101 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-27 21:05:33,253 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-27 21:05:33,268 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 6.2 | KO: False | Coste: $0.0189 ===
+2026-02-27 21:05:46,871 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249696001.mp3 ===
+2026-02-27 21:05:57,279 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-27 21:06:03,360 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-27 21:06:03,365 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-27 21:06:11,740 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-27 21:06:11,752 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 6.8 | KO: False | Coste: $0.0294 ===
+2026-02-27 21:06:23,780 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249787001.mp3 ===
+2026-02-27 21:06:34,331 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-27 21:06:42,072 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-27 21:06:42,076 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-27 21:06:52,286 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-27 21:06:52,299 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 8.3 | KO: False | Coste: $0.0166 ===
+2026-02-27 21:07:04,315 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249954001.mp3 ===
+2026-02-27 21:08:31,395 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-27 21:08:40,423 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-27 21:08:40,427 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-27 21:08:46,771 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-27 21:08:46,782 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 8.05 | KO: False | Coste: $0.0539 ===
+2026-02-27 21:18:28,321 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249222001.mp3 ===
+2026-02-27 21:18:38,751 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-27 21:18:44,039 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-27 21:18:44,043 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-27 21:18:49,983 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-27 21:18:49,995 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 6.6 | KO: False | Coste: $0.0139 ===
+2026-02-27 21:18:50,786 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📊 Export BI completado con éxito: ./data/calliq_export_BI_20260227.csv
+2026-02-27 21:19:02,786 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249696001.mp3 ===
+2026-02-27 21:19:13,032 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-27 21:19:19,884 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-27 21:19:19,888 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-27 21:19:29,910 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-27 21:19:29,923 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 6.85 | KO: False | Coste: $0.0294 ===
+2026-02-27 21:19:29,935 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📊 Export BI completado con éxito: ./data/calliq_export_BI_20260227.csv
+2026-02-27 21:19:41,935 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249787001.mp3 ===
+2026-02-27 21:19:51,649 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-27 21:19:57,244 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-27 21:19:57,248 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-27 21:20:06,459 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-27 21:20:06,471 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 8.1 | KO: False | Coste: $0.0166 ===
+2026-02-27 21:20:06,485 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📊 Export BI completado con éxito: ./data/calliq_export_BI_20260227.csv
+2026-02-27 21:20:18,491 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249954001.mp3 ===
+2026-02-27 21:20:34,516 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-27 21:20:40,428 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-27 21:20:40,431 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-02-27 21:20:48,026 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-27 21:20:48,038 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 9.0 | KO: False | Coste: $0.0539 ===
+2026-02-27 21:20:48,052 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📊 Export BI completado con éxito: ./data/calliq_export_BI_20260227.csv

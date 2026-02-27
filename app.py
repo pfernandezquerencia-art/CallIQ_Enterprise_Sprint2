@@ -1,196 +1,125 @@
-# ============================================================
-# DASHBOARD EJECUTIVO CALLIQ (ENTERPRISE EDITION v1.5.3)
-# ============================================================
-# Visualiza métricas de Calidad, Riesgo, FinOps y Auditoría
-# Conecta con: calliq_registry.db (SQLite)
-# ============================================================
+# ============================================================\r
+# DASHBOARD EJECUTIVO CALLIQ (INSPIRADO EN CRE MORA)
+# ============================================================\r
 
 import streamlit as st
-import sqlite3
 import pandas as pd
-import time
 import os
+import json
+import plotly.express as px
+import plotly.graph_objects as go
 
-# 1. CONFIGURACIÓN DE PÁGINA
-st.set_page_config(
-    page_title="CallIQ Dashboard",
-    page_icon="📊",
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
+# 1. CONFIGURACIÓN DE PÁGINA (Debe ser la primera línea)
+st.set_page_config(page_title="Ficha Calidad Gestor", page_icon="🎧", layout="wide")
 
-# Estilos CSS personalizados para dar look corporativo
+# Estilos CSS para imitar el informe PDF
 st.markdown("""
     <style>
-    .big-font { font-size: 24px !important; }
-    .metric-card { border: 1px solid #e6e6e6; padding: 15px; border-radius: 5px; }
+    .metric-container { background-color: #f8f9fa; padding: 15px; border-radius: 8px; border-left: 5px solid #ff0000; }
+    .kpi-title { font-size: 16px; color: #666; margin-bottom: 5px; }
+    .kpi-value { font-size: 28px; font-weight: bold; color: #1e1e1e; }
     </style>
-    """, unsafe_allow_html=True)
+""", unsafe_allow_html=True)
 
-st.title("📊 CallIQ: Centro de Control de Calidad y FinOps")
-st.markdown("---")
-
-# 2. FUNCIÓN DE CARGA DE DATOS
+# 2. CARGA DE DATOS (Simulando la lectura de tus JSON y CSV)
+@st.cache_data
 def load_data():
-    db_path = "calliq_registry.db"
-    
-    # Verificar si existe la BD
-    if not os.path.exists(db_path):
-        return pd.DataFrame()
+    # En un caso real, aquí leerías tu CSV calliq_export_BI_...csv
+    # Para el esqueleto, creamos un DataFrame con la estructura de tus logs:
+    datos = {
+        'Fecha': pd.to_datetime(['2026-02-24', '2026-02-25', '2026-02-26', '2026-02-27', '2026-02-27']),
+        'Agente': ['AG-102', 'AG-102', 'AG-102', 'AG-102', 'AG-105'],
+        'Llamada_ID': ['10249222001', '10249696001', '10249787001', '10249954001', '10250000001'],
+        'Nota_Final': [6.2, 6.8, 8.3, 8.05, 9.0],
+        'KO': [False, False, False, False, False],
+        'Identificacion': [8.0, 10.0, 7.5, 9.5, 10.0],
+        'Diagnostico': [4.0, 4.0, 8.0, 9.5, 10.0],
+        'Empatia': [9.0, 9.0, 9.5, 9.0, 9.5],
+        'Cierre': [6.0, 6.0, 8.5, 5.0, 7.0]
+    }
+    return pd.DataFrame(datos)
 
-    try:
-        conn = sqlite3.connect(db_path)
-        # Cargamos datos de BI incluyendo el nuevo desglose de costes v1.5.3
-        query = "SELECT * FROM evaluations_bi ORDER BY processed_at DESC"
-        df = pd.read_sql(query, conn)
-        conn.close()
-
-        if not df.empty:
-            df['processed_at'] = pd.to_datetime(df['processed_at'])
-            
-            # Retrocompatibilidad con v1.5.2 (si existe cost_usd antiguo)
-            if 'total_cost' not in df.columns:
-                df['total_cost'] = df.get('cost_usd', 0.0)
-            if 'stt_cost' not in df.columns:
-                df['stt_cost'] = df['total_cost'] * 0.7  # Estimación si no existe
-            if 'llm_cost' not in df.columns:
-                df['llm_cost'] = df['total_cost'] * 0.3  # Estimación si no existe
-                
-        return df
-    except Exception as e:
-        st.error(f"Error al conectar con la base de datos: {e}")
-        return pd.DataFrame()
-
-# Cargar el DataFrame
 df = load_data()
 
-# 3. LÓGICA DEL DASHBOARD
-if df.empty:
-    st.warning("⚠️ No hay datos disponibles todavía.")
-    st.info("👉 Ejecuta el motor 'calliq_pipeline_enterprise_v1.5.3.py' para procesar llamadas y generar datos.")
-    
-    if st.button("🔄 Reintentar conexión"):
-        st.rerun()
+# 3. BARRA LATERAL (Filtros)
+st.sidebar.markdown("# 🎧 CallIQ Analytics")
+st.sidebar.header("Filtros de Búsqueda")
 
+agentes_disponibles = ["Todos"] + list(df['Agente'].unique())
+agente_seleccionado = st.sidebar.selectbox("👤 Seleccionar Gestor", agentes_disponibles)
+
+# Filtrar el DataFrame
+if agente_seleccionado != "Todos":
+    df_filtrado = df[df['Agente'] == agente_seleccionado]
 else:
-    # --- BARRA LATERAL (FILTROS) ---
-    st.sidebar.header("🔍 Filtros de Visualización")
+    df_filtrado = df
+
+# 4. CABECERA
+st.title(f"Ficha Calidad Gestor: {agente_seleccionado}")
+st.markdown("CallIQ Enterprise")
+st.markdown("---")
+
+# 5. KPIs PRINCIPALES (Como en la Ficha CRE Mora)
+col1, col2, col3, col4 = st.columns(4)
+
+nota_media = df_filtrado['Nota_Final'].mean()
+kos_totales = df_filtrado['KO'].sum()
+
+with col1:
+    st.markdown(f"""
+    <div class="metric-container">
+        <div class="kpi-title">Índice de Calidad Objetiva</div>
+        <div class="kpi-value">{nota_media:.2f} / 10</div>
+    </div>
+    """, unsafe_allow_html=True)
+
+with col2:
+    st.markdown(f"""
+    <div class="metric-container" style="border-left-color: {'#ff0000' if kos_totales > 0 else '#28a745'}">
+        <div class="kpi-title">Alertas Críticas (KO)</div>
+        <div class="kpi-value">{kos_totales}</div>
+    </div>
+    """, unsafe_allow_html=True)
+
+with col3:
+    st.metric(label="Experiencia Cliente (Empatía)", value=f"{df_filtrado['Empatia'].mean():.2f}")
+
+with col4:
+    st.metric(label="Llamadas Auditadas", value=len(df_filtrado))
+
+st.markdown("<br>", unsafe_allow_html=True)
+
+# 6. GRÁFICAS: EVOLUCIÓN Y EPÍGRAFES
+col_izq, col_der = st.columns([2, 1])
+
+with col_izq:
+    st.subheader("📈 Evolución Temporal de la Calidad")
+    # Agrupamos por fecha
+    df_evolucion = df_filtrado.groupby('Fecha')['Nota_Final'].mean().reset_index()
     
-    # Filtro por Cliente (Tenant)
-    tenants_list = ["Todos"] + list(df['tenant_id'].unique())
-    selected_tenant = st.sidebar.selectbox("Cliente / Tenant", tenants_list)
+    fig_line = px.line(df_evolucion, x='Fecha', y='Nota_Final', markers=True, 
+                       title="Tendencia de Calidad", 
+                       line_shape='spline', # Curvas suaves
+                       color_discrete_sequence=['#ff0000'])
+    fig_line.update_yaxes(range=[0, 10])
+    st.plotly_chart(fig_line, use_container_width=True)
 
-    # Filtro por Versión de Modelo
-    versions_list = ["Todas"] + list(df['model_ver'].unique())
-    selected_version = st.sidebar.selectbox("Versión del Modelo", versions_list)
-
-    # Aplicar filtros
-    df_view = df.copy()
-    if selected_tenant != "Todos":
-        df_view = df_view[df_view['tenant_id'] == selected_tenant]
+with col_der:
+    st.subheader("📊 Desglose por Epígrafes")
+    # Calculamos la media de cada bloque de evaluación
+    epigrafes = ['Identificacion', 'Diagnostico', 'Empatia', 'Cierre']
+    medias_epigrafes = [df_filtrado[ep].mean() for ep in epigrafes]
     
-    if selected_version != "Todas":
-        df_view = df_view[df_view['model_ver'] == selected_version]
+    fig_radar = go.Figure(data=go.Scatterpolar(
+        r=medias_epigrafes + [medias_epigrafes[0]], # Cerrar el radar
+        theta=epigrafes + [epigrafes[0]],
+        fill='toself',
+        line_color='#ff0000'
+    ))
+    fig_radar.update_layout(polar=dict(radialaxis=dict(visible=True, range=[0, 10])), showlegend=False)
+    st.plotly_chart(fig_radar, use_container_width=True)
 
-    # --- FILA 1: KPIs PRINCIPALES (Métricas) ---
-    st.subheader("Resumen Ejecutivo")
-    
-    kpi1, kpi2, kpi3, kpi4 = st.columns(4)
-
-    # Cálculo de métricas
-    total_calls = len(df_view)
-    avg_score = df_view['final_score'].mean()
-    total_kos = df_view['ko_triggered'].sum()
-    ko_rate = (total_kos / total_calls * 100) if total_calls > 0 else 0
-    total_cost = df_view['total_cost'].sum()
-
-    kpi1.metric(
-        label="📞 Llamadas Auditadas",
-        value=total_calls
-    )
-    
-    kpi2.metric(
-        label="⭐ Calidad Media (0-10)",
-        value=f"{avg_score:.2f}",
-        delta=f"{avg_score - 8.0:.2f} vs Objetivo" # Simulación de un objetivo de 8.0
-    )
-    
-    kpi3.metric(
-        label="🚨 Eliminatorias (KO)",
-        value=int(total_kos),
-        delta=f"{ko_rate:.1f}% Tasa Fallo",
-        delta_color="inverse" # Rojo si sube es malo
-    )
-
-    kpi4.metric(
-        label="💰 Coste Operativo Total",
-        value=f"${total_cost:.4f}",
-        help="Suma exacta de STT + Inferencia LLM"
-    )
-
-    st.markdown("---")
-
-    # --- FILA 2: GRÁFICOS ANALÍTICOS ---
-    chart1, chart2, chart3 = st.columns([2, 1, 1])
-
-    with chart1:
-        st.subheader("📈 Evolución Temporal de Calidad")
-        if total_calls > 0:
-            # Gráfico de línea temporal
-            chart_data = df_view.set_index('processed_at')[['final_score']]
-            st.line_chart(chart_data, color="#0068c9")
-        else:
-            st.write("Sin datos para gráfico.")
-
-    with chart2:
-        st.subheader("⚖️ Distribución Notas")
-        if total_calls > 0:
-            # Histograma simple de scores redondeados
-            scores_dist = df_view['final_score'].round().value_counts().sort_index()
-            st.bar_chart(scores_dist, color="#29b5e8")
-
-    with chart3:
-        st.subheader("💸 Desglose FinOps")
-        if total_calls > 0:
-            # Gráfico de desglose de costes (STT vs LLM)
-            cost_data = pd.DataFrame({
-                "Concepto": ["Transcripción (STT)", "Inferencia IA (LLM)"],
-                "Coste ($)": [df_view['stt_cost'].sum(), df_view['llm_cost'].sum()]
-            }).set_index("Concepto")
-            st.bar_chart(cost_data, color="#ff2b2b")
-
-    # --- FILA 3: DETALLE DE DATOS ---
-    st.subheader("📋 Auditoría Detallada")
-    
-    # Preparar tabla para visualización limpia
-    table_df = df_view[['processed_at', 'tenant_id', 'call_id', 'model_ver', 'final_score', 'ko_triggered', 'total_cost']].copy()
-    
-    # Formato visual
-    st.dataframe(
-        table_df,
-        column_config={
-            "processed_at": st.column_config.DatetimeColumn("Fecha/Hora", format="DD/MM/YYYY HH:mm"),
-            "tenant_id": "Cliente",
-            "call_id": "ID Interacción",
-            "model_ver": "Modelo",
-            "final_score": st.column_config.ProgressColumn(
-                "Nota Final",
-                format="%.2f",
-                min_value=0,
-                max_value=10,
-            ),
-            "ko_triggered": st.column_config.CheckboxColumn("KO (Fallo)", disabled=True),
-            "total_cost": st.column_config.NumberColumn("Coste Total ($)", format="$%.4f")
-        },
-        use_container_width=True,
-        hide_index=True
-    )
-
-    # --- PIE DE PÁGINA ---
-    st.markdown("---")
-    col_l, col_r = st.columns([8, 2])
-    with col_l:
-        st.caption(f"🛡️ Ecosistema CallIQ Enterprise v1.5.3 (Gold Master) | Base de datos validada: {len(df)} registros.")
-    with col_r:
-        if st.button("🔄 Actualizar Datos"):
-            st.rerun()
+# 7. TABLA DE DETALLE
+st.markdown("---")
+st.subheader("📋 Detalle de Llamadas")
+st.dataframe(df_filtrado[['Fecha', 'Llamada_ID', 'Nota_Final', 'Identificacion', 'Diagnostico', 'Empatia', 'Cierre', 'KO']], use_container_width=True)
