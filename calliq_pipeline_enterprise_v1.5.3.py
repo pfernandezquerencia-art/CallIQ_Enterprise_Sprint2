@@ -1,16 +1,16 @@
 # ==============================================================================
-# CALLIQ PIPELINE ENTERPRISE - CORE ENGINE (v1.5.3 Gold Master)
+# CALLIQ PIPELINE ENTERPRISE - CORE ENGINE (v1.5.4 Gold Master Multi-Domain)
 # ==============================================================================
 # 
 # DESCRIPCIÓN GLOBAL:
 # Motor de evaluación de calidad conversacional híbrido (Cognitivo + Determinista).
-# Este script procesa interacciones de voz (audios), las transcribe, anonimiza,
-# extrae metadatos y aplica un modelo de auditoría generado dinámicamente mediante 
-# IA (LLM). Finalmente, el cálculo de la nota es matemático y determinista, 
-# garantizando trazabilidad, seguridad y control de costes (FinOps).
+# Este script procesa interacciones de voz, las transcribe, anonimiza y enruta 
+# dinámicamente mediante un Router Semántico LLM hacia el manual de calidad 
+# correspondiente (Ventas, Recobro, etc.). Finalmente, el cálculo de la nota es 
+# matemático y determinista, garantizando trazabilidad, seguridad y FinOps.
 #
-# ESTADO DE CONSTRUCCIÓN: FINAL PRODUCTION BUILD (Compliance Patch Incluido)
-# ARQUITECTURA: Dynamic Multi-Tenant | Model Registry | Secure Rotation | Monolithic
+# ESTADO DE CONSTRUCCIÓN: FINAL PRODUCTION BUILD (Multi-Skill Routing Incluido)
+# ARQUITECTURA: Semantic Routing | Dynamic Multi-Tenant | Model Registry | Monolithic
 #
 # ------------------------------------------------------------------------------
 # MÓDULOS PRINCIPALES (PIPELINE ARCHITECTURE):
@@ -23,30 +23,33 @@
 #    - Motor híbrido v2: Expresiones Regulares (Patrones) + SpaCy (NER Contextual).
 #    - Aplica Borrado Lógico (Governance) reemplazando la evidencia cruda en memoria.
 #
-# 3. ModelRegistry & Governance (Persistencia)
+# 3. Semantic Router (Capa de Enrutamiento Inteligente) - ¡NUEVO!
+#    - Clasificador de dominio (Intent Detection) basado en LLM ligero (Gemini Flash).
+#    - Permite escalar a arquitectura Multi-Skill (Soporte, Retención, Ventas, Mora).
+#    - Tolerancia a fallos con inyección dinámica de diccionarios de contexto (RAG).
+#
+# 4. ModelRegistry & Governance (Persistencia)
 #    - Base de datos SQLite emulando un Registry de Modelos de IA.
 #    - Control criptográfico (Hashes SHA256) anti-tampering y control de versiones.
 #
-# 4. EvaluationModelBuilder (Agente Cognitivo 1 - Arquitecto)
-#    - Interpreta PDFs de manuales de calidad y sintetiza esquemas JSON estrictos.
+# 5. EvaluationModelBuilder (Agente Cognitivo 1 - Arquitecto)
+#    - Interpreta PDFs/TXTs de manuales de calidad y sintetiza esquemas JSON estrictos.
 #
-# 5. DynamicEvaluationEngine (Agente Cognitivo 2 - Auditor)
+# 6. DynamicEvaluationEngine (Agente Cognitivo 2 - Auditor)
 #    - Escáner Anti-Prompt Injection para proteger al LLM de manipulaciones.
 #    - Ejecución de Prompts Maestros con Temperatura 0.1 (Baja alucinación).
 #    - Sanitizador estructural y Calculadora Determinista (Muerte Súbita y Pesos).
 #
-# 6. FeatureExtractionEngine (Señales Matemáticas)
+# 7. FeatureExtractionEngine (Señales Matemáticas)
 #    - Traducción de métricas emocionales y riesgo de Churn a valores numéricos.
 #
-# 7. FinOpsEngine (Control de Costes)
+# 8. FinOpsEngine (Control de Costes)
 #    - Cálculo exacto basado en consumo de API real (Tokens Gemini + Segundos STT).
 #
-# 8. PipelineController (Orquestador y BI)
+# 9. PipelineController (Orquestador y BI)
 #    - Coordina la ejecución secuencial de todos los módulos anteriores.
-#    - Genera exportaciones a CSV listas para ingesta en PowerBI/Tableau.
-#
+#    - Genera exportaciones a CSV listas para ingesta en herramientas de BI.
 # ==============================================================================
-# ============================================================
 
 import os
 import re
@@ -537,6 +540,53 @@ class DynamicEvaluationEngine:
         total = sum(score * normalized_weights.get(block, 0) for block, score in scores.items())
         
         return max(0.0, min(10.0, round(total, 2))), False
+# --- NUEVA FUNCIÓN: ENRUTADOR SEMÁNTICO ---
+def clasificar_intencion_llamada(texto_transcrito, gemini_client):
+    """
+    Semantic Router (Capa de Enrutamiento): Clasifica el dominio de la llamada
+    para aplicar el modelo de calidad (RAG) especializado.
+    """
+    import logging
+    logger = logging.getLogger("CallIQ_Core")
+
+    prompt_clasificacion = f"""
+Clasifica la siguiente transcripción de llamada de contact center.
+
+Tipos posibles:
+- VENTAS → ofertas comerciales, mejoras de tarifa, seguros, promociones.
+- RECOBRO → reclamación de deuda, impagos, negociación de pagos.
+- SOPORTE → incidencias técnicas, averías o problemas con servicios.
+- RETENCION → el cliente quiere cancelar, quejarse gravemente o darse de baja.
+- INFORMACION → consultas generales, dudas de facturación sin queja.
+
+Responde SOLO con una palabra de esta lista:
+VENTAS
+RECOBRO
+SOPORTE
+RETENCION
+INFORMACION
+
+Transcripción:
+{texto_transcrito[:800]}
+"""
+    try:
+        resp = gemini_client.models.generate_content(
+            model="gemini-2.5-flash",
+            contents=prompt_clasificacion,
+            config=types.GenerateContentConfig(temperature=0.0)
+        )
+        intencion = resp.text.strip().upper()
+        categorias_validas = ["VENTAS", "RECOBRO", "SOPORTE", "RETENCION", "INFORMACION"]
+
+        if intencion in categorias_validas:
+            logger.info(f"🧭 Router Semántico: Dominio detectado -> {intencion}")
+            return intencion
+
+        logger.warning(f"⚠️ Clasificación difusa ({intencion}). Aplicando fallback a INFORMACION.")
+        return "INFORMACION"
+    except Exception as e:
+        logger.warning(f"⚠️ Error en router semántico: {e}. Fallback a INFORMACION.")
+        return "INFORMACION"
 
 # ============================================================
 # 5. ORQUESTADOR CENTRAL (PIPELINE CONTROLLER)
@@ -580,6 +630,31 @@ class PipelineController:
         # 2. Anonimización Segura
         metadata = self.anonymizer.process(metadata)
         
+        # --- INICIO ORQUESTACIÓN MULTI-DOMINIO ---
+        texto_para_clasificar = metadata["transcription"]["full_text"]
+        tipo_llamada = clasificar_intencion_llamada(texto_para_clasificar, self.engine.gemini_client)
+        
+        manuales = {
+            "VENTAS": "./data/manual_calidad_ventas.txt",
+            "RECOBRO": "./data/manual_calidad.txt",
+            "SOPORTE": "./data/manual_calidad_soporte.txt",
+            "RETENCION": "./data/manual_calidad_retencion.txt",
+            "INFORMACION": "./data/manual_calidad.txt"
+        }
+        
+        ruta_manual = manuales.get(tipo_llamada, "./data/manual_calidad.txt")
+        if not os.path.exists(ruta_manual):
+            logger.warning(f"⚠️ El archivo {ruta_manual} no existe. Usando manual de Recobro por defecto.")
+            ruta_manual = "./data/manual_calidad.txt"
+
+        try:
+            with open(ruta_manual, "r", encoding="utf-8") as f:
+                doc_text = f.read() # <--- Sobreescribimos el manual que venía por defecto
+            logger.info(f"📖 RAG Inyectado dinámicamente: {ruta_manual}")
+        except Exception as e:
+            logger.error(f"❌ Error crítico leyendo manual: {e}")
+        # --- FIN ORQUESTACIÓN MULTI-DOMINIO ---
+
         # 3. Gestión y Rotación de Modelo
         coste_modelo = 0.0
         if doc_text:
