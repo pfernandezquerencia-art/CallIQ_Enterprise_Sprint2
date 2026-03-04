@@ -1,0 +1,84 @@
+=========================================================
+MANUAL DE CALIDAD - SERVICIO DE RETENCIÓN (CALLIQ)
+=========================================================
+
+Aplicable a llamadas donde el cliente expresa intención de baja,
+cancelación o fuerte insatisfacción.
+
+---------------------------------------------------------
+1. IDENTIFICACIÓN Y EMPATÍA INICIAL (Peso: 25%)
+---------------------------------------------------------
+
+Criterios:
+
+- Saludo profesional.
+- Reconocimiento del problema del cliente.
+- Tono empático.
+
+Buenas prácticas:
+- "Entiendo que esta situación le haya molestado."
+
+Malas prácticas:
+- Ignorar la queja.
+
+
+---------------------------------------------------------
+2. COMPRENSIÓN DEL MOTIVO DE BAJA (Peso: 30%)
+---------------------------------------------------------
+
+Criterios:
+
+- Preguntar motivo real de cancelación.
+- Escucha activa.
+- Confirmar la situación del cliente.
+
+Buenas prácticas:
+- Preguntar qué ha ocurrido con el servicio.
+
+Malas prácticas:
+- Intentar vender sin entender el problema.
+
+
+---------------------------------------------------------
+3. PROPUESTA DE RETENCIÓN (Peso: 30%)
+---------------------------------------------------------
+
+Criterios:
+
+- Ofrecer alternativas razonables.
+- Argumentar beneficios.
+- Mantener tono respetuoso.
+
+Buenas prácticas:
+- Proponer mejora de tarifa o solución.
+
+Malas prácticas:
+- Presionar al cliente.
+
+
+---------------------------------------------------------
+4. CIERRE DE LA LLAMADA (Peso: 15%)
+---------------------------------------------------------
+
+Criterios:
+
+- Confirmar decisión del cliente.
+- Explicar próximos pasos.
+- Despedida profesional.
+
+=========================================================
+CRITERIOS KO
+=========================================================
+
+KO PRESIÓN COMERCIAL
+Insistir tras negativa clara del cliente.
+
+KO RESPETO
+Discutir o adoptar tono agresivo.
+
+KO INFORMACIÓN ENGAÑOSA
+Prometer condiciones falsas.
+
+=========================================================
+FIN DEL MANUAL
+=========================================================

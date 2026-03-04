@@ -1,0 +1,51 @@
+=========================================================
+MANUAL DE CALIDAD - ATENCIÓN GENERAL (CALLIQ)
+=========================================================
+
+Manual general para llamadas que no pertenecen claramente
+a un dominio específico.
+
+---------------------------------------------------------
+1. IDENTIFICACIÓN (Peso: 25%)
+---------------------------------------------------------
+
+- Saludo profesional
+- Identificación del agente
+- Claridad en el inicio de la llamada
+
+---------------------------------------------------------
+2. COMPRENSIÓN DE LA CONSULTA (Peso: 35%)
+---------------------------------------------------------
+
+- Escucha activa
+- Comprensión del motivo de la llamada
+- Respuestas claras
+
+---------------------------------------------------------
+3. GESTIÓN DE LA INTERACCIÓN (Peso: 25%)
+---------------------------------------------------------
+
+- Tono profesional
+- Claridad de la información
+- Adaptación al cliente
+
+---------------------------------------------------------
+4. CIERRE DE LA LLAMADA (Peso: 15%)
+---------------------------------------------------------
+
+- Confirmación de resolución
+- Despedida cordial
+
+=========================================================
+CRITERIOS KO
+=========================================================
+
+KO RESPETO
+Falta de respeto al cliente.
+
+KO INFORMACIÓN FALSA
+Proporcionar información incorrecta.
+
+=========================================================
+FIN DEL MANUAL
+=========================================================

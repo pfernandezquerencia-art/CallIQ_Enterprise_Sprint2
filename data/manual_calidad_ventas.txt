@@ -1,0 +1,120 @@
+=========================================================
+MANUAL DE CALIDAD - SERVICIO DE VENTAS Y RETENCIÓN (CALLIQ)
+=========================================================
+
+Este manual establece los criterios para evaluar llamadas de carácter comercial
+en centros de contacto: ventas, ofertas comerciales, retención de clientes,
+upselling, cross-selling o mejoras de servicio.
+
+El objetivo es garantizar una interacción profesional, transparente y orientada
+a la experiencia del cliente.
+
+---------------------------------------------------------
+1. IDENTIFICACIÓN Y APERTURA DE LLAMADA (Peso: 20%)
+---------------------------------------------------------
+
+El gestor debe iniciar la llamada de forma clara y profesional.
+
+Criterios de evaluación:
+
+- Saludo cordial y profesional.
+- Identificación del agente y de la empresa.
+- Explicación clara del motivo de la llamada.
+- No generar confusión ni ocultar el carácter comercial de la llamada.
+
+Buenas prácticas:
+- "Hola, le llamo de su compañía para informarle de una mejora en su tarifa."
+
+Malas prácticas:
+- Comenzar la llamada sin explicar el motivo.
+- Introducir el producto sin contexto.
+
+
+---------------------------------------------------------
+2. DETECCIÓN DE NECESIDADES Y ESCUCHA ACTIVA (Peso: 25%)
+---------------------------------------------------------
+
+El gestor debe comprender la situación del cliente antes de intentar vender.
+
+Criterios de evaluación:
+
+- Realiza preguntas abiertas para conocer la situación del cliente.
+- Escucha activa sin interrumpir.
+- Detecta objeciones o preocupaciones del cliente.
+- Adapta el discurso al contexto del cliente.
+
+Buenas prácticas:
+- Preguntar por la tarifa actual o necesidades del cliente.
+- Reconocer objeciones del cliente.
+
+Malas prácticas:
+- Ignorar las respuestas del cliente.
+- Leer un guion rígido sin adaptarse.
+
+
+---------------------------------------------------------
+3. ARGUMENTACIÓN Y MANEJO DE OBJECIONES (Peso: 35%)
+---------------------------------------------------------
+
+El gestor debe presentar beneficios relevantes para el cliente
+y gestionar objeciones de forma profesional.
+
+Criterios de evaluación:
+
+- Explica beneficios claros del producto o servicio.
+- Relaciona los beneficios con las necesidades del cliente.
+- Responde a objeciones de forma empática.
+- Mantiene un tono persuasivo sin resultar agresivo.
+
+Buenas prácticas:
+- Argumentar mejoras reales (precio, prestaciones, condiciones).
+- Reformular la propuesta tras una objeción.
+
+Malas prácticas:
+- Repetir argumentos sin escuchar al cliente.
+- Presionar tras múltiples negativas.
+
+
+---------------------------------------------------------
+4. CIERRE Y DESPEDIDA (Peso: 20%)
+---------------------------------------------------------
+
+El gestor debe finalizar la llamada de forma clara y profesional.
+
+Criterios de evaluación:
+
+- Intenta realizar el cierre de venta de forma natural.
+- Si hay contratación, resume condiciones principales.
+- Si no hay venta, mantiene un tono profesional y cordial.
+- Despedida educada.
+
+Buenas prácticas:
+- Resumir precio o condiciones.
+- Ofrecer envío de información o seguimiento.
+
+Malas prácticas:
+- Cierre abrupto.
+- Finalizar la llamada con tono negativo.
+
+
+=========================================================
+CRITERIOS DE ALERTA CRÍTICA (KO) – SUSPENSO AUTOMÁTICO
+=========================================================
+
+Si se detecta cualquiera de los siguientes casos,
+la llamada debe ser evaluada con nota final 0.
+
+KO LEGAL
+No informar correctamente sobre condiciones relevantes en caso de contratación
+(precio, permanencia, condiciones comerciales).
+
+KO FRAUDE
+Proporcionar información falsa o engañosa sobre el producto o servicio.
+
+
+KO RESPETO
+Falta de respeto al cliente, tono agresivo, discusión o colgar la llamada abruptamente.
+
+=========================================================
+FIN DEL MANUAL
+=========================================================

@@ -1,0 +1,91 @@
+=========================================================
+MANUAL DE CALIDAD - SERVICIO DE SOPORTE TÉCNICO (CALLIQ)
+=========================================================
+
+Este manual se aplica a llamadas relacionadas con incidencias técnicas,
+problemas de servicio o soporte operativo.
+
+---------------------------------------------------------
+1. IDENTIFICACIÓN Y APERTURA (Peso: 20%)
+---------------------------------------------------------
+
+El agente debe iniciar la llamada de forma profesional.
+
+Criterios:
+
+- Saludo cordial.
+- Identificación del agente y empresa.
+- Confirmación del motivo de la llamada o incidencia.
+
+Buenas prácticas:
+- "Voy a revisar lo que ocurre con su línea."
+
+Malas prácticas:
+- No confirmar el problema del cliente.
+
+
+---------------------------------------------------------
+2. DIAGNÓSTICO DEL PROBLEMA (Peso: 35%)
+---------------------------------------------------------
+
+El agente debe comprender correctamente la incidencia.
+
+Criterios:
+
+- Escucha activa.
+- Realiza preguntas para identificar la causa.
+- Confirma información técnica relevante.
+
+Buenas prácticas:
+- Preguntar cuándo empezó el problema.
+- Verificar estado del servicio.
+
+Malas prácticas:
+- Proponer soluciones sin entender el problema.
+
+
+---------------------------------------------------------
+3. RESOLUCIÓN O PROPUESTA DE SOLUCIÓN (Peso: 30%)
+---------------------------------------------------------
+
+El agente debe ofrecer una solución clara o los siguientes pasos.
+
+Criterios:
+
+- Proporciona instrucciones claras.
+- Explica acciones realizadas.
+- Informa si el problema requiere escalado.
+
+Buenas prácticas:
+- Explicar los pasos que debe seguir el cliente.
+
+Malas prácticas:
+- Respuestas vagas.
+
+
+---------------------------------------------------------
+4. CIERRE DE LA LLAMADA (Peso: 15%)
+---------------------------------------------------------
+
+Criterios:
+
+- Confirmar si la incidencia quedó resuelta.
+- Informar próximos pasos si no se resuelve.
+- Despedida profesional.
+
+=========================================================
+CRITERIOS KO
+=========================================================
+
+KO RESPETO
+Falta de respeto o discusión con el cliente.
+
+KO NEGLIGENCIA
+Ignorar la incidencia del cliente o negarse a ayudar.
+
+KO INFORMACIÓN FALSA
+Proporcionar información incorrecta sobre el servicio.
+
+=========================================================
+FIN DEL MANUAL
+=========================================================
