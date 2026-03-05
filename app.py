@@ -1,125 +1,414 @@
-# ============================================================\r
-# DASHBOARD EJECUTIVO CALLIQ (INSPIRADO EN CRE MORA)
-# ============================================================\r
+# ============================================================
+# DASHBOARD EJECUTIVO CALLIQ ENTERPRISE
+# ============================================================
 
 import streamlit as st
 import pandas as pd
-import os
 import json
+import glob
+from datetime import datetime
 import plotly.express as px
 import plotly.graph_objects as go
 
-# 1. CONFIGURACIÓN DE PÁGINA (Debe ser la primera línea)
-st.set_page_config(page_title="Ficha Calidad Gestor", page_icon="🎧", layout="wide")
+# ------------------------------------------------------------
+# CONFIGURACIÓN
+# ------------------------------------------------------------
 
-# Estilos CSS para imitar el informe PDF
+st.set_page_config(
+    page_title="CallIQ Quality Analytics",
+    page_icon="🎧",
+    layout="wide"
+)
+
+# ------------------------------------------------------------
+# ESTILOS
+# ------------------------------------------------------------
+
 st.markdown("""
-    <style>
-    .metric-container { background-color: #f8f9fa; padding: 15px; border-radius: 8px; border-left: 5px solid #ff0000; }
-    .kpi-title { font-size: 16px; color: #666; margin-bottom: 5px; }
-    .kpi-value { font-size: 28px; font-weight: bold; color: #1e1e1e; }
-    </style>
+<style>
+
+.metric-container {
+background-color:#f8f9fa;
+padding:15px;
+border-radius:8px;
+border-left:5px solid #ff0000;
+}
+
+.kpi-title{
+font-size:16px;
+color:#666;
+}
+
+.kpi-value{
+font-size:28px;
+font-weight:bold;
+}
+
+.insight-box{
+background:#eef2ff;
+padding:15px;
+border-radius:8px;
+}
+
+</style>
 """, unsafe_allow_html=True)
 
-# 2. CARGA DE DATOS (Simulando la lectura de tus JSON y CSV)
+# ------------------------------------------------------------
+# CARGA DE DATOS
+# ------------------------------------------------------------
+
 @st.cache_data
 def load_data():
-    # En un caso real, aquí leerías tu CSV calliq_export_BI_...csv
-    # Para el esqueleto, creamos un DataFrame con la estructura de tus logs:
-    datos = {
-        'Fecha': pd.to_datetime(['2026-02-24', '2026-02-25', '2026-02-26', '2026-02-27', '2026-02-27']),
-        'Agente': ['AG-102', 'AG-102', 'AG-102', 'AG-102', 'AG-105'],
-        'Llamada_ID': ['10249222001', '10249696001', '10249787001', '10249954001', '10250000001'],
-        'Nota_Final': [6.2, 6.8, 8.3, 8.05, 9.0],
-        'KO': [False, False, False, False, False],
-        'Identificacion': [8.0, 10.0, 7.5, 9.5, 10.0],
-        'Diagnostico': [4.0, 4.0, 8.0, 9.5, 10.0],
-        'Empatia': [9.0, 9.0, 9.5, 9.0, 9.5],
-        'Cierre': [6.0, 6.0, 8.5, 5.0, 7.0]
-    }
-    return pd.DataFrame(datos)
+
+    rutas_json = glob.glob("./data/outputs/*.json")
+
+    if not rutas_json:
+        return pd.DataFrame()
+
+    registros = []
+
+    for ruta in rutas_json:
+
+        with open(ruta, "r", encoding="utf-8") as f:
+
+            data = json.load(f)
+
+            evaluacion = data.get("quality_evaluation", {})
+            bloques = evaluacion.get("details", {}).get("block_scores", {})
+            finops = data.get("finops", {})
+
+            fecha_str = finops.get(
+                "processed_at",
+                datetime.now().isoformat()
+            )
+
+            registro = {
+
+                "Fecha": pd.to_datetime(fecha_str),
+
+                "Agente": data.get(
+                    "agent_id",
+                    "AG-Generico"
+                ),
+
+                "Llamada_ID": data.get(
+                    "conversation_id",
+                    "N/A"
+                ),
+
+                "Nota_Final": evaluacion.get(
+                    "final_score",
+                    0
+                ),
+
+                "KO": evaluacion.get(
+                    "bi_export",
+                    {}
+                ).get(
+                    "ko",
+                    False
+                ),
+
+                "Identificacion": bloques.get(
+                    "Identificación y Cumplimiento",
+                    0
+                ),
+
+                "Diagnostico": bloques.get(
+                    "Diagnóstico y Eficacia Técnica",
+                    0
+                ),
+
+                "Empatia": bloques.get(
+                    "Empatía y Gestión Emocional",
+                    0
+                ),
+
+                "Cierre": bloques.get(
+                    "Cierre y Seguimiento",
+                    0
+                )
+            }
+
+            registros.append(registro)
+
+    df = pd.DataFrame(registros)
+
+    df["Fecha"] = pd.to_datetime(df["Fecha"])
+
+    df = df.sort_values(by="Fecha")
+
+    return df
+
 
 df = load_data()
 
-# 3. BARRA LATERAL (Filtros)
-st.sidebar.markdown("# 🎧 CallIQ Analytics")
-st.sidebar.header("Filtros de Búsqueda")
+if df.empty:
+    st.warning("⚠️ No hay evaluaciones todavía.")
+    st.stop()
 
-agentes_disponibles = ["Todos"] + list(df['Agente'].unique())
-agente_seleccionado = st.sidebar.selectbox("👤 Seleccionar Gestor", agentes_disponibles)
+# ------------------------------------------------------------
+# FILTROS
+# ------------------------------------------------------------
 
-# Filtrar el DataFrame
+st.sidebar.title("🎧 CallIQ Analytics")
+
+agentes = ["Todos"] + list(df["Agente"].unique())
+
+agente_seleccionado = st.sidebar.selectbox(
+    "Seleccionar Gestor",
+    agentes
+)
+
+rango_fecha = st.sidebar.date_input(
+    "Filtro temporal",
+    []
+)
+
+df_filtrado = df.copy()
+
 if agente_seleccionado != "Todos":
-    df_filtrado = df[df['Agente'] == agente_seleccionado]
-else:
-    df_filtrado = df
+    df_filtrado = df_filtrado[df_filtrado["Agente"] == agente_seleccionado]
 
-# 4. CABECERA
-st.title(f"Ficha Calidad Gestor: {agente_seleccionado}")
-st.markdown("CallIQ Enterprise")
+if len(rango_fecha) == 2:
+    df_filtrado = df_filtrado[
+        (df_filtrado["Fecha"] >= pd.to_datetime(rango_fecha[0])) &
+        (df_filtrado["Fecha"] <= pd.to_datetime(rango_fecha[1]))
+    ]
+
+# ------------------------------------------------------------
+# CABECERA
+# ------------------------------------------------------------
+
+st.title("Ficha Calidad Gestor")
+st.markdown("### CallIQ Enterprise Analytics")
+
 st.markdown("---")
 
-# 5. KPIs PRINCIPALES (Como en la Ficha CRE Mora)
+# ------------------------------------------------------------
+# KPIs
+# ------------------------------------------------------------
+
 col1, col2, col3, col4 = st.columns(4)
 
-nota_media = df_filtrado['Nota_Final'].mean()
-kos_totales = df_filtrado['KO'].sum()
+nota_media = df_filtrado["Nota_Final"].mean()
+kos = df_filtrado["KO"].sum()
 
 with col1:
+
     st.markdown(f"""
     <div class="metric-container">
-        <div class="kpi-title">Índice de Calidad Objetiva</div>
-        <div class="kpi-value">{nota_media:.2f} / 10</div>
+    <div class="kpi-title">Índice Calidad</div>
+    <div class="kpi-value">{nota_media:.2f}/10</div>
     </div>
     """, unsafe_allow_html=True)
 
 with col2:
-    st.markdown(f"""
-    <div class="metric-container" style="border-left-color: {'#ff0000' if kos_totales > 0 else '#28a745'}">
-        <div class="kpi-title">Alertas Críticas (KO)</div>
-        <div class="kpi-value">{kos_totales}</div>
-    </div>
-    """, unsafe_allow_html=True)
+
+    st.metric(
+        "Alertas KO",
+        kos
+    )
 
 with col3:
-    st.metric(label="Experiencia Cliente (Empatía)", value=f"{df_filtrado['Empatia'].mean():.2f}")
+
+    st.metric(
+        "Empatía Media",
+        f"{df_filtrado['Empatia'].mean():.2f}"
+    )
 
 with col4:
-    st.metric(label="Llamadas Auditadas", value=len(df_filtrado))
 
-st.markdown("<br>", unsafe_allow_html=True)
+    st.metric(
+        "Llamadas Auditadas",
+        len(df_filtrado)
+    )
 
-# 6. GRÁFICAS: EVOLUCIÓN Y EPÍGRAFES
-col_izq, col_der = st.columns([2, 1])
+# ------------------------------------------------------------
+# VELOCÍMETRO
+# ------------------------------------------------------------
 
-with col_izq:
-    st.subheader("📈 Evolución Temporal de la Calidad")
-    # Agrupamos por fecha
-    df_evolucion = df_filtrado.groupby('Fecha')['Nota_Final'].mean().reset_index()
-    
-    fig_line = px.line(df_evolucion, x='Fecha', y='Nota_Final', markers=True, 
-                       title="Tendencia de Calidad", 
-                       line_shape='spline', # Curvas suaves
-                       color_discrete_sequence=['#ff0000'])
-    fig_line.update_yaxes(range=[0, 10])
-    st.plotly_chart(fig_line, use_container_width=True)
+fig_gauge = go.Figure(go.Indicator(
 
-with col_der:
-    st.subheader("📊 Desglose por Epígrafes")
-    # Calculamos la media de cada bloque de evaluación
-    epigrafes = ['Identificacion', 'Diagnostico', 'Empatia', 'Cierre']
-    medias_epigrafes = [df_filtrado[ep].mean() for ep in epigrafes]
-    
-    fig_radar = go.Figure(data=go.Scatterpolar(
-        r=medias_epigrafes + [medias_epigrafes[0]], # Cerrar el radar
-        theta=epigrafes + [epigrafes[0]],
-        fill='toself',
-        line_color='#ff0000'
-    ))
-    fig_radar.update_layout(polar=dict(radialaxis=dict(visible=True, range=[0, 10])), showlegend=False)
-    st.plotly_chart(fig_radar, use_container_width=True)
+    mode="gauge+number",
 
-# 7. TABLA DE DETALLE
+    value=nota_media,
+
+    title={"text": "Calidad Global"},
+
+    gauge={
+
+        "axis": {"range": [0, 10]},
+
+        "steps": [
+
+            {"range": [0, 5], "color": "#ff4d4d"},
+            {"range": [5, 7], "color": "#ffa500"},
+            {"range": [7, 9], "color": "#ffd700"},
+            {"range": [9, 10], "color": "#28a745"}
+
+        ]
+
+    }
+
+))
+
+st.plotly_chart(fig_gauge, use_container_width=True)
+
+# ------------------------------------------------------------
+# EVOLUCIÓN TEMPORAL
+# ------------------------------------------------------------
+
+st.subheader("📈 Evolución de Calidad")
+
+df_evo = df_filtrado.groupby("Fecha")["Nota_Final"].mean().reset_index()
+
+fig_line = px.line(
+    df_evo,
+    x="Fecha",
+    y="Nota_Final",
+    markers=True
+)
+
+fig_line.update_yaxes(range=[0, 10])
+
+st.plotly_chart(fig_line, use_container_width=True)
+
+# ------------------------------------------------------------
+# RADAR EPÍGRAFES
+# ------------------------------------------------------------
+
+st.subheader("📊 Desglose por Epígrafes")
+
+epigrafes = ["Identificacion", "Diagnostico", "Empatia", "Cierre"]
+
+medias = [df_filtrado[e].mean() for e in epigrafes]
+
+fig_radar = go.Figure()
+
+fig_radar.add_trace(go.Scatterpolar(
+
+    r=medias + [medias[0]],
+
+    theta=epigrafes + [epigrafes[0]],
+
+    fill="toself"
+
+))
+
+fig_radar.update_layout(
+
+    polar=dict(
+
+        radialaxis=dict(
+
+            visible=True,
+            range=[0, 10]
+
+        )
+
+    )
+
+)
+
+st.plotly_chart(fig_radar, use_container_width=True)
+
+# ------------------------------------------------------------
+# DISTRIBUCIÓN NOTAS
+# ------------------------------------------------------------
+
+st.subheader("Distribución de Calidad")
+
+fig_hist = px.histogram(
+    df_filtrado,
+    x="Nota_Final",
+    nbins=10
+)
+
+st.plotly_chart(fig_hist, use_container_width=True)
+
+# ------------------------------------------------------------
+# HEATMAP
+# ------------------------------------------------------------
+
+st.subheader("Heatmap de desempeño")
+
+heat = df_filtrado[
+    ["Identificacion", "Diagnostico", "Empatia", "Cierre"]
+]
+
+fig_heat = px.imshow(
+    heat,
+    aspect="auto",
+    color_continuous_scale="RdYlGn"
+)
+
+st.plotly_chart(fig_heat, use_container_width=True)
+
+# ------------------------------------------------------------
+# RANKING GESTORES
+# ------------------------------------------------------------
+
+st.subheader("Ranking Gestores")
+
+ranking = df.groupby("Agente")["Nota_Final"].mean().sort_values(ascending=False)
+
+ranking_df = ranking.reset_index()
+
+ranking_df.columns = ["Agente", "Nota Media"]
+
+st.dataframe(ranking_df)
+
+# ------------------------------------------------------------
+# INSIGHTS AUTOMÁTICOS
+# ------------------------------------------------------------
+
+st.subheader("🔎 Insights Automáticos")
+
+bloque_debil = heat.mean().idxmin()
+
+insights = []
+
+if kos > 0:
+    insights.append(f"Se detectan {kos} alertas críticas (KO).")
+
+insights.append(f"El bloque más débil es **{bloque_debil}**.")
+
+if nota_media > 8:
+    insights.append("La calidad global del gestor es alta.")
+
+if nota_media < 6:
+    insights.append("Existe riesgo de calidad baja.")
+
+st.markdown(
+    "<div class='insight-box'>" +
+    "<br>".join(insights) +
+    "</div>",
+    unsafe_allow_html=True
+)
+
+# ------------------------------------------------------------
+# TABLA DETALLE
+# ------------------------------------------------------------
+
 st.markdown("---")
-st.subheader("📋 Detalle de Llamadas")
-st.dataframe(df_filtrado[['Fecha', 'Llamada_ID', 'Nota_Final', 'Identificacion', 'Diagnostico', 'Empatia', 'Cierre', 'KO']], use_container_width=True)
+
+st.subheader("Detalle Llamadas")
+
+st.dataframe(
+
+    df_filtrado[
+        [
+            "Fecha",
+            "Llamada_ID",
+            "Nota_Final",
+            "Identificacion",
+            "Diagnostico",
+            "Empatia",
+            "Cierre",
+            "KO"
+        ]
+    ],
+
+    use_container_width=True
+)

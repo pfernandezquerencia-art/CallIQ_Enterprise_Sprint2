@@ -1,316 +1,277 @@
-README.md
 
 ![Python](https://img.shields.io/badge/python-3.10-blue)
-![Status](https://img.shields.io/badge/status-research%20prototype-orange)
+![Status](https://img.shields.io/badge/status-research_project-orange)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 
-CallIQ Enterprise
-Motor de Evaluación Automática de Calidad Conversacional con Inteligencia Artificial
-Descripción
+# 🚀 CallIQ Enterprise v1.5.4 (Multi-Domain)
 
-CallIQ Enterprise es un sistema de análisis automático de interacciones de contact center que combina modelos de lenguaje (LLM) con algoritmos deterministas para evaluar la calidad de las conversaciones entre agentes y clientes.
+**Motor de Evaluación Automática de Calidad Conversacional con Inteligencia Artificial**
 
-El sistema procesa grabaciones de llamadas, transcribe el audio, anonimiza los datos sensibles, clasifica el tipo de interacción y aplica automáticamente un modelo de evaluación de calidad basado en manuales operativos.
+CallIQ Enterprise es un sistema de análisis automático de interacciones de contact center que combina **modelos de lenguaje (LLM)** con **algoritmos deterministas** para evaluar la calidad de conversaciones entre agentes y clientes.
 
-A diferencia de soluciones tradicionales, el cálculo final de la puntuación es matemático y determinista, garantizando trazabilidad, consistencia y auditabilidad en entornos regulados.
+El diseño del sistema separa explícitamente:
 
-Objetivo del proyecto
+* **Comprensión semántica mediante LLM**
+* **Cálculo determinista del score en Python**
 
-El objetivo del proyecto es demostrar la viabilidad técnica y económica de un sistema capaz de:
+Esta arquitectura híbrida permite:
 
-Analizar automáticamente interacciones de voz en contact centers
+* trazabilidad completa del proceso
+* reproducibilidad del scoring
+* control de alucinaciones del modelo
+* auditabilidad en entornos regulados
 
-Evaluar la calidad del agente en base a manuales operativos
+---
 
-Reducir el coste de auditoría manual
+# 🎯 Objetivo del Proyecto
 
-Aumentar la cobertura de evaluaciones
+Demostrar la viabilidad técnica de un sistema capaz de:
 
-Generar métricas estructuradas para herramientas de Business Intelligence
+* Analizar automáticamente interacciones de voz
+* Clasificar dinámicamente el tipo de llamada
+* Evaluar la calidad del agente mediante manuales operativos
+* Reducir el coste de auditoría manual
+* Generar métricas estructuradas para Business Intelligence
 
-Arquitectura del sistema
+---
 
-El sistema está diseñado como un pipeline de procesamiento modular, compuesto por varias etapas consecutivas.
+# 🧩 Características Principales
 
+* Evaluación automática de calidad conversacional
+* Arquitectura modular desacoplada
+* Clasificación semántica del tipo de interacción
+* Evaluación híbrida **LLM + reglas deterministas**
+* Anonimización de datos sensibles (GDPR)
+* Dashboard analítico en Streamlit
+* Exportación de resultados a CSV / BI
 
+---
 
-Componentes principales
+# 🏗️ Arquitectura del Sistema
 
-Audio Calls
-     │
-     ▼
+El sistema sigue una arquitectura modular basada en un pipeline de procesamiento:
+
+```
+Audio
+ ↓
 Speech-to-Text (AssemblyAI)
-     │
-     ▼
-Anonymization Engine
-     │
-     ▼
-Semantic Router (LLM)
-     │
-     ▼
-Dynamic Quality Model (RAG)
-     │
-     ▼
-Evaluation Engine (LLM)
-     │
-     ▼
-Deterministic Scoring Engine
-     │
-     ▼
-FinOps Cost Engine
-     │
-     ▼
-BI Export (CSV / SQLite)
+ ↓
+Anonimización GDPR (Regex + SpaCy)
+ ↓
+Router semántico (clasificación del tipo de llamada)
+ ↓
+Carga dinámica del manual de calidad (RAG)
+ ↓
+Evaluación cognitiva mediante LLM
+ ↓
+Cálculo determinista del score y reglas KO
+ ↓
+Cálculo de costes (FinOps)
+ ↓
+Exportación a CSV / BI
+```
 
+---
 
-1. IngestionModule
+# ⚙️ Componentes del Sistema
 
-Se encarga de:
+| Componente                   | Función                              |
+| ---------------------------- | ------------------------------------ |
+| IngestionModule              | Ingesta de audios y transcripción    |
+| AnonymizationModule          | Anonimización de datos sensibles     |
+| Semantic Router              | Clasificación del tipo de llamada    |
+| Evaluation Model Builder     | Interpretación del manual de calidad |
+| Dynamic Evaluation Engine    | Evaluación semántica mediante LLM    |
+| Deterministic Scoring Engine | Cálculo matemático del score         |
+| FinOps Engine                | Cálculo de coste por interacción     |
 
-Subir el audio al servicio de transcripción
+---
+## ⚙️ Ejecución del Pipeline
 
-Obtener la transcripción con diarización de hablantes
+El sistema procesa las interacciones mediante un pipeline de evaluación automático.
 
-Extraer metadatos de duración
+Etapas principales:
 
-Tecnología utilizada:
+- Speech-to-Text de la llamada
+- Anonimización GDPR
+- Clasificación semántica del tipo de interacción
+- Inyección dinámica de manual de calidad (RAG)
+- Evaluación cognitiva mediante LLM
+- Cálculo determinista del score
+- Exportación de resultados para BI
 
-AssemblyAI Speech-to-Text API
+<p align="center">
+<img src="docs/images/pipeline_processing.jpg" width="900">
+</p>
 
-2. AnonymizationModule
 
-Aplica anonimización automática de información sensible para cumplir con principios de protección de datos.
+# 📊 Dashboard Analítico
 
-Métodos utilizados:
+El sistema incluye un **dashboard interactivo desarrollado en Streamlit** para analizar las métricas generadas.
 
-Expresiones regulares
+Características principales:
 
-Reconocimiento de entidades mediante SpaCy (NER)
+* Índice de calidad global con velocímetro
+* Evolución temporal de la calidad
+* Radar de epígrafes de evaluación
+* Heatmap de desempeño
+* Ranking de gestores
+* Insights automáticos
 
-Tipos de datos anonimizados:
+<p align="center">
+<img src="docs/images/dashboard_calliq.jpg" width="900" alt="Dashboard CallIQ">
+</p>
 
-Teléfonos
+---
 
-Emails
+# 🛠️ Instalación
 
-Identificadores
+## 1. Clonar el repositorio
 
-Nombres de persona
+```bash
+git clone https://github.com/tu-usuario/calliq-enterprise.git
+cd calliq-enterprise
+```
 
-Localizaciones
+---
 
-El sistema elimina el texto original en memoria y conserva únicamente un hash criptográfico para trazabilidad.
+## 2. Crear entorno virtual
 
-3. Semantic Router
+```bash
+python -m venv venv
+```
 
-Clasifica automáticamente el tipo de interacción utilizando un modelo LLM.
+Activar entorno:
 
-Categorías soportadas:
+Windows
 
-Ventas
+```bash
+.\venv\Scripts\activate
+```
 
-Recobro
+Linux / Mac
 
-Soporte técnico
+```bash
+source venv/bin/activate
+```
 
-Retención
+---
 
-Información general
+## 3. Instalar dependencias
 
-Esta clasificación permite seleccionar dinámicamente el manual de calidad específico que se utilizará para la evaluación.
+```bash
+pip install -r requirements.txt
+```
 
-4. Evaluation Model Builder
+Instalar modelo de SpaCy:
 
-Este módulo interpreta manuales de calidad (documentos operativos de auditoría) y los convierte en un modelo estructurado en formato JSON.
+```bash
+python -m spacy download es_core_news_md
+```
 
-El modelo contiene:
+---
 
-Bloques de evaluación
+# 🔑 Configuración de Variables de Entorno
 
-Criterios
+Crear un archivo `.env` en la raíz del proyecto.
 
-Pesos de cada bloque
+```
+ASSEMBLYAI_API_KEY=tu_clave_de_assemblyai
+GEMINI_API_KEY=tu_clave_de_google_gemini
+```
 
-Reglas eliminatorias (KO)
+---
 
-Esto permite adaptar el sistema a diferentes organizaciones o campañas.
+# 📁 Estructura de Datos
 
-5. Dynamic Evaluation Engine
+```
+data/
+ ├── audios/
+ ├── outputs/
+ ├── manual_calidad.txt
+ ├── manual_calidad_ventas.txt
+ ├── manual_calidad_soporte.txt
+ └── manual_calidad_retencion.txt
+```
 
-Este componente realiza la evaluación cognitiva de la llamada utilizando un modelo de lenguaje.
+* **audios/** → grabaciones de entrada
+* **outputs/** → evaluaciones generadas en JSON
 
-El proceso consta de dos fases:
+---
 
-Extracción de señales
+# ▶️ Ejecución del Sistema
 
-Identificación de:
+## Procesar audios
 
-Sentimiento del agente
+```bash
+python calliq_pipeline_enterprise_v1.5.3.py
+```
 
-Riesgo de abandono (churn)
+El sistema:
 
-Emociones detectadas
+* procesa los audios (Speech-to text transcription)
+* NLP-based anonimizador
+* LLM evaluación semántica
+* genera un JSON por interacción
+* exporta métricas a CSV para BI
 
-Evaluación formal
 
-Aplicación estricta del modelo de calidad:
 
-Clasificación del tipo de llamada
+## Lanzar dashboard
 
-Puntuación por bloques
+```bash
+streamlit run app.py
+```
 
-Detección de eliminatorias
+---
 
-Para garantizar consistencia, el resultado del LLM es sanitizado y validado estructuralmente.
+# 📊 Exportación para BI
 
-6. Motor de cálculo determinista
+El sistema genera automáticamente un archivo CSV con métricas estructuradas.
 
-El cálculo final de la puntuación se realiza mediante un algoritmo matemático.
+Ejemplo:
 
-Características:
+| conversation_id | agent_id | score | KO    |
+| --------------- | -------- | ----- | ----- |
+| 10249222001     | AG-102   | 8.45  | False |
+| 10249696001     | AG-102   | 9.12  | False |
 
-Aplicación de pesos definidos en el modelo
+Este dataset puede integrarse con:
 
-Normalización automática
+* Power BI
+* Tableau
+* herramientas de reporting
 
-Aplicación de reglas eliminatorias
+---
 
-Puntuación final entre 0 y 10
+# 🔭 Roadmap
 
-Esto evita dependencia directa del LLM para el resultado final.
+Próximas mejoras:
 
-7. Model Registry
+* procesamiento asíncrono para grandes volúmenes
+* integración con plataformas CCaaS
+* despliegue en arquitectura cloud
 
-El sistema incorpora un registro de modelos que permite:
+---
 
-Versionado de modelos de evaluación
+# 👨‍💻 Autores
 
-Control de integridad mediante hashes SHA256
+EOI - Grupo 4 - (abril 2025)
 
-Persistencia de modelos activos
 
-Trazabilidad histórica
+Proyecto desarrollado como investigación sobre **inteligencia conversacional aplicada a contact centers**.
 
-La persistencia se implementa mediante SQLite.
-
-8. FinOps Engine
-
-El sistema calcula automáticamente el coste de cada evaluación considerando:
-
-Coste de transcripción
-
-Coste de tokens del modelo LLM
-
-Esto permite estimar el coste operativo del sistema a escala.
-
-9. Exportación de datos para BI
-
-Los resultados de las evaluaciones se almacenan en una base de datos SQLite y pueden exportarse automáticamente a CSV para su análisis en herramientas de BI como:
-
-Power BI
-
-Tableau
-
-Excel
-
-Tecnologías utilizadas
-
-Lenguaje principal:
-
-Python
-
-Librerías principales:
-
-requests
-
-spacy
-
-pypdf
-
-sqlite3
-
-pandas
-
-Servicios externos:
-
-AssemblyAI (Speech to Text)
-
-Google Gemini API (LLM)
-
-Estructura del proyecto
-calliq/
-│
-├── calliq_pipeline_enterprise.py
-│
-├── data/
-│   ├── audios/
-│   ├── outputs/
-│   ├── manual_calidad.txt
-│   ├── manual_calidad_ventas.txt
-│   ├── manual_calidad_soporte.txt
-│   └── manual_calidad_retencion.txt
-│
-├── calliq_registry.db
-└── pipeline.log
-Ejecución del sistema
-
-Configurar variables de entorno en un archivo .env:
-
-ASSEMBLYAI_API_KEY=your_key
-GEMINI_API_KEY=your_key
-
-Colocar audios en la carpeta:
-
-data/audios
-
-Ejecutar el pipeline:
-
-python calliq_pipeline_enterprise.py
-
-El sistema procesará automáticamente todos los audios disponibles.
-
-Salidas generadas
-
-Por cada interacción procesada se generan:
-
-JSON detallado de evaluación
-
-Registro en base de datos SQLite
-
-Exportación CSV para BI
-
-Logs del pipeline
-
-Limitaciones del prototipo
 
 Este sistema es un prototipo académico y presenta algunas limitaciones:
 
-Procesamiento secuencial de llamadas
+* Procesamiento secuencial de llamadas
 
-Dependencia de APIs externas
+* Dependencia de APIs externas
 
-Clasificación semántica basada en LLM
+* Clasificación semántica basada en LLM
 
-Sin despliegue en infraestructura cloud
-
-Trabajo futuro
-
-Líneas de evolución del sistema:
-
-procesamiento paralelo de llamadas
-
-integración con plataformas de contact center
-
-router semántico basado en embeddings
-
-dashboard analítico en tiempo real
-
-despliegue en arquitectura cloud
-
-Autor
-
-Proyecto desarrollado como Trabajo Final de Máster en Inteligencia Artificial aplicada a Contact Centers.
+* Sin despliegue en infraestructura cloud
 
 ## 🎥 Demo del sistema
 El sistema incluye una interfaz de demostración basada en Streamlit.
@@ -326,7 +287,7 @@ Para lanzar la demo:
 
 streamlit run app.py
 
-## 🚀 Key Features
+## 🚀 Elementos clave
 
 - Automatic speech transcription using AssemblyAI
 - GDPR-compliant anonymization pipeline
@@ -341,14 +302,6 @@ streamlit run app.py
 
 
 ---
-
-## ⚙️ Requisitos e Instalación
-
-### Requisitos
-
-- Python 3.10 o superior
-- Conexión a internet (APIs de transcripción y LLM)
-
 ### Instalación automática (Windows)
 
 El proyecto incluye un script de instalación que prepara automáticamente el entorno.

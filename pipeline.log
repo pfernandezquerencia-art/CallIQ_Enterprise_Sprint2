@@ -397,3 +397,51 @@
 2026-02-27 21:20:48,026 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
 2026-02-27 21:20:48,038 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 9.0 | KO: False | Coste: $0.0539 ===
 2026-02-27 21:20:48,052 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📊 Export BI completado con éxito: ./data/calliq_export_BI_20260227.csv
+2026-03-05 19:13:07,494 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249222001.mp3 ===
+2026-03-05 19:14:30,668 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249222001.mp3 ===
+2026-03-05 19:14:40,988 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-05 19:14:43,993 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-05 19:14:44,000 [INFO] calliq_pipeline_enterprise_v1.5.3 - 🧭 Router Semántico: Dominio detectado -> SOPORTE
+2026-03-05 19:14:44,003 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📖 RAG Inyectado dinámicamente: ./data/manual_calidad_soporte.txt
+2026-03-05 19:14:44,006 [INFO] calliq_pipeline_enterprise_v1.5.3 - 🔄 Rotación de Modelo activada.
+2026-03-05 19:14:44,007 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-05 19:14:50,114 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-05 19:14:50,127 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-05 19:14:56,077 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-05 19:14:56,081 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-05 19:15:02,625 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-05 19:15:02,638 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 8.45 | KO: False | Coste: $0.0189 ===
+2026-03-05 19:15:07,400 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📊 Export BI completado con éxito: ./data/calliq_export_BI_20260305.csv
+2026-03-05 19:15:19,404 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249696001.mp3 ===
+2026-03-05 19:15:29,776 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-05 19:15:33,341 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-05 19:15:33,345 [INFO] calliq_pipeline_enterprise_v1.5.3 - 🧭 Router Semántico: Dominio detectado -> SOPORTE
+2026-03-05 19:15:33,346 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📖 RAG Inyectado dinámicamente: ./data/manual_calidad_soporte.txt
+2026-03-05 19:15:33,349 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-05 19:15:38,461 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-05 19:15:38,465 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-05 19:15:50,235 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-05 19:15:50,247 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 9.12 | KO: False | Coste: $0.0294 ===
+2026-03-05 19:15:50,258 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📊 Export BI completado con éxito: ./data/calliq_export_BI_20260305.csv
+2026-03-05 19:16:02,262 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249787001.mp3 ===
+2026-03-05 19:16:12,229 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-05 19:16:14,817 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-05 19:16:14,819 [INFO] calliq_pipeline_enterprise_v1.5.3 - 🧭 Router Semántico: Dominio detectado -> SOPORTE
+2026-03-05 19:16:14,821 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📖 RAG Inyectado dinámicamente: ./data/manual_calidad_soporte.txt
+2026-03-05 19:16:14,823 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-05 19:16:20,347 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-05 19:16:20,350 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-05 19:16:30,374 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-05 19:16:30,386 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 7.7 | KO: False | Coste: $0.0165 ===
+2026-03-05 19:16:30,399 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📊 Export BI completado con éxito: ./data/calliq_export_BI_20260305.csv
+2026-03-05 19:16:42,403 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249954001.mp3 ===
+2026-03-05 19:16:53,241 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-05 19:16:55,997 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-05 19:16:55,999 [INFO] calliq_pipeline_enterprise_v1.5.3 - 🧭 Router Semántico: Dominio detectado -> SOPORTE
+2026-03-05 19:16:56,001 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📖 RAG Inyectado dinámicamente: ./data/manual_calidad_soporte.txt
+2026-03-05 19:16:56,004 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-05 19:17:00,979 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-05 19:17:00,982 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-05 19:17:10,736 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-05 19:17:10,748 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 9.12 | KO: False | Coste: $0.0538 ===
+2026-03-05 19:17:10,763 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📊 Export BI completado con éxito: ./data/calliq_export_BI_20260305.csv
