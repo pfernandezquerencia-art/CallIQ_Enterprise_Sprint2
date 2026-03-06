@@ -234,9 +234,10 @@ Este sistema es un prototipo avanzado desarrollado en un entorno académico. Pre
 
 # 👨‍💻 Autores
 
-EOI - Grupo 4 - (abril 2025)
+EOI - Grupo 3 - (abril 2025)
 
 
 Proyecto desarrollado como investigación sobre **inteligencia conversacional aplicada a contact centers**.
+
 
 
