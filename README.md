@@ -1,75 +1,61 @@
-
 ![Python](https://img.shields.io/badge/python-3.10-blue)
 ![Status](https://img.shields.io/badge/status-research_project-orange)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-
-# 🚀 CallIQ Enterprise v1.5.4 (Multi-Domain)
+# CallIQ Enterprise v1.5.4 (Multi-Domain)
 
 **Motor de Evaluación Automática de Calidad Conversacional con Inteligencia Artificial**
 
 CallIQ Enterprise es un sistema de análisis automático de interacciones de contact center que combina **modelos de lenguaje (LLM)** con **algoritmos deterministas** para evaluar la calidad de conversaciones entre agentes y clientes.
 
 El diseño del sistema separa explícitamente:
-
 * **Comprensión semántica mediante LLM**
 * **Cálculo determinista del score en Python**
 
-Esta arquitectura híbrida permite:
-
-* trazabilidad completa del proceso
-* reproducibilidad del scoring
-* control de alucinaciones del modelo
-* auditabilidad en entornos regulados
+Esta arquitectura híbrida permite trazabilidad completa del proceso, reproducibilidad del scoring, control de alucinaciones del modelo y auditabilidad en entornos regulados.
 
 ---
 
-# 🎯 Objetivo del Proyecto
+## Objetivo del Proyecto
 
 Demostrar la viabilidad técnica de un sistema capaz de:
-
-* Analizar automáticamente interacciones de voz
-* Clasificar dinámicamente el tipo de llamada
-* Evaluar la calidad del agente mediante manuales operativos
-* Reducir el coste de auditoría manual
-* Generar métricas estructuradas para Business Intelligence
-
----
-
-# 🧩 Características Principales
-
-* Evaluación automática de calidad conversacional
-* Arquitectura modular desacoplada
-* Clasificación semántica del tipo de interacción
-* Evaluación híbrida **LLM + reglas deterministas**
-* Anonimización de datos sensibles (GDPR)
-* Dashboard analítico en Streamlit
-* Exportación de resultados a CSV / BI
+* Analizar automáticamente interacciones de voz.
+* Clasificar dinámicamente el tipo de llamada.
+* Evaluar la calidad del agente mediante manuales operativos inyectados dinámicamente (RAG).
+* Reducir el coste de auditoría manual optimizando el TCO (FinOps).
+* Generar métricas estructuradas para Business Intelligence.
 
 ---
 
-# 🏗️ Arquitectura del Sistema
+## 🧩 Características Principales
 
-El sistema sigue una arquitectura modular basada en un pipeline de procesamiento:
+* **Evaluación automática de calidad conversacional.**
+* **Arquitectura modular desacoplada.**
+* **Clasificación semántica (Zero-Shot)** del tipo de interacción.
+* **Evaluación híbrida:** LLM para extracción de contexto + reglas deterministas para puntuación matemática.
+* **Anonimización de datos sensibles (GDPR):** Borrado lógico mediante Regex y SpaCy (NER).
+* **Escudo de seguridad:** Protección contra Prompt Injection y validación de integridad (Hashes SHA256).
+* **Dashboard analítico** en Streamlit.
+* **Exportación de resultados a CSV / BI.**
 
-```
-Audio
- ↓
-Speech-to-Text (AssemblyAI)
- ↓
-Anonimización GDPR (Regex + SpaCy)
- ↓
-Router semántico (clasificación del tipo de llamada)
- ↓
-Carga dinámica del manual de calidad (RAG)
- ↓
-Evaluación cognitiva mediante LLM
- ↓
-Cálculo determinista del score y reglas KO
- ↓
-Cálculo de costes (FinOps)
- ↓
-Exportación a CSV / BI
+---
+
+## 🏗️ Arquitectura de Procesamiento
+
+El sistema sigue una arquitectura de pipeline donde cada módulo tiene una responsabilidad única y clara.
+
+```mermaid
+flowchart TD
+    A[Audio Input MP3/WAV] --> B[Speech-to-Text & Diarization]
+    B --> C[GDPR Anonymization Regex + SpaCy NER]
+    C --> D[Semantic Router Call Type Detection]
+    D --> E[RAG Loader Manual de Calidad]
+    E --> F[LLM Evaluation Gemini Flash]
+    F --> G[Deterministic Scoring Engine & KO Rules]
+    G --> H[FinOps Cost Engine]
+    H --> I[(JSON Output)]
+    H --> J[(SQLite & CSV Export)]
+    J --> K[Streamlit Dashboard]
 ```
 
 ---
@@ -87,24 +73,6 @@ Exportación a CSV / BI
 | FinOps Engine                | Cálculo de coste por interacción     |
 
 ---
-## ⚙️ Ejecución del Pipeline
-
-El sistema procesa las interacciones mediante un pipeline de evaluación automático.
-
-Etapas principales:
-
-- Speech-to-Text de la llamada
-- Anonimización GDPR
-- Clasificación semántica del tipo de interacción
-- Inyección dinámica de manual de calidad (RAG)
-- Evaluación cognitiva mediante LLM
-- Cálculo determinista del score
-- Exportación de resultados para BI
-
-<p align="center">
-<img src="docs/images/pipeline_processing.jpg" width="900">
-</p>
-
 
 # 📊 Dashboard Analítico
 
@@ -125,12 +93,12 @@ Características principales:
 
 ---
 
-# 🛠️ Instalación
+# 🛠️ Requisitos e Instalación
 
 ## 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/calliq-enterprise.git
+git clone [https://github.com/tu-usuario/calliq-enterprise.git](https://github.com/tu-usuario/calliq-enterprise.git)
 cd calliq-enterprise
 ```
 
@@ -169,7 +137,7 @@ Instalar modelo de SpaCy:
 ```bash
 python -m spacy download es_core_news_md
 ```
-
+# (Nota: Para el correcto procesamiento de ciertos formatos de audio, es recomendable tener instalado ffmpeg en el sistema).
 ---
 
 # 🔑 Configuración de Variables de Entorno
@@ -208,15 +176,21 @@ data/
 python calliq_pipeline_enterprise_v1.5.3.py
 ```
 
-El sistema:
+El sistema ejecutará las siguientes acciones secuenciales:
 
-* procesa los audios (Speech-to text transcription)
-* NLP-based anonimizador
-* LLM evaluación semántica
-* genera un JSON por interacción
-* exporta métricas a CSV para BI
+Procesamiento de los audios (Speech-to-Text).
 
+Anonimización (NLP/Regex).
 
+Evaluación semántica (LLM) y puntuación matemática.
+
+Generación de un archivo JSON por interacción.
+
+Exportación de métricas a CSV para BI.
+
+<p align="center">
+<img src="docs/images/pipeline_processing.jpg" width="900" alt="Ejecución del Pipeline">
+</p>
 
 ## Lanzar dashboard
 
@@ -245,14 +219,17 @@ Este dataset puede integrarse con:
 
 ---
 
-# 🔭 Roadmap
+# 🔭 Limitaciones y Roadmap
 
-Próximas mejoras:
+Este sistema es un prototipo avanzado desarrollado en un entorno académico. Presenta algunas limitaciones y líneas de mejora futuras:
 
-* procesamiento asíncrono para grandes volúmenes
-* integración con plataformas CCaaS
-* despliegue en arquitectura cloud
+* Procesamiento secuencial de llamadas (evolución futura a procesamiento asíncrono Batch API para grandes volúmenes).
 
+* Dependencia actual de APIs externas sin despliegue en infraestructura cloud propia.
+
+* Evolución planificada del router semántico hacia el uso de embeddings vectoriales para mayor eficiencia en costes.
+
+* Integración nativa futura con plataformas CCaaS (Genesys Cloud, Amazon Connect, etc.).
 ---
 
 # 👨‍💻 Autores
@@ -263,50 +240,3 @@ EOI - Grupo 4 - (abril 2025)
 Proyecto desarrollado como investigación sobre **inteligencia conversacional aplicada a contact centers**.
 
 
-Este sistema es un prototipo académico y presenta algunas limitaciones:
-
-* Procesamiento secuencial de llamadas
-
-* Dependencia de APIs externas
-
-* Clasificación semántica basada en LLM
-
-* Sin despliegue en infraestructura cloud
-
-## 🎥 Demo del sistema
-El sistema incluye una interfaz de demostración basada en Streamlit.
-
-Permite:
-
-- subir grabaciones de llamadas
-- ejecutar el pipeline de evaluación
-- visualizar la puntuación de calidad
-- inspeccionar el detalle de la auditoría
-
-Para lanzar la demo:
-
-streamlit run app.py
-
-## 🚀 Elementos clave
-
-- Automatic speech transcription using AssemblyAI
-- GDPR-compliant anonymization pipeline
-- LLM-based semantic routing of conversations
-- Dynamic evaluation model generation from quality manuals (RAG)
-- Hybrid evaluation engine (LLM + deterministic scoring)
-- Prompt injection protection
-- Model registry with integrity verification
-- Cost estimation with FinOps metrics
-- Export-ready dataset for Business Intelligence tools
-
-
-
----
-### Instalación automática (Windows)
-
-El proyecto incluye un script de instalación que prepara automáticamente el entorno.
-
-Ejecutar:
-
-```bash
-setup.bat
