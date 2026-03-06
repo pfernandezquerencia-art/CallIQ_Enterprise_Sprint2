@@ -137,7 +137,7 @@ Instalar modelo de SpaCy:
 ```bash
 python -m spacy download es_core_news_md
 ```
-# (Nota: Para el correcto procesamiento de ciertos formatos de audio, es recomendable tener instalado ffmpeg en el sistema).
+(Nota: Para el correcto procesamiento de ciertos formatos de audio, es recomendable tener instalado ffmpeg en el sistema)
 ---
 
 # 🔑 Configuración de Variables de Entorno
@@ -238,6 +238,7 @@ EOI - Grupo 3 - (abril 2025)
 
 
 Proyecto desarrollado como investigación sobre **inteligencia conversacional aplicada a contact centers**.
+
 
 
 
