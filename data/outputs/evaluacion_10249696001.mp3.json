@@ -1,0 +1,211 @@
+{
+    "metadata_pack_version": "3.0",
+    "conversation_id": "a952a0c6b8c2",
+    "context": {
+        "agent_id": "AG-102",
+        "tenant_id": "tenant_banca"
+    },
+    "source": {
+        "ingestion_timestamp": "2026-03-05T18:15:29.775442+00:00",
+        "technical_metadata": {
+            "duration_sec": 287,
+            "audio_hash_sha256": "a952a0c6b8c2c699cf7be93454ec0571e1b14e93ec68c7c5c8948e94cc888dfe"
+        }
+    },
+    "transcription": {
+        "full_text": "Express Telecomunicaciones. Mi nombre es Nicolás, ¿En que lo puedo ayudar? Sí, ¿Qué tal, Buenas tardes? Yo llamo para hacer reclamo porque estoy teniendo problemas ya hace bastantes días con el Internet. Bueno, ahí la voy a derivar al sector de reclamos. ¿Me va a guardar en línea unos segunditos, por favor? Bueno, gracias. Gracias. Ahí me guardo en línea, por favor. Sí, sí, gracias. Buenas tardes, mi nombre es Gabriel. ¿En que puedo serlo? Sí, ¿Qué tal, Buenas tardes? Yo necesitaba hacer el reclamo porque no me anda bien el Internet. Ríndeme el número del documento del titular, Por favor. Sí, 46. 876. Manzana de paso, el poliar, la dirección. Sí. Ampliación. El poliar. ¿Qué problemas tiene con el Internet? Quedó sin señal, se corta. Tenemos que estar desenchufando el aparato, esperar un ratito, reiniciarlo y. Hace varios días que venimos con este problema. Bueno, a ver, aguárdame un momento. Bueno, Sí, sí, sí, hoy también, ayer varias veces. Bueno, a ver, guárdame. Bueno, ¿Y este inconveniente le pasó desde el día de hoy? No, no, ya viene de la semana pasada. Bueno, aguarde un momento. En línea cargamos el reclamo técnico. Bueno, gracias. Bueno, le comento, señora Rojas, voy a tratar de la visita al menos para mañana jueves o el día viernes porque no estamos teniendo turnos disponibles. Bueno, sí, que sea esta semana porque justo están con los chicos con prueba y bueno, entran a sacar información. ¿Necesita? Bueno, los horarios son los mismos. De ocho a diez. Diez a doce, doce, catorce. Cualquier horario, lo mismo. Siempre hay alguien en la casa, así que por el horario no va a haber problema. ¿De 10 a 12, ¿Le parece bien? Bueno, bueno, bueno, Bueno. ¿Y su número de contacto es [TLF]? Sí, sí, sí. Bueno, muy bien. Cualquier información tenemos el correo. Lea Legui. Sí. Escuche, le hago una preguntita. ¿Usted me puede pasar la boleta que tengo atrasada? ¿Cuánto es el monto para pagar o no? Actualmente figura que tiene el mes anterior y el mes en curso. Bien. ¿De cuánto sería la trazada? 37.698. Bueno, bien. ¿Y eso hasta cuándo tendría que abonar? Y la boleta del mes en curso ha vencido en el día de ayer. Posiblemente el día jueves salgan las suspensiones, señora Rojas. Bien. Bueno, bueno, bueno, Ya voy a tratar de pagar la mañana. Bueno, muy bien, muchas gracias. No, Hasta luego.",
+        "utterances": [
+            {
+                "speaker_id": "A",
+                "text": "Express Telecomunicaciones. Mi nombre es Nicolás, ¿En que lo puedo ayudar?"
+            },
+            {
+                "speaker_id": "B",
+                "text": "Sí, ¿Qué tal, Buenas tardes? Yo llamo para hacer reclamo porque estoy teniendo problemas ya hace bastantes días con el Internet."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bueno, ahí la voy a derivar al sector de reclamos. ¿Me va a guardar en línea unos segunditos, por favor?"
+            },
+            {
+                "speaker_id": "B",
+                "text": "Bueno, gracias."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Gracias. Ahí me guardo en línea, por favor."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Sí, sí, gracias."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Buenas tardes, mi nombre es Gabriel. ¿En que puedo serlo?"
+            },
+            {
+                "speaker_id": "B",
+                "text": "Sí, ¿Qué tal, Buenas tardes? Yo necesitaba hacer el reclamo porque no me anda bien el Internet."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Ríndeme el número del documento del titular, Por favor."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Sí, 46. 876."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Manzana de paso, el poliar, la dirección."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Sí. Ampliación. El poliar."
+            },
+            {
+                "speaker_id": "A",
+                "text": "¿Qué problemas tiene con el Internet?"
+            },
+            {
+                "speaker_id": "B",
+                "text": "Quedó sin señal, se corta. Tenemos que estar desenchufando el aparato, esperar un ratito, reiniciarlo y. Hace varios días que venimos con este problema."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bueno, a ver, aguárdame un momento."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Bueno, Sí, sí, sí, hoy también, ayer varias veces."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bueno, a ver, guárdame. Bueno, ¿Y este inconveniente le pasó desde el día de hoy?"
+            },
+            {
+                "speaker_id": "B",
+                "text": "No, no, ya viene de la semana pasada."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bueno, aguarde un momento. En línea cargamos el reclamo técnico."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Bueno, gracias."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bueno, le comento, señora Rojas, voy a tratar de la visita al menos para mañana jueves o el día viernes porque no estamos teniendo turnos disponibles."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Bueno, sí, que sea esta semana porque justo están con los chicos con prueba y bueno, entran a sacar información. ¿Necesita?"
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bueno, los horarios son los mismos. De ocho a diez. Diez a doce, doce, catorce."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Cualquier horario, lo mismo. Siempre hay alguien en la casa, así que por el horario no va a haber problema."
+            },
+            {
+                "speaker_id": "A",
+                "text": "¿De 10 a 12, ¿Le parece bien?"
+            },
+            {
+                "speaker_id": "B",
+                "text": "Bueno, bueno, bueno, Bueno."
+            },
+            {
+                "speaker_id": "A",
+                "text": "¿Y su número de contacto es [TLF]? Sí, sí, sí. Bueno, muy bien. Cualquier información tenemos el correo. Lea Legui."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Sí. Escuche, le hago una preguntita. ¿Usted me puede pasar la boleta que tengo atrasada? ¿Cuánto es el monto para pagar o no?"
+            },
+            {
+                "speaker_id": "A",
+                "text": "Actualmente figura que tiene el mes anterior y el mes en curso. Bien."
+            },
+            {
+                "speaker_id": "B",
+                "text": "¿De cuánto sería la trazada?"
+            },
+            {
+                "speaker_id": "A",
+                "text": "37.698."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Bueno, bien. ¿Y eso hasta cuándo tendría que abonar?"
+            },
+            {
+                "speaker_id": "A",
+                "text": "Y la boleta del mes en curso ha vencido en el día de ayer. Posiblemente el día jueves salgan las suspensiones, señora Rojas."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Bien. Bueno, bueno, bueno, Ya voy a tratar de pagar la mañana."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bueno, muy bien, muchas gracias."
+            },
+            {
+                "speaker_id": "B",
+                "text": "No, Hasta luego."
+            }
+        ]
+    },
+    "governance": {
+        "raw_deleted": true,
+        "raw_text_hash": "0bb1bcfbc9b7c13a7cd2034998d4eaf48ff8efff047972a91cc62b6f63d8546f",
+        "pii_anonymized": true,
+        "anonymization_method": "Hybrid (SpaCy NER + RegEx)",
+        "anonymization_timestamp": "2026-03-05T18:15:29.776569+00:00",
+        "retention_policy_days": 30,
+        "model_integrity_hash": "3d9b91fd1d53df9922faa714d7a99aff5a47fc1457a6c4971a04a92a0426fe89",
+        "security_audit": {
+            "prompt_injection_attempt": false,
+            "pattern_detected": null
+        }
+    },
+    "quality_evaluation": {
+        "model_version": "v_20260305_191450",
+        "model_hash": "3d9b91fd1d53df9922faa714d7a99aff5a47fc1457a6c4971a04a92a0426fe89",
+        "call_type": "standard",
+        "final_score": 9.12,
+        "details": {
+            "call_type_detected": "standard",
+            "block_scores": {
+                "Identificación y Apertura": 8.0,
+                "Diagnóstico del Problema": 9.5,
+                "Resolución o Propuesta de Solución": 9.5,
+                "Cierre de la Llamada": 9.0
+            },
+            "eliminatorias_triggered": []
+        },
+        "signals": {
+            "math_sentiment_score": 100,
+            "churn_risk_flag": true,
+            "positive_signals": 2,
+            "negative_signals": 0
+        },
+        "bi_export": {
+            "score": 9.12,
+            "ko": false,
+            "ko_reasons": [],
+            "input_tokens": 1671,
+            "output_tokens": 94
+        }
+    },
+    "finops": {
+        "stt_cost_usd": 0.029274,
+        "llm_cost_usd": 0.000154,
+        "total_transaction_cost_usd": 0.029428
+    }
+}

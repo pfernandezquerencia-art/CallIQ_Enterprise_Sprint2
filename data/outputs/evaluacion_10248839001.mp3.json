@@ -1,0 +1,168 @@
+{
+    "metadata_pack_version": "3.0",
+    "conversation_id": "4C03C384BDB84C679821",
+    "context": {
+        "agent_id": "AG-CINTIA",
+        "tenant_id": "tenant_banca",
+        "extension": "7413",
+        "queue": "Ventas",
+        "ani": "+34635154453",
+        "dnis": "900123456"
+    },
+    "source": {
+        "call_timestamp": "2026-03-02T01:28:30.514274+00:00",
+        "ingestion_timestamp": "2026-03-07T11:58:45.460573+00:00",
+        "technical_metadata": {
+            "duration_sec": 206,
+            "audio_hash_sha256": "8cddeb44d8bf29dca71b5e155f75ab33803cfa3afc6f8bbc3d3fd7c383377329"
+        }
+    },
+    "transcription": {
+        "full_text": "Express. Buenas tardes, mi nombre es Familia, ¿Cómo le puedo ayudar? Buenas tardes señorita, mire yo soy del cliente 9007. Bien, ¿Tendrías el DNI para pasarme? 8.000 789. 890. José Aguat. Sí que no lo mimo. Si le doy el número al cliente igual siempre pedimos el DNI como. Bueno, hay cuestiones. Yo recién hablo con un muchacho porque tengo problemas. Va, No, pero no es un problema, vio que tanto en la computadora como en el celular la marca del wifi es como un paraguito así que va bajando hasta la punta, se va achicando. Bueno, siempre está lleno. Ahora no, ahora arriba, el de arriba no está, no está marcando. ¿Y entonces? Hablé con el muchacho, ya lo voy a calibrar, voy a cortar, ya no más dice el wifi y espere 10 minutos y después vuelve de nuevo y ya va hasta quedar bien. ¿Pero no ha cortado? No, nada. Vamos a verificar. José, ¿Ya le consultaron el número de teléfono, el domicilio? Esas bajitas representan lo que es la señal que está teniendo usted. Por ejemplo, si usted se acerca más al módem, va a tener más rayitas, más señal. Escúcheme, siempre tengo. Nunca te he tenido así, siempre lleno, inclusive. Sal. El wifi no sé si funcionará mal o no, sí está, digamos, puede suceder momentáneamente, o sea, después se normaliza. Si a usted no le está generando algún inconveniente. ¿Cómo? Si a usted no le estÁ generando algún inconveniente o le está funcionando mal el servicio, no es algún problema como muy grande sería como para. Si es que le está funcionando mal, ahí sí lo veríamos, pero si le está funcionando bien, es algo que sólo por la señal puede ser algo del momento, señor. Bueno, bueno, como usted diga. Comienza a funcionar mal, ahí se comunica y lo verificamos, pero mientras cómo funciona mal en qué sentido, o sea que le ande lento, que no pueda ver un vídeo, que no pueda enviar algún mensaje. Bueno, ahora se ha llenado. Perfecto, ¿Lo han tocado algo? No sé qué habrán hecho mis compañeros, recién se hacen 11 minutos de que se reinició. Ah, pero me dice que se iba corta, me iba a quedar sin Internet. Más o menos entre 2 o 3 minutos y ya se vuelve a conectar, o sea por dos o tres minutos que no ha tenido Internet. Ah, bueno, bueno, bueno, bueno, hasta ahora está bien, cualquier cosa lo vuelvo a llamar. Dale, por favor. Gracias, muy amable.",
+        "utterances": [
+            {
+                "speaker_id": "A",
+                "text": "Express. Buenas tardes, mi nombre es Familia, ¿Cómo le puedo ayudar?"
+            },
+            {
+                "speaker_id": "B",
+                "text": "Buenas tardes señorita, mire yo soy del cliente 9007."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bien, ¿Tendrías el DNI para pasarme?"
+            },
+            {
+                "speaker_id": "B",
+                "text": "8.000 789. 890."
+            },
+            {
+                "speaker_id": "A",
+                "text": "José Aguat."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Sí que no lo mimo. Si le doy el número al cliente"
+            },
+            {
+                "speaker_id": "A",
+                "text": "igual siempre pedimos el DNI como."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Bueno, hay cuestiones. Yo recién hablo con un muchacho porque tengo problemas. Va, No, pero no es un problema, vio que tanto en la computadora como en el celular la marca del wifi es como un paraguito así que va bajando hasta la punta, se va achicando. Bueno, siempre está lleno. Ahora no, ahora arriba, el de arriba no está, no está marcando. ¿Y entonces? Hablé con el muchacho, ya lo voy a calibrar, voy a cortar, ya no más dice el wifi y espere 10 minutos y después vuelve de nuevo y ya va hasta quedar bien. ¿Pero no ha cortado? No, nada."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Vamos a verificar. José, ¿Ya le consultaron el número de teléfono, el domicilio? Esas bajitas representan lo que es la señal que está teniendo usted. Por ejemplo, si usted se acerca más al módem, va a tener más rayitas, más señal."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Escúcheme, siempre tengo. Nunca te he tenido así, siempre lleno, inclusive. Sal. El wifi no sé si funcionará mal o no, sí está, digamos, puede suceder"
+            },
+            {
+                "speaker_id": "A",
+                "text": "momentáneamente, o sea, después se normaliza. Si a usted no le está generando algún inconveniente."
+            },
+            {
+                "speaker_id": "B",
+                "text": "¿Cómo?"
+            },
+            {
+                "speaker_id": "A",
+                "text": "Si a usted no le estÁ generando algún inconveniente o le está funcionando mal el servicio, no es algún problema como muy grande sería como para. Si es que le está funcionando mal, ahí sí lo veríamos, pero si le está funcionando bien, es algo que sólo por la señal puede ser algo del momento, señor."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Bueno, bueno, como usted diga."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Comienza a funcionar mal, ahí se comunica"
+            },
+            {
+                "speaker_id": "B",
+                "text": "y lo verificamos, pero mientras cómo funciona mal en qué sentido, o sea que"
+            },
+            {
+                "speaker_id": "A",
+                "text": "le ande lento, que no pueda ver un vídeo, que no pueda enviar algún mensaje."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Bueno, ahora se ha llenado. Perfecto, ¿Lo han tocado algo? No sé qué habrán hecho mis compañeros,"
+            },
+            {
+                "speaker_id": "A",
+                "text": "recién se hacen 11 minutos de que se reinició."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Ah, pero me dice que se iba corta, me iba a quedar sin Internet."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Más o menos entre 2 o 3 minutos y ya se vuelve a conectar,"
+            },
+            {
+                "speaker_id": "B",
+                "text": "o sea por dos o tres minutos"
+            },
+            {
+                "speaker_id": "A",
+                "text": "que no ha tenido Internet."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Ah, bueno, bueno, bueno, bueno, hasta ahora está bien, cualquier cosa lo vuelvo a llamar. Dale, por favor. Gracias, muy amable."
+            }
+        ]
+    },
+    "governance": {
+        "raw_deleted": true,
+        "raw_text_hash": "128afc53a4728424ea47f6ec95ca80ae36be5251ec7252634c942a9dd183572e",
+        "pii_anonymized": true,
+        "anonymization_method": "Hybrid (SpaCy NER + RegEx)",
+        "anonymization_timestamp": "2026-03-07T11:58:45.461207+00:00",
+        "retention_policy_days": 30,
+        "model_integrity_hash": "ac5631912cda754df49d77a0a1b044308ff97616c6326124e43163c803ed5fc5",
+        "security_audit": {
+            "prompt_injection_attempt": false,
+            "pattern_detected": null
+        }
+    },
+    "quality_evaluation": {
+        "model_version": "v_20260307_125811",
+        "model_hash": "ac5631912cda754df49d77a0a1b044308ff97616c6326124e43163c803ed5fc5",
+        "call_type": "standard",
+        "final_score": 7.3,
+        "details": {
+            "call_type_detected": "standard",
+            "block_scores": {
+                "Identificación y Apertura": 8.0,
+                "Diagnóstico del Problema": 6.0,
+                "Resolución o Propuesta de Solución": 8.5,
+                "Cierre de la Llamada": 7.0
+            },
+            "eliminatorias_triggered": []
+        },
+        "signals": {
+            "math_sentiment_score": 100,
+            "churn_risk_flag": false,
+            "positive_signals": 2,
+            "negative_signals": 0
+        },
+        "bi_export": {
+            "score": 7.3,
+            "ko": false,
+            "ko_reasons": [],
+            "input_tokens": 1608,
+            "output_tokens": 94
+        }
+    },
+    "finops": {
+        "stt_cost_usd": 0.021012,
+        "llm_cost_usd": 0.000149,
+        "total_transaction_cost_usd": 0.021161
+    }
+}

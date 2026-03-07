@@ -1,0 +1,232 @@
+{
+    "metadata_pack_version": "3.0",
+    "conversation_id": "18308F28259F4F508C8B",
+    "context": {
+        "agent_id": "AG-NATALIA",
+        "tenant_id": "tenant_banca",
+        "extension": "7132",
+        "queue": "Retencion",
+        "ani": "+34693916228",
+        "dnis": "900123456"
+    },
+    "source": {
+        "call_timestamp": "2026-03-07T10:28:30.506875+00:00",
+        "ingestion_timestamp": "2026-03-07T11:57:14.742063+00:00",
+        "technical_metadata": {
+            "duration_sec": 791,
+            "audio_hash_sha256": "9efd75c917b4fe33b26246e6607154e4d4aff88c25e3eab9daa0407ebad36337"
+        }
+    },
+    "transcription": {
+        "full_text": "Express, buenos días, mi nombre es Diana. Y ¿Que le puedo ayudar? Hola, buenos días. Llamado para dar de baja el servicio o ver si existe algún tipo de promoción o algo, porque todos los meses vienen con cinco mil pesos de más y la verdad que no agilizo demasiado al servicio. De acuerdo. Bueno, permítame el DNI del titular, por favor. [TLF]. Bien. María Naif Chami. Así es. Bien. La dirección es Avenida Moreno Sur 850. Eso. Justo ayer también había hablado y me han dicho que estaba fuera del horario que llamé ahora. Y también les quería decir de que cuando se ha cargado los datos de mi nuevo domicilio, los han puesto mal. Es Moreno Sur 580. Ellos me han dicho de que yo podía hacer el cambio de la numeración por esta llamada. Bien, bueno, porque si no pensaba en caso de que tengan que venir o algo. No está mal escrita la dirección. Ahora sí lo correg. ¿Bueno? ¿Me repite por favor la numeración? Avenida Moreno Sur 580. 580. Se han confundido la posición del número, nada más. Bien. Sí, es piso 2, departamento C. Así es. Tenemos una cuenta de mail que es saminair. Com. Sí, esa cuenta está bien. ¿Su número de contacto es [TLF]? Sí, así es. Bueno, usted me indicaba que solicita la baja del servicio sí o sí. ¿Se podía contar con alguna promoción, algo? Porque la verdad que no estoy mucho en el departamento y últimamente he visto cada vez más, digamos 5 mil pesos más todos los meses. Bueno, Un momento. Sí, por favor. Bueno, voy a derivar la llamada al sector de promociones para que se. Muchísimas gracias. Gracias a usted por comunicarse. Un momento. Express, buenos días, mi nombre es Natalia. ¿Que lo puedo ayudar? Hola, buenos días. Justo hablaba con una colega de usted para decirle de que necesito darle o de baja el servicio o fijarme si cuenta con algún tipo de promoción o algo, porque la verdad que cada vez me está viniendo más cara la boleta. 5 mil pesos más todos los meses y no estoy mucho en mi domicilio ya que trabajo todo el día. Muy bien. Un instante, por favor. Le pido el DNI del titular, por favor. Treinta y ocho dos cincuenta. Muy bien, perfecto. María Naí. Sami. Así es. Así es. Perfecto. Teléfono cuatro nueve, seis, tres, seis dos uno. Sí, así es. Vamos a ver en Quizás si está con respecto a su promoción no me corre por favor. Gracias. Bríndeme por favor. Vamos a ver señora Licomito. Señora María, en este caso tenía una promo con descuento del 75% habilitado actualmente. En este caso por ejemplo, usted tiene acá en este servicio lo que es el servicio de cable, el Eco 50 megas y telefonía. Bueno, yo lo que le puedo ofrecer en este caso, a ver, le puedo ofrecer renovar por el mismo tipo de descuento que ya le digo cuánto le va a estar quedando. Cable, pack digital, telefonía y 50 megas y telefonía. Puede ser que no son 2400 menos. Bueno, podría ser algo también. Y yo por ejemplo vivo sola en el departamento y te vuelvo a decir, es como que no estoy nunca porque trabajo todo el día. ¿Hay alguna posibilidad de que se baje la cantidad de megas o no me recomienda usted? Porque va a ser muy lento. No quiero tampoco. No. ¿Y señora, sabe lo que pasa? Que actualmente los 50 megas es lo mínimo. Ah, bien, bien. No Sovié, pensé que podía haber algo más bajo. Está bien, muy bien. Vamos a ver, Le comento. Lo que yo le voy a ofrecer va a ser gestionarle una promo con un descuento del 82% en todos los servicios. Esto le va a quedar, ya le digo, en cuanto me dijo de telefonía lo sacamos, ¿No? Sí. Bueno, no me cote por favor. Así por procedemos a realizar esto y ya le digo cuánto le va a quedar. Muy bien. Esto de comentó señora, le salió aproximadamente en un monto de 27 mil a valor actual. Sí. Bueno, perfecto señora María, entonces ya finalizamos con el tema de la baja de la línea telefónica. Eso no va a pasar como ahora que me viene con aumento todos los meses, ¿Verdad? ¿Viene? Sí. Le comento señora, sí en este caso el tema de los servicios, las promociones son porcentaje de descuento. Lo que queda siempre fijo son los descuentos. ¿Qué quiere decir con esto? Que si llega a haber algún tipo de incremento de los precios finales del servicio, usted va a abonar un poquito más. Eso sería nada más. Bueno, le agradezco. Muy bien, perfecto. Un instante, no me corte porque así gestionamos. Finalizamos con esto. Le queda solamente dar finalizar el tema de la baja. Un instante por favor. Three M. Muy bien señora. Ya estaría todo gestionado entonces. En este caso ya estaría realizado lo que es esta operación. Va a ser el descuento del 82% entonces por el lapso de por el lapso de nueve meses el descuento. ¿Sí? Bueno, muchas gracias. Por favor, ha sido un gusto. Que tenga buen día señora. No me cote, por favor, la voy a proceder a derivar con una breve encuesta. Sí, señora Bahía. Muy bien, hasta luego.",
+        "utterances": [
+            {
+                "speaker_id": "A",
+                "text": "Express, buenos días, mi nombre es Diana. Y ¿Que le puedo ayudar?"
+            },
+            {
+                "speaker_id": "B",
+                "text": "Hola, buenos días. Llamado para dar de baja el servicio o ver si existe algún tipo de promoción o algo, porque todos los meses vienen con cinco mil pesos de más y la verdad que no agilizo demasiado al servicio."
+            },
+            {
+                "speaker_id": "A",
+                "text": "De acuerdo. Bueno, permítame el DNI del titular, por favor."
+            },
+            {
+                "speaker_id": "B",
+                "text": "[TLF]."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bien. María Naif Chami. Así es. Bien. La dirección es Avenida Moreno Sur 850. Eso."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Justo ayer también había hablado y me han dicho que estaba fuera del horario que llamé ahora. Y también les quería decir de que cuando se ha cargado los datos de mi nuevo domicilio, los han puesto mal. Es Moreno Sur 580. Ellos me han dicho de que yo podía hacer el cambio de la numeración por esta llamada. Bien, bueno, porque si no pensaba en caso de que tengan que venir o algo. No está mal escrita la dirección."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Ahora sí lo correg. ¿Bueno? ¿Me repite por favor la numeración? Avenida Moreno Sur 580. 580."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Se han confundido la posición del número, nada más."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bien. Sí, es piso 2, departamento C. Así es. Tenemos una cuenta de mail que es saminair. Com."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Sí, esa cuenta está bien."
+            },
+            {
+                "speaker_id": "A",
+                "text": "¿Su número de contacto es [TLF]?"
+            },
+            {
+                "speaker_id": "B",
+                "text": "Sí, así es."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bueno, usted me indicaba que solicita la baja del servicio sí o sí."
+            },
+            {
+                "speaker_id": "B",
+                "text": "¿Se podía contar con alguna promoción, algo? Porque la verdad que no estoy mucho en el departamento y últimamente he visto cada vez más, digamos 5 mil pesos más todos los meses."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bueno, Un momento. Sí, por favor. Bueno, voy a derivar la llamada al sector de promociones para que se."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Muchísimas gracias."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Gracias a usted por comunicarse. Un momento. Express, buenos días, mi nombre es Natalia. ¿Que lo puedo ayudar?"
+            },
+            {
+                "speaker_id": "B",
+                "text": "Hola, buenos días. Justo hablaba con una colega de usted para decirle de que necesito darle o de baja el servicio o fijarme si cuenta con algún tipo de promoción o algo, porque la verdad que cada vez me está viniendo más cara la boleta. 5 mil pesos más todos los meses y no estoy mucho en mi domicilio ya que trabajo todo el día."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Muy bien. Un instante, por favor. Le pido el DNI del titular, por favor."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Treinta y ocho dos cincuenta."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Muy bien, perfecto. María Naí. Sami."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Así es. Así es."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Perfecto. Teléfono cuatro nueve, seis, tres, seis dos uno."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Sí, así es."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Vamos a ver en Quizás si está con respecto a su promoción no me corre por favor."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Gracias."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bríndeme por favor. Vamos a ver señora Licomito. Señora María, en este caso tenía una promo con descuento del 75% habilitado actualmente. En este caso por ejemplo, usted tiene acá en este servicio lo que es el servicio de cable, el Eco 50 megas y telefonía. Bueno, yo lo que le puedo ofrecer en este caso, a ver, le puedo ofrecer renovar por el mismo tipo de descuento que ya le digo cuánto le va a estar quedando. Cable, pack digital, telefonía y 50 megas y telefonía."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Puede ser que no"
+            },
+            {
+                "speaker_id": "A",
+                "text": "son 2400 menos."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Bueno, podría ser algo también. Y yo por ejemplo vivo sola en el departamento y te vuelvo a decir, es como que no estoy nunca porque trabajo todo el día. ¿Hay alguna posibilidad de que se baje la cantidad de megas o no me recomienda usted? Porque va a ser muy lento. No quiero tampoco. No."
+            },
+            {
+                "speaker_id": "A",
+                "text": "¿Y señora, sabe lo que pasa? Que actualmente los 50 megas es lo mínimo."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Ah, bien, bien. No Sovié, pensé que podía haber algo más bajo."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Está bien, muy bien. Vamos a ver, Le comento. Lo que yo le voy a ofrecer va a ser gestionarle una promo con un descuento del 82% en todos los servicios. Esto le va a quedar, ya le digo, en cuanto me dijo de telefonía lo sacamos, ¿No? Sí. Bueno, no me cote por favor. Así por procedemos a realizar esto y ya le digo cuánto le va a quedar. Muy bien. Esto de comentó señora, le salió aproximadamente en un monto de 27 mil a valor actual. Sí. Bueno, perfecto señora María, entonces ya finalizamos con el tema de la baja de la línea telefónica."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Eso no va a pasar como ahora que me viene con aumento todos los meses, ¿Verdad?"
+            },
+            {
+                "speaker_id": "A",
+                "text": "¿Viene? Sí. Le comento señora, sí en este caso el tema de los servicios, las promociones son porcentaje de descuento. Lo que queda siempre fijo son los descuentos. ¿Qué quiere decir con esto? Que si llega a haber algún tipo de incremento de los precios finales del servicio, usted va a abonar un poquito más. Eso sería nada más. Bueno, le agradezco. Muy bien, perfecto. Un instante, no me corte porque así gestionamos. Finalizamos con esto. Le queda solamente dar finalizar el tema de la baja. Un instante por favor."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Three M."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Muy bien señora. Ya estaría todo gestionado entonces. En este caso ya estaría realizado lo que es esta operación. Va a ser el descuento del 82% entonces por el lapso de por el lapso de nueve meses el descuento. ¿Sí?"
+            },
+            {
+                "speaker_id": "B",
+                "text": "Bueno, muchas gracias."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Por favor, ha sido un gusto. Que tenga buen día señora. No me cote, por favor, la voy a proceder a derivar con una breve encuesta. Sí, señora Bahía."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Muy bien, hasta luego."
+            }
+        ]
+    },
+    "governance": {
+        "raw_deleted": true,
+        "raw_text_hash": "6538dd98c1b35b4e80a1d74f582e0454cc5b1d4ab7c5266c01fca9348e3a93cb",
+        "pii_anonymized": true,
+        "anonymization_method": "Hybrid (SpaCy NER + RegEx)",
+        "anonymization_timestamp": "2026-03-07T11:57:14.743920+00:00",
+        "retention_policy_days": 30,
+        "model_integrity_hash": "efb32001821f05c69c778327fc3f612851b9719f7a95af2e3c5fec4947efbfc8",
+        "security_audit": {
+            "prompt_injection_attempt": false,
+            "pattern_detected": null
+        }
+    },
+    "quality_evaluation": {
+        "model_version": "v_20260307_125722",
+        "model_hash": "efb32001821f05c69c778327fc3f612851b9719f7a95af2e3c5fec4947efbfc8",
+        "call_type": "Retención",
+        "final_score": 8.57,
+        "details": {
+            "call_type_detected": "Retención",
+            "block_scores": {
+                "Identificación y Empatía Inicial": 7.0,
+                "Comprensión del Motivo de Baja": 8.5,
+                "Propuesta de Retención": 9.5,
+                "Cierre de la Llamada": 9.5
+            },
+            "eliminatorias_triggered": []
+        },
+        "signals": {
+            "math_sentiment_score": 100,
+            "churn_risk_flag": true,
+            "positive_signals": 2,
+            "negative_signals": 0
+        },
+        "bi_export": {
+            "score": 8.57,
+            "ko": false,
+            "ko_reasons": [],
+            "input_tokens": 2248,
+            "output_tokens": 97
+        }
+    },
+    "finops": {
+        "stt_cost_usd": 0.080682,
+        "llm_cost_usd": 0.000198,
+        "total_transaction_cost_usd": 0.08588
+    }
+}

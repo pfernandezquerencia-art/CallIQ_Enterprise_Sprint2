@@ -1,0 +1,203 @@
+{
+    "metadata_pack_version": "3.0",
+    "conversation_id": "aa8c662e2fcc",
+    "context": {
+        "agent_id": "AG-102",
+        "tenant_id": "tenant_banca"
+    },
+    "source": {
+        "ingestion_timestamp": "2026-03-05T18:16:53.239639+00:00",
+        "technical_metadata": {
+            "duration_sec": 526,
+            "audio_hash_sha256": "aa8c662e2fcc26876e9a58c8316d975cbaa21e38def730c31fa15dd02e53acff"
+        }
+    },
+    "transcription": {
+        "full_text": "Buenas noches, mi nombre es Gabriel. ¿En que puedo serlo? Hola, buenas noches, Gabriel. Mira, quería hacer un reclamo. Bueno, pídeme el número del documento de titular. Sí. Treinta y dos seis ocho tres cinco. ¿Adriana Put? Sí. Rocío Grande 98. ¿Su dirección? Sí, sí, sí. Bueno, sí. ¿Cuál es su reclamo? Está sin funcionar el teléfono y el Internet han andado hoy a la mañana porque había hecho el fin de semana el reclamo de que no tenía y los chicos conectado nuevamente que decían que estaban mal conectados los cables. Y durante el día sí hemos tenido. Se ha cortado una sola vez y ahora de nuevo están sin Internet y sin teléfono directamente no tienen tono el teléfono. Bueno, bueno, si figura que el equipo está fuera de servicio. ¿Usted hizo algún reinicio? Intentó desconectarla bola conectada para ver si. No, no, no, ahora no. Lo que yo. Sí, hoy al mediodía me he comunicado y me atendió una compañera tuya. He hecho eso y ha vuelto a andar. Como la idea no era esa, supuestamente era que me lo iban a cambiar el módem porque no sabía si estaba funcionando mal. La verdad que es un servicio nuevo y no puedo estar desconectando el cable, yo no estoy viviendo ahí. Yo le he puesto el servicio para mi abuela y la chica que la está cuidando. Entonces no puedo estar, digamos, desde lo que me lo han puesto todos los días en algún momento desenchufando, enchufando, moviendo un cable. No debería andar así. No lo estoy pudiendo levantar. Señora, voy a pedir una visita. A ver, aguárdame, voy a ver que lo desenchufen, comunicar con la chica, a ver si lo desenchufa, lo vuelve a enchufar y bueno, pero como te digo, no es la idea tener que estar haciendo esto, o sea, no debería tener que pasar esto. Bien, comprendo. En este caso nosotros seguimos en el niño hasta las 22 horas todavía. Por eso te digo, no sé si me puedes aguardar lo de. Hago que lo desenchufen, lo enchufen. Eso lo he hablado yo hoy con tu compañera. Como te digo, se ve que le han movido el cable, no sé, y ha vuelto a retomar señal y a ella le he dicho, si funciona mal me voy a comunicar nuevamente. Y bueno, ahora quería comunicarme al fijo. A ver, aguanta, desenchufa lo de atrás y enchufarlo enseguida. Y a tu compañera le decía justamente eso de que no, no puedo estar enchufando, desenchufando, no es la idea esa. Bien, si no retoma, haremos que la parte técnica pueda volver. En ese caso. Ya los he enchufado, hija, Ya lo han enchufado. Vamos a ver qué te aparece ahora en el sistema. Bueno, el módem va a tardar 4 o 5 minutos en tomar la señal. Tienes que ir verificando si logra retomar. Otra vez. Voy a generar reclamo para que se lleguen. A ver cómo está mi abuela. Abuela concha. Así que bueno, la doctora si no le llevaba ni a Bruno. Kinesiólogo, Ginecólogo. Por eso aparecen todos. Así que bueno, ahora llega el sulfato y. Haciendo el deber. Y él te quería llamar y ahí no hemos dado que no tenía. Bueno, ¿Me puede confirmar si han tomado las luces, el equipo? A ver, préstame con la Griselda. Un beso, cuídate. A ver, hija, fíjate si están prendidas las luces ahí y tiene tono el teléfono. No, disculpa. Ahí están prendidas las luces en el modem, pero no tienen el teléfono. Bien, pero actualmente tiene Internet, eso sí puedo corroborar. ¿Internet tiene, hija? No, figura que no. No tiene Internet. Sí, figura que no. Retomó el equipo. Al no retomar el equipo, bueno, no va a funcionar la línea telefónica porque la línea telefónica está ligada al módem. Crear una visita para mañana. ¿Más o menos en qué horario están disponibles? Recibir a los técnicos y a la hora que vos me digas qué hora tienes disponible, a la mañana temprano llego yo. Debo dejar sentado un horario. Si están por la mañana, lo colocaré por la mañana para que puedan acercarse bien. Sí, sí. Bueno, en este caso tenemos el número de teléfono que es [TLF]. Sí, así es. Eso te iba a pedir que me llamen cuando estén ahí. Bueno, muy bien. Ahí yo. Así sale el reclamo para que podamos acercarnos mañana. Bien. Bueno, muy amable. Muchas gracias. Hasta luego. Que tengan muy buenas noches. Igualmente.",
+        "utterances": [
+            {
+                "speaker_id": "A",
+                "text": "Buenas noches, mi nombre es Gabriel. ¿En que puedo serlo?"
+            },
+            {
+                "speaker_id": "B",
+                "text": "Hola, buenas noches, Gabriel. Mira, quería hacer un reclamo."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bueno, pídeme el número del documento de titular."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Sí. Treinta y dos seis ocho tres cinco."
+            },
+            {
+                "speaker_id": "A",
+                "text": "¿Adriana Put?"
+            },
+            {
+                "speaker_id": "B",
+                "text": "Sí."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Rocío Grande 98. ¿Su dirección?"
+            },
+            {
+                "speaker_id": "B",
+                "text": "Sí, sí, sí."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bueno, sí. ¿Cuál es su reclamo?"
+            },
+            {
+                "speaker_id": "B",
+                "text": "Está sin funcionar el teléfono y el Internet han andado hoy a la mañana porque había hecho el fin de semana el reclamo de que no tenía y los chicos conectado nuevamente que decían que estaban mal conectados los cables. Y durante el día sí hemos tenido. Se ha cortado una sola vez y ahora de nuevo están sin Internet y sin teléfono directamente no tienen tono el teléfono."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bueno, bueno, si figura que el equipo está fuera de servicio. ¿Usted hizo algún reinicio? Intentó desconectarla bola conectada para ver si."
+            },
+            {
+                "speaker_id": "B",
+                "text": "No, no, no, ahora no. Lo que yo. Sí, hoy al mediodía me he comunicado y me atendió una compañera tuya. He hecho eso y ha vuelto a andar. Como la idea no era esa, supuestamente era que me lo iban a cambiar el módem porque no sabía si estaba funcionando mal. La verdad que es un servicio nuevo y no puedo estar desconectando el cable, yo no estoy viviendo ahí. Yo le he puesto el servicio para mi abuela y la chica que la está cuidando. Entonces no puedo estar, digamos, desde lo que me lo han puesto todos los días en algún momento desenchufando, enchufando, moviendo un cable. No debería andar así."
+            },
+            {
+                "speaker_id": "A",
+                "text": "No lo estoy pudiendo levantar. Señora, voy a pedir una visita."
+            },
+            {
+                "speaker_id": "B",
+                "text": "A ver, aguárdame, voy a ver que lo desenchufen, comunicar con la chica, a ver si lo desenchufa, lo vuelve a enchufar y bueno, pero como te digo, no es la idea tener que estar haciendo esto, o sea, no debería tener que pasar esto."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bien, comprendo. En este caso nosotros seguimos en el niño hasta las 22 horas todavía."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Por eso te digo, no sé si me puedes aguardar lo de. Hago que lo desenchufen, lo enchufen. Eso lo he hablado yo hoy con tu compañera. Como te digo, se ve que le han movido el cable, no sé, y ha vuelto a retomar señal y a ella le he dicho, si funciona mal me voy a comunicar nuevamente. Y bueno, ahora quería comunicarme al fijo. A ver, aguanta, desenchufa lo de atrás y enchufarlo enseguida. Y a tu compañera le decía justamente eso de que no, no puedo estar enchufando, desenchufando, no es la idea esa."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bien, si no retoma, haremos que la parte técnica pueda volver. En ese caso."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Ya los he enchufado, hija, Ya lo han enchufado. Vamos a ver qué te aparece ahora en el sistema."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bueno, el módem va a tardar 4 o 5 minutos en tomar la señal. Tienes que ir verificando si logra retomar."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Otra vez. Voy a generar reclamo para que se lleguen. A ver cómo está mi abuela. Abuela concha. Así que bueno, la doctora si no le llevaba ni a Bruno. Kinesiólogo, Ginecólogo. Por eso aparecen todos. Así que bueno, ahora llega el sulfato y. Haciendo el deber. Y él te quería llamar y ahí no hemos dado que no tenía."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bueno, ¿Me puede confirmar si han tomado las luces, el equipo?"
+            },
+            {
+                "speaker_id": "B",
+                "text": "A ver, préstame con la Griselda. Un beso, cuídate. A ver, hija, fíjate si están prendidas las luces ahí y tiene tono el teléfono. No, disculpa. Ahí están prendidas las luces en el modem, pero no tienen el teléfono."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bien, pero actualmente tiene Internet, eso sí puedo corroborar."
+            },
+            {
+                "speaker_id": "B",
+                "text": "¿Internet tiene, hija? No, figura que no. No tiene Internet."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Sí, figura que no. Retomó el equipo. Al no retomar el equipo, bueno, no va a funcionar la línea telefónica porque la línea telefónica está ligada al módem. Crear una visita para mañana. ¿Más o menos en qué horario están disponibles? Recibir a los técnicos y a la"
+            },
+            {
+                "speaker_id": "B",
+                "text": "hora que vos me digas qué hora tienes disponible, a la mañana temprano llego yo."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Debo dejar sentado un horario. Si están por la mañana, lo colocaré por la mañana para que puedan acercarse bien."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Sí, sí."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bueno, en este caso tenemos el número de teléfono que es [TLF]."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Sí, así es. Eso te iba a pedir que me llamen cuando estén ahí."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bueno, muy bien. Ahí yo. Así sale el reclamo para que podamos acercarnos mañana."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Bien. Bueno, muy amable. Muchas gracias. Hasta luego."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Que tengan muy buenas noches."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Igualmente."
+            }
+        ]
+    },
+    "governance": {
+        "raw_deleted": true,
+        "raw_text_hash": "af7b0f90cb76376774f69cce56b2f8eb9acd882886267db115d76e3fe0a8429b",
+        "pii_anonymized": true,
+        "anonymization_method": "Hybrid (SpaCy NER + RegEx)",
+        "anonymization_timestamp": "2026-03-05T18:16:53.241514+00:00",
+        "retention_policy_days": 30,
+        "model_integrity_hash": "3d9b91fd1d53df9922faa714d7a99aff5a47fc1457a6c4971a04a92a0426fe89",
+        "security_audit": {
+            "prompt_injection_attempt": false,
+            "pattern_detected": null
+        }
+    },
+    "quality_evaluation": {
+        "model_version": "v_20260305_191450",
+        "model_hash": "3d9b91fd1d53df9922faa714d7a99aff5a47fc1457a6c4971a04a92a0426fe89",
+        "call_type": "standard",
+        "final_score": 9.12,
+        "details": {
+            "call_type_detected": "standard",
+            "block_scores": {
+                "Identificación y Apertura": 8.0,
+                "Diagnóstico del Problema": 9.5,
+                "Resolución o Propuesta de Solución": 9.0,
+                "Cierre de la Llamada": 10.0
+            },
+            "eliminatorias_triggered": []
+        },
+        "signals": {
+            "math_sentiment_score": 100,
+            "churn_risk_flag": true,
+            "positive_signals": 2,
+            "negative_signals": 0
+        },
+        "bi_export": {
+            "score": 9.12,
+            "ko": false,
+            "ko_reasons": [],
+            "input_tokens": 2091,
+            "output_tokens": 95
+        }
+    },
+    "finops": {
+        "stt_cost_usd": 0.053652,
+        "llm_cost_usd": 0.000185,
+        "total_transaction_cost_usd": 0.053837
+    }
+}

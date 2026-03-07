@@ -1,0 +1,131 @@
+{
+    "metadata_pack_version": "3.0",
+    "conversation_id": "2d35a62abd5b",
+    "context": {
+        "agent_id": "AG-102",
+        "tenant_id": "tenant_banca"
+    },
+    "source": {
+        "ingestion_timestamp": "2026-03-05T18:16:12.228157+00:00",
+        "technical_metadata": {
+            "duration_sec": 161,
+            "audio_hash_sha256": "2d35a62abd5b791178a69fe67eee635f9951f274d3d40899223477dd1e37176b"
+        }
+    },
+    "transcription": {
+        "full_text": "Sí, buenas noches. Gabriel, escúchame, yo hace ratito he llamado para hacer reclamo porque no me anda bien el Internet. Ahora no me figura la línea. La línea de usuario del wifi. No tengo Internet. Por favor, el número del documento de titular. Si, [TLF]. Bueno, Leandro. Sí, sí, Manzana D, en el barrio Poliar. Sí. Bueno, a ver, aguárdenme un momento. Señora Rojas, ingresaré a la conexión. I'm taking over. Bueno, señora Rojas, ¿Puede chequear ahora por el consibular si le aparece su red? Bueno, ahora me fijo, deme un segundo. Bueno, No figura. Express nomás. Pide la contraseña. Bueno, vuelve a introducir. Sigue siendo la misma de siempre. La misma de siempre. Bueno, ahora me fijo. Listo, ahora sí tengo el Internet. Bueno, muy bien, perfecto. Bueno, muchas gracias. No, quiero una breve encuesta. Que tengan muy buenas noches.",
+        "utterances": [
+            {
+                "speaker_id": "A",
+                "text": "Sí, buenas noches. Gabriel, escúchame, yo hace ratito he llamado para hacer reclamo porque no me anda bien el Internet. Ahora no me figura la línea. La línea de usuario del wifi. No tengo Internet."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Por favor, el número del documento de titular."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Si, [TLF]."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Bueno, Leandro. Sí, sí, Manzana D, en el barrio Poliar."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Sí."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Bueno, a ver, aguárdenme un momento. Señora Rojas, ingresaré a la conexión."
+            },
+            {
+                "speaker_id": "A",
+                "text": "I'm taking over."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Bueno, señora Rojas, ¿Puede chequear ahora por el consibular si le aparece su red?"
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bueno, ahora me fijo, deme un segundo."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Bueno,"
+            },
+            {
+                "speaker_id": "A",
+                "text": "No figura. Express nomás. Pide la contraseña."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Bueno, vuelve a introducir. Sigue siendo la misma de siempre."
+            },
+            {
+                "speaker_id": "A",
+                "text": "La misma de siempre. Bueno, ahora me fijo. Listo, ahora sí tengo el Internet."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Bueno, muy bien, perfecto."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bueno, muchas gracias."
+            },
+            {
+                "speaker_id": "B",
+                "text": "No, quiero una breve encuesta. Que tengan muy buenas noches."
+            }
+        ]
+    },
+    "governance": {
+        "raw_deleted": true,
+        "raw_text_hash": "a720d427a01a454000ee87a32993924edefa94fd79d2b7e62ba3e3ddb3bece3e",
+        "pii_anonymized": true,
+        "anonymization_method": "Hybrid (SpaCy NER + RegEx)",
+        "anonymization_timestamp": "2026-03-05T18:16:12.228772+00:00",
+        "retention_policy_days": 30,
+        "model_integrity_hash": "3d9b91fd1d53df9922faa714d7a99aff5a47fc1457a6c4971a04a92a0426fe89",
+        "security_audit": {
+            "prompt_injection_attempt": false,
+            "pattern_detected": null
+        }
+    },
+    "quality_evaluation": {
+        "model_version": "v_20260305_191450",
+        "model_hash": "3d9b91fd1d53df9922faa714d7a99aff5a47fc1457a6c4971a04a92a0426fe89",
+        "call_type": "standard",
+        "final_score": 7.7,
+        "details": {
+            "call_type_detected": "standard",
+            "block_scores": {
+                "Identificación y Apertura": 3.0,
+                "Diagnóstico del Problema": 8.5,
+                "Resolución o Propuesta de Solución": 9.0,
+                "Cierre de la Llamada": 9.5
+            },
+            "eliminatorias_triggered": []
+        },
+        "signals": {
+            "math_sentiment_score": 100,
+            "churn_risk_flag": false,
+            "positive_signals": 2,
+            "negative_signals": 0
+        },
+        "bi_export": {
+            "score": 7.7,
+            "ko": false,
+            "ko_reasons": [],
+            "input_tokens": 1210,
+            "output_tokens": 94
+        }
+    },
+    "finops": {
+        "stt_cost_usd": 0.016422,
+        "llm_cost_usd": 0.000119,
+        "total_transaction_cost_usd": 0.016541
+    }
+}

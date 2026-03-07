@@ -1,0 +1,304 @@
+{
+    "metadata_pack_version": "3.0",
+    "conversation_id": "60A088E52FB744C2A9EA",
+    "context": {
+        "agent_id": "AG-CAMILA",
+        "tenant_id": "tenant_banca",
+        "extension": "7224",
+        "queue": "Atencion_Cliente",
+        "ani": "+34682515564",
+        "dnis": "900123456"
+    },
+    "source": {
+        "call_timestamp": "2026-03-06T23:28:30.505962+00:00",
+        "ingestion_timestamp": "2026-03-07T11:56:26.863886+00:00",
+        "technical_metadata": {
+            "duration_sec": 233,
+            "audio_hash_sha256": "50e56bf82c379e2f625ffe9e15c7f94c794a7cdeda0d56d2b09e4f2e0a99dc19"
+        }
+    },
+    "transcription": {
+        "full_text": "Express. Buenos días, mi nombre es Camila, ¿Cómo lo puedo ayudar? Hola, buenos días. Ayer he llamado por el cambio de domicilio para conectar Internet en mi nuevo departamento, pero me han dado turno para el 22. Yo quiero saber si no hay posibilidad de adelantar el turno. Bueno, dame ahí un segundo, Ahora lo vemos. Bueno, Decime por favor el DNI del titular. 24 8 2 0 9, Gabriela Edith Cameranesi, Avenida Rocasur 1096. ¿Era la anterior? Sí. Bien, te consulto, tengo un mail que es gabiail. Com y el teléfono tengo [TLF]. Aguame línea un minuto, así consulto y ya te informo, porque si no te ha asignado ese recién es porque no había por antes. Bien, porque por el momento creo que no está habiendo stock de los módem de fibra óptica, por eso es que puede ser que también esté demorado. Sí, porque realmente necesito trabajar con el Internet y bueno, se me está complicando y esperar mucho no me sirve, digamos. Aguárdame por favor y ya te consulto. Consulta y te digo. Valía tres, Gabriela. Sí, gracias. Perdón la demora. Sí, en este caso es porque no estamos teniendo stock de los equipos de fibra óptica. En este caso por el momento yo voy a volver a consultar, pero cualquier cosa te devuelvo la llamada, te informo. Pero sí, esa es la demora que estamos teniendo, pero solo porque no tenemos stock de los equipos. Bien, a mí me han dicho que yo tengo que tener el equipo, o sea traerlo al nuevo departamento, o sea, ¿Se refieren a este equipo o a otro? No, a este, al módem que vos tenías. Bien, traer solo el cablecito que le brinda la corriente que está enchufado a la pared. ¿Bien, pero aún así, teniéndolo hecho ya se puede adelantar el turno? Perdón, yo lo he malinterpretado. Si. Vos lo tienes o el equipo, Vos siempre has tenido fibra óptica, ¿Verdad? Sí, crearía que sí. Nunca he hecho ningún canal cambio del mod ni nada. Nada, digamos, pero bueno. Bien, déjame que los consulte, Gabriela, por favor y te devuelvo la llamada en un ratito, ¿Sí? Bueno, porque aquí hacemos la visita. Vos no tienes ningún problema de horario ni nada, ¿Verdad? No, solamente el jueves se me complica durante todo el día y el viernes en la mañana el festo se libre. Perfecto. Déjame que lo consulte por favor y te devuelvo la llamada un rato, ¿Sí? Perfecto. Que tenga lindo día, te dejo una breve encuesta para que respondas. Hasta luego.",
+        "utterances": [
+            {
+                "speaker_id": "A",
+                "text": "Express."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Buenos días, mi nombre es Camila, ¿Cómo lo puedo ayudar?"
+            },
+            {
+                "speaker_id": "C",
+                "text": "Hola, buenos días."
+            },
+            {
+                "speaker_id": "D",
+                "text": "Ayer he llamado por el cambio de domicilio para conectar Internet en mi nuevo"
+            },
+            {
+                "speaker_id": "B",
+                "text": "departamento, pero me han dado turno para el 22."
+            },
+            {
+                "speaker_id": "E",
+                "text": "Yo quiero saber si no hay posibilidad de adelantar el turno."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bueno, dame ahí un segundo,"
+            },
+            {
+                "speaker_id": "B",
+                "text": "Ahora lo vemos."
+            },
+            {
+                "speaker_id": "D",
+                "text": "Bueno,"
+            },
+            {
+                "speaker_id": "A",
+                "text": "Decime por favor el DNI del titular."
+            },
+            {
+                "speaker_id": "D",
+                "text": "24 8 2 0 9,"
+            },
+            {
+                "speaker_id": "C",
+                "text": "Gabriela Edith Cameranesi, Avenida Rocasur 1096."
+            },
+            {
+                "speaker_id": "B",
+                "text": "¿Era la anterior?"
+            },
+            {
+                "speaker_id": "C",
+                "text": "Sí."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bien, te consulto, tengo un mail que es gabiail."
+            },
+            {
+                "speaker_id": "C",
+                "text": "Com y el teléfono tengo [TLF]. Aguame línea un minuto, así consulto y"
+            },
+            {
+                "speaker_id": "B",
+                "text": "ya te informo, porque si no te"
+            },
+            {
+                "speaker_id": "A",
+                "text": "ha asignado ese recién es porque no había por antes. Bien, porque por el momento creo que no está habiendo stock de los módem"
+            },
+            {
+                "speaker_id": "B",
+                "text": "de fibra óptica, por eso es que puede ser que también esté demorado."
+            },
+            {
+                "speaker_id": "D",
+                "text": "Sí, porque realmente necesito trabajar con el"
+            },
+            {
+                "speaker_id": "B",
+                "text": "Internet y bueno, se me está complicando"
+            },
+            {
+                "speaker_id": "D",
+                "text": "y esperar mucho no me sirve, digamos."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Aguárdame por favor y ya te consulto."
+            },
+            {
+                "speaker_id": "C",
+                "text": "Consulta y te digo."
+            },
+            {
+                "speaker_id": "D",
+                "text": "Valía tres, Gabriela."
+            },
+            {
+                "speaker_id": "C",
+                "text": "Sí, gracias."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Perdón la demora."
+            },
+            {
+                "speaker_id": "C",
+                "text": "Sí, en este caso es porque no estamos teniendo stock de los equipos de fibra óptica."
+            },
+            {
+                "speaker_id": "A",
+                "text": "En este caso por el momento yo voy a volver a consultar, pero cualquier cosa te devuelvo la llamada, te informo."
+            },
+            {
+                "speaker_id": "C",
+                "text": "Pero sí, esa es la demora que"
+            },
+            {
+                "speaker_id": "A",
+                "text": "estamos teniendo, pero solo porque no tenemos stock de los equipos."
+            },
+            {
+                "speaker_id": "D",
+                "text": "Bien, a mí me han dicho que yo tengo que tener el equipo, o"
+            },
+            {
+                "speaker_id": "E",
+                "text": "sea traerlo al nuevo departamento, o sea,"
+            },
+            {
+                "speaker_id": "C",
+                "text": "¿Se refieren a este equipo o a otro? No, a este, al módem que vos tenías."
+            },
+            {
+                "speaker_id": "D",
+                "text": "Bien,"
+            },
+            {
+                "speaker_id": "E",
+                "text": "traer solo el cablecito que le"
+            },
+            {
+                "speaker_id": "B",
+                "text": "brinda la corriente que está enchufado a la pared."
+            },
+            {
+                "speaker_id": "C",
+                "text": "¿Bien, pero"
+            },
+            {
+                "speaker_id": "D",
+                "text": "aún así, teniéndolo hecho ya"
+            },
+            {
+                "speaker_id": "E",
+                "text": "se puede adelantar el turno?"
+            },
+            {
+                "speaker_id": "C",
+                "text": "Perdón, yo lo he malinterpretado. Si. Vos lo tienes o el equipo, Vos"
+            },
+            {
+                "speaker_id": "B",
+                "text": "siempre has tenido fibra óptica, ¿Verdad?"
+            },
+            {
+                "speaker_id": "E",
+                "text": "Sí, crearía que sí."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Nunca he hecho ningún canal cambio del mod ni nada."
+            },
+            {
+                "speaker_id": "C",
+                "text": "Nada, digamos, pero bueno."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bien, déjame que los consulte, Gabriela, por"
+            },
+            {
+                "speaker_id": "C",
+                "text": "favor y te devuelvo la llamada en un ratito, ¿Sí?"
+            },
+            {
+                "speaker_id": "B",
+                "text": "Bueno, porque aquí hacemos la visita. Vos no tienes ningún problema de horario ni nada, ¿Verdad?"
+            },
+            {
+                "speaker_id": "A",
+                "text": "No, solamente el jueves se me complica"
+            },
+            {
+                "speaker_id": "E",
+                "text": "durante todo el día y el viernes"
+            },
+            {
+                "speaker_id": "D",
+                "text": "en la mañana el festo se libre."
+            },
+            {
+                "speaker_id": "E",
+                "text": "Perfecto."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Déjame que lo consulte por favor y"
+            },
+            {
+                "speaker_id": "C",
+                "text": "te devuelvo la llamada un rato, ¿Sí? Perfecto."
+            },
+            {
+                "speaker_id": "E",
+                "text": "Que tenga lindo día, te dejo una"
+            },
+            {
+                "speaker_id": "B",
+                "text": "breve encuesta para que respondas."
+            },
+            {
+                "speaker_id": "C",
+                "text": "Hasta luego."
+            }
+        ]
+    },
+    "governance": {
+        "raw_deleted": true,
+        "raw_text_hash": "4cd4afcc09a0190a7feb299b8f11c8e79b4f0122b623e3d4df168d1b990df32e",
+        "pii_anonymized": true,
+        "anonymization_method": "Hybrid (SpaCy NER + RegEx)",
+        "anonymization_timestamp": "2026-03-07T11:56:26.865058+00:00",
+        "retention_policy_days": 30,
+        "model_integrity_hash": "78b06721365f10ee4b4d7bb1427f0ff26295fbb5e39bc1f69d6231ce43afe476",
+        "security_audit": {
+            "prompt_injection_attempt": false,
+            "pattern_detected": null
+        }
+    },
+    "quality_evaluation": {
+        "model_version": "v_20260307_125502",
+        "model_hash": "78b06721365f10ee4b4d7bb1427f0ff26295fbb5e39bc1f69d6231ce43afe476",
+        "call_type": "standard",
+        "final_score": 0.0,
+        "details": {
+            "call_type_detected": "standard",
+            "block_scores": {
+                "Identificación y Apertura": 7.5,
+                "Diagnóstico del Problema": 8.5,
+                "Resolución o Propuesta de Solución": 5.0,
+                "Cierre de la Llamada": 8.0
+            },
+            "eliminatorias_triggered": [
+                "Proporcionar información incorrecta sobre el servicio."
+            ]
+        },
+        "signals": {
+            "math_sentiment_score": 100,
+            "churn_risk_flag": true,
+            "positive_signals": 2,
+            "negative_signals": 0
+        },
+        "bi_export": {
+            "score": 0.0,
+            "ko": true,
+            "ko_reasons": [
+                "Proporcionar información incorrecta sobre el servicio."
+            ],
+            "input_tokens": 1710,
+            "output_tokens": 110
+        }
+    },
+    "finops": {
+        "stt_cost_usd": 0.023766,
+        "llm_cost_usd": 0.000161,
+        "total_transaction_cost_usd": 0.023927
+    }
+}

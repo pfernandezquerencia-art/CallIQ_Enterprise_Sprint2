@@ -1,0 +1,172 @@
+{
+    "metadata_pack_version": "3.0",
+    "conversation_id": "3B981DAA428F497093F1",
+    "context": {
+        "agent_id": "AG-MARCELO",
+        "tenant_id": "tenant_banca",
+        "extension": "7859",
+        "queue": "Retencion",
+        "ani": "+34683663533",
+        "dnis": "900123456"
+    },
+    "source": {
+        "call_timestamp": "2026-03-02T22:28:30.463751+00:00",
+        "ingestion_timestamp": "2026-03-07T11:54:17.708892+00:00",
+        "technical_metadata": {
+            "duration_sec": 272,
+            "audio_hash_sha256": "b49353f67e2bc846f188b476e1d92abf2469adeb13eea58a52272c6e1fc2db7b"
+        }
+    },
+    "transcription": {
+        "full_text": "Hola. Hola, ¿Qué tal? Buenos días, mi nombre es César. Me estoy comunicando después con la señora Agustina Fernández. ¿Cómo te va, Agustina? Me comunico después por la razón que enviaste una solicitud para contratar el servicio. Llenate un formulario para contratar el servicio de Internet. Queríamos chequear. ¿Agustina, el domicilio es Ardiles 1688, correcto? ¿Queda esquina calle Soldado argentino, zona Sur? Si, es zona Sur. Pasa que está por pasajes, por eso paralela a la Juan domingo Perón, que la más conocida. Perfecto. Dame un minutito que ahora chequeo cobertura y solicitamos el servicio. Bien. Primera vez que tomas el servicio de precio. ¿Ya fuiste cliente? Sí. ¿Que hay en la casa? Ya fueron clientes, pero yo primera vez. ¿Es una casa que tiene varias viviendas en el mismo terreno o es una única propiedad? Si, tiene varias viviendas, jardines no me figura o pasaje 24, cualquiera de las dos. Pasaje 24. No, tampoco. Ahí está ardile, la 16.88. ¿Y qué departamento interno es el tuyo? En realidad es una pieza nomás, pero no tiene número. Uno, dos, tres para dejar. Bien. A ver, aguardame un momentito. Línea, por favor. No me cortes. Gracias por aguardar. Sí, ahí estamos. Es Santana, ¿No? Bar y Santana. Santana 1, Pantana 1 sería pasaje 24688. Tenemos una baja pendiente a nombre de Fanny Graciela Caliva. ¿Ella vive como vos, en el mismo domicilio o es diferente la propiedad? Viene a ser la abuela de mi pareja. ¿Pero no vive en donde vos vas a contratar ahora o ella está en otra habitación? En otra habitación. OK, perfectamente. Perfecto. Bueno, para contratarlo yo te voy a tomar todos los datos. Ahora, cuando ya tenemos los datos ingresados en sistema o la promoción de Internet de 300 mega, de 13.999, lo que necesite. Si te va a adherir con débito automático o tarjeta de crédito. Y yo ahí en los datos he puesto una tarjeta de crédito. Ah, de crédito. Naranja. Naranja, perfecto. Santana 1, pasaje 24. Muy bien. Aguarda mi línea, ya te digo qué día te visitamos. No me cortes. Muchas gracias. Gracias. Gracias por aguardar, Agustina. Bien, podemos visitarte mañana martes 24 por la mañana, de 8 a 12 horas, ¿Te parece bien? Dale, está bien. Por mañana. Igual lo tengo. Te van a llamar ante Agustina y visitarte. Bien, bueno, excelente, muchísimas gracias por atenderme, contratar, que tenga buen día. Gracias, hasta luego, chau.",
+        "utterances": [
+            {
+                "speaker_id": "A",
+                "text": "Hola."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Hola, ¿Qué tal? Buenos días, mi nombre es César. Me estoy comunicando después con la señora Agustina Fernández. ¿Cómo te va, Agustina? Me comunico después por la razón que enviaste una solicitud para contratar el servicio. Llenate un formulario para contratar el servicio de Internet. Queríamos chequear. ¿Agustina, el domicilio es Ardiles 1688, correcto? ¿Queda esquina calle Soldado argentino, zona Sur?"
+            },
+            {
+                "speaker_id": "A",
+                "text": "Si, es zona Sur. Pasa que está por pasajes, por eso"
+            },
+            {
+                "speaker_id": "B",
+                "text": "paralela a la Juan domingo Perón, que la más conocida. Perfecto. Dame un minutito que ahora chequeo cobertura y solicitamos el servicio. Bien. Primera vez que tomas el servicio de precio. ¿Ya fuiste cliente?"
+            },
+            {
+                "speaker_id": "A",
+                "text": "Sí. ¿Que hay en la casa? Ya fueron clientes, pero yo primera vez."
+            },
+            {
+                "speaker_id": "B",
+                "text": "¿Es una casa que tiene varias viviendas en el mismo terreno o es una única propiedad?"
+            },
+            {
+                "speaker_id": "A",
+                "text": "Si, tiene varias viviendas,"
+            },
+            {
+                "speaker_id": "B",
+                "text": "jardines no me"
+            },
+            {
+                "speaker_id": "A",
+                "text": "figura o pasaje 24, cualquiera de las dos."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Pasaje 24. No, tampoco. Ahí está ardile, la 16.88. ¿Y qué departamento interno es el tuyo?"
+            },
+            {
+                "speaker_id": "A",
+                "text": "En realidad es una pieza nomás, pero no tiene número."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Uno, dos, tres para dejar. Bien. A ver, aguardame un momentito. Línea, por favor. No me cortes. Gracias por aguardar. Sí, ahí estamos. Es Santana, ¿No? Bar y Santana."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Santana 1,"
+            },
+            {
+                "speaker_id": "B",
+                "text": "Pantana 1 sería pasaje 24688. Tenemos una baja pendiente a nombre de Fanny Graciela Caliva. ¿Ella vive como vos, en el mismo domicilio o es diferente la propiedad?"
+            },
+            {
+                "speaker_id": "A",
+                "text": "Viene a ser la abuela de mi pareja."
+            },
+            {
+                "speaker_id": "B",
+                "text": "¿Pero no vive en donde vos vas a contratar ahora o ella está en otra habitación?"
+            },
+            {
+                "speaker_id": "A",
+                "text": "En otra habitación."
+            },
+            {
+                "speaker_id": "B",
+                "text": "OK, perfectamente. Perfecto. Bueno, para contratarlo yo te voy a tomar todos los datos. Ahora, cuando ya tenemos los datos ingresados en sistema o la promoción de Internet de 300 mega, de 13.999, lo que necesite. Si te va a adherir con débito automático o tarjeta de crédito."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Y yo ahí en los datos he puesto una tarjeta de crédito."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Ah, de crédito. Naranja. Naranja, perfecto. Santana 1, pasaje 24. Muy bien. Aguarda mi línea, ya te digo qué día te visitamos. No me cortes. Muchas gracias."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Gracias."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Gracias por aguardar, Agustina. Bien, podemos visitarte mañana martes 24 por la mañana, de 8 a 12 horas, ¿Te parece bien?"
+            },
+            {
+                "speaker_id": "A",
+                "text": "Dale, está bien."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Por mañana. Igual lo tengo. Te van a llamar ante Agustina y visitarte. Bien, bueno, excelente, muchísimas gracias por atenderme, contratar, que tenga buen día."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Gracias, hasta luego, chau."
+            }
+        ]
+    },
+    "governance": {
+        "raw_deleted": true,
+        "raw_text_hash": "07e41ac4bd3bc0bc07a06b7044fb53b425d0002f5ebdecee186049ad081b85ed",
+        "pii_anonymized": true,
+        "anonymization_method": "Hybrid (SpaCy NER + RegEx)",
+        "anonymization_timestamp": "2026-03-07T11:54:17.709893+00:00",
+        "retention_policy_days": 30,
+        "model_integrity_hash": "91b7bb87121a350bcd600bdc31009e987302d7d67439723c793c9696c391d8a6",
+        "security_audit": {
+            "prompt_injection_attempt": false,
+            "pattern_detected": null
+        }
+    },
+    "quality_evaluation": {
+        "model_version": "v_20260307_125257",
+        "model_hash": "91b7bb87121a350bcd600bdc31009e987302d7d67439723c793c9696c391d8a6",
+        "call_type": "sales_and_retention",
+        "final_score": 7.03,
+        "details": {
+            "call_type_detected": "sales_and_retention",
+            "block_scores": {
+                "Identificación y Apertura de Llamada": 8.0,
+                "Detección de Necesidades y Escucha Activa": 7.5,
+                "Argumentación y Manejo de Objeciones": 5.0,
+                "Cierre y Despedida": 9.0
+            },
+            "eliminatorias_triggered": []
+        },
+        "signals": {
+            "math_sentiment_score": 100,
+            "churn_risk_flag": false,
+            "positive_signals": 2,
+            "negative_signals": 0
+        },
+        "bi_export": {
+            "score": 7.03,
+            "ko": false,
+            "ko_reasons": [],
+            "input_tokens": 1768,
+            "output_tokens": 109
+        }
+    },
+    "finops": {
+        "stt_cost_usd": 0.027744,
+        "llm_cost_usd": 0.000165,
+        "total_transaction_cost_usd": 0.027909
+    }
+}

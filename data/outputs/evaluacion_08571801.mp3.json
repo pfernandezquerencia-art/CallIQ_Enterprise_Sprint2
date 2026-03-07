@@ -1,0 +1,260 @@
+{
+    "metadata_pack_version": "3.0",
+    "conversation_id": "EB91711C73CC4EF585B1",
+    "context": {
+        "agent_id": "AG-MARCELO",
+        "tenant_id": "tenant_banca",
+        "extension": "7463",
+        "queue": "Soporte_Tecnico",
+        "ani": "+34638573547",
+        "dnis": "900123456"
+    },
+    "source": {
+        "call_timestamp": "2026-03-02T00:28:30.462575+00:00",
+        "ingestion_timestamp": "2026-03-07T11:53:39.233386+00:00",
+        "technical_metadata": {
+            "duration_sec": 362,
+            "audio_hash_sha256": "3e7deb9cc72aded9773d2ccf6544ee0a6aa881bc0fca0f4235859620da7a7f6d"
+        }
+    },
+    "transcription": {
+        "full_text": "Hola. Hola, ¿Qué tal? Con la señora Carolina Cejas, sí, ella. ¿Cómo te va? Mi nombre es César, me comunico de express de servicio de cable por la solicitud que envias a través de nuestra web para contratar el servicio. Carolina Sí, yo quisiera saber si tendrían para ampliación San Calixto, digamos. En realidad Zanca listo actualmente Internet, pero estamos sin conexión para San Calisto. Sí, para ahí sería todas las cajas NAP saturada en San Calisto por momento. Esta dirección que vos me pones que Obispo Romero doce. Ah, no, ese digamos de mi domicilio, pero no digamos lo que quería perder, déjame consultar de todas maneras lo que podemos hacer es generarlo, que vaya el técnico y verifique la nav. Si están llenas no se puede instalar, se anula la venta y si hay alguna disponibilidad para hacer la conexión, se hace la conexión, cargamos nosotros siempre para San Calisto. Pero hasta el momento no se pudo instalar cliente. Algunos sí se instalaron y otros no se instalaron. Yo sabía que ya había preguntado hace unos meses y bueno, estaban ya saturados, me decían. Pero claro, exactamente. Y todavía no hemos recibido ningún tipo de notificación de la parte técnica que se puede instalar libremente ya el servicio. Seguimos y usted entonces me dijo que puede consultar para ver sí. Decime el DNI por favor, a ver. Si, generado 37. 722. 917. ¿Ya lo había contratado? Todavía no, no, nunca. Una vez consulté nada más, pero me dijeron que estaba saturado, digamos que ya no habían boca. Lo que podemos hacer, como te digo, necesitas solamente Internet, Podemos generar el alta y que pasen a verificar. Si se puede, se instala el servicio. Si no se instala porque no hay caja disponible, se anula. Claro. ¿Y cuánto está, digamos, cuál sería el combo así que viene si querés cable más Internet, el combo de 300 megas de fibra óptica te queda en un valor de 29 mil pesos y te adherís a débito automático por alguna tarjeta de débito o crédito? ¿Cuántas megas? 300. 300 megas que es la mayor. Exactamente. Yo lo tengo habitualmente tengo falta cable color digamos. Pero bueno, estaba viendo para cambiar a cable express y ese que por una promo por algunos meses tenés bonificado el servicio marzo abril, te llega la primer factura en caso que se instale después lo que es mayo, junio y julio. Precio congelado. El mismo valor. ¿De cuánto? 29 médico más 29 mil pesos el combo completo. Con débito crédito no te cobramos costo de instalación. Bien. Débito crédito. Bueno, a ver, para ver si vayan a verificar, digamos, Si se puede. ¿Para cuántos televisores? No, para uno por ahora. San Carlito. ¿Qué manzana es? 27, lote 22. ¿Es sobre la avenida, digamos? Sobre la avenida, perfecto. Aguárdame y te digo qué día te visitamos. Bueno, Sí, tengo turno el miércoles 25. ¿Mañana por la tarde de 12 16 o el día jueves por la mañana? De 8 a 12. El jueves está bien. De 8 a 12 me dice. A la tarde no tiene ningún horario disponible. Jueves, ya te digo, jueves sí, por la tarde 12 a 16 también tengo disponible. Bueno, este mejor el jueves de 12 16. Perfecto. Y te hago por último la última consulta, Carolina. La tarjeta que vas a ver ¿Es débito o crédito para la promo? Crédito. El mismo precio, el valor que te acabo de informar. En efectivo. Si lo haces en efectivo te sale 31 mil pesos el cómo. Pero si es con tarjeta, 29. La Visa. Visa. Bien. Te voy a pedir los datos de la tarjeta, número de tarjeta y fecha de vencimiento, nada más. ¿Pero eso no sería después, digamos que para que se carga en sistema? Por una cuestión de promoción. Si se instala recién se va a debitar en abril. Y si no se instala, se anula todo, no se va a facturar absolutamente nada. Porque tampoco cobramos este mes recién la primer factura se hace el débito en abril. Pero me gustaría la verdad, esperar primero que vayan a ver, digamos, porque tampoco quiero brindar. Ya se factura en efectivo. Bien. El valor de 31 mil pesos en efectivo. Bien. Yo lo voy a dejar igual de todas maneras cargado en efectivo. En caso de que usted decida sumar el débito antes de la instalación, lo sumamos, no hay problema. Se comunica el nuestro para pasarnos los datos de la tarjeta. Bien. Al entonces. Exactamente. Bueno, ¿Cuál es su nombre? Médico. Bueno, bueno, bueno, muchas gracias. Me avisan cualquier cosa cuando estén yendo. Buenísimo. Bueno, gracias.",
+        "utterances": [
+            {
+                "speaker_id": "A",
+                "text": "Hola."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Hola, ¿Qué tal? Con la señora Carolina Cejas, sí, ella. ¿Cómo te va? Mi nombre es César, me comunico de express de servicio de cable por la solicitud que envias a través de nuestra web para contratar el servicio."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Carolina Sí, yo quisiera saber si tendrían para ampliación San Calixto, digamos."
+            },
+            {
+                "speaker_id": "B",
+                "text": "En realidad Zanca listo actualmente Internet, pero estamos sin conexión para San Calisto. Sí, para ahí sería todas las cajas NAP saturada en San Calisto por momento. Esta dirección que vos me pones que Obispo Romero doce."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Ah, no, ese digamos de mi domicilio, pero no digamos lo que quería perder,"
+            },
+            {
+                "speaker_id": "B",
+                "text": "déjame consultar de todas maneras lo que podemos hacer es generarlo, que vaya el técnico y verifique la nav. Si están llenas no se puede instalar, se anula la venta y si hay alguna disponibilidad para hacer la conexión, se hace la conexión, cargamos nosotros siempre para San Calisto. Pero hasta el momento no se pudo instalar cliente. Algunos sí se instalaron y otros no se instalaron."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Yo sabía que ya había preguntado hace unos meses y bueno, estaban ya saturados, me decían."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Pero claro, exactamente. Y todavía no hemos recibido ningún tipo de notificación de la parte técnica que se puede instalar libremente ya el servicio. Seguimos"
+            },
+            {
+                "speaker_id": "A",
+                "text": "y usted entonces me dijo que puede consultar para ver sí."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Decime el DNI por favor, a ver."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Si, generado 37. 722. 917."
+            },
+            {
+                "speaker_id": "B",
+                "text": "¿Ya lo había contratado?"
+            },
+            {
+                "speaker_id": "A",
+                "text": "Todavía no, no, nunca. Una vez consulté nada más, pero me dijeron que estaba saturado, digamos que ya no habían boca."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Lo que podemos hacer, como te digo, necesitas solamente Internet, Podemos generar el alta y que pasen a verificar. Si se puede, se instala el servicio. Si no se instala porque no hay caja disponible, se anula."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Claro. ¿Y cuánto está, digamos, cuál sería el combo así que viene si querés cable"
+            },
+            {
+                "speaker_id": "B",
+                "text": "más Internet, el combo de 300 megas de fibra óptica te queda en un valor de 29 mil pesos y te adherís a débito automático por alguna tarjeta de débito o crédito?"
+            },
+            {
+                "speaker_id": "A",
+                "text": "¿Cuántas megas? 300."
+            },
+            {
+                "speaker_id": "B",
+                "text": "300 megas que es la mayor. Exactamente."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Yo lo tengo habitualmente tengo falta cable color digamos. Pero bueno, estaba viendo para cambiar a cable express y ese que por una promo por algunos meses tenés bonificado el"
+            },
+            {
+                "speaker_id": "B",
+                "text": "servicio marzo abril, te llega la primer factura en caso que se instale después lo que es mayo, junio y julio. Precio congelado. El mismo valor."
+            },
+            {
+                "speaker_id": "A",
+                "text": "¿De cuánto?"
+            },
+            {
+                "speaker_id": "B",
+                "text": "29 médico más 29 mil pesos el combo completo. Con débito crédito no te cobramos costo de instalación."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bien. Débito crédito. Bueno, a ver, para ver si vayan a verificar, digamos, Si se puede."
+            },
+            {
+                "speaker_id": "B",
+                "text": "¿Para cuántos televisores?"
+            },
+            {
+                "speaker_id": "A",
+                "text": "No, para uno por ahora."
+            },
+            {
+                "speaker_id": "B",
+                "text": "San Carlito. ¿Qué manzana es?"
+            },
+            {
+                "speaker_id": "A",
+                "text": "27, lote 22. ¿Es sobre la avenida, digamos?"
+            },
+            {
+                "speaker_id": "B",
+                "text": "Sobre la avenida, perfecto. Aguárdame y te digo qué día te visitamos."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bueno,"
+            },
+            {
+                "speaker_id": "B",
+                "text": "Sí, tengo turno el miércoles 25. ¿Mañana por la tarde de 12 16 o el día jueves por la mañana? De 8 a 12."
+            },
+            {
+                "speaker_id": "A",
+                "text": "El jueves está bien. De 8 a 12 me dice. A la tarde no tiene ningún horario disponible."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Jueves, ya te digo, jueves sí, por la tarde 12 a 16 también tengo disponible."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bueno, este mejor el jueves de 12 16."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Perfecto. Y te hago por último la última consulta, Carolina. La tarjeta que vas a ver ¿Es débito o crédito para la promo?"
+            },
+            {
+                "speaker_id": "A",
+                "text": "Crédito."
+            },
+            {
+                "speaker_id": "B",
+                "text": "El mismo precio, el valor que te acabo de informar. En efectivo. Si lo haces en efectivo te sale 31 mil pesos el cómo."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Pero si es con tarjeta, 29. La Visa."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Visa. Bien. Te voy a pedir los datos de la tarjeta, número de tarjeta y fecha de vencimiento, nada más."
+            },
+            {
+                "speaker_id": "A",
+                "text": "¿Pero eso no sería después, digamos que"
+            },
+            {
+                "speaker_id": "B",
+                "text": "para que se carga en sistema? Por una cuestión de promoción. Si se instala recién se va a debitar en abril. Y si no se instala, se anula todo, no se va a facturar absolutamente nada. Porque tampoco cobramos este mes recién la primer factura se hace el débito en abril."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Pero me gustaría la verdad, esperar primero que vayan a ver, digamos, porque tampoco quiero brindar."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Ya se factura en efectivo. Bien. El valor de 31 mil pesos en efectivo. Bien. Yo lo voy a dejar igual de todas maneras cargado en efectivo. En caso de que usted decida sumar el débito antes de la instalación, lo sumamos, no hay problema. Se comunica el nuestro para pasarnos los datos de la tarjeta. Bien."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Al entonces."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Exactamente."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bueno, ¿Cuál es su nombre? Médico. Bueno, bueno, bueno, muchas gracias. Me avisan cualquier cosa cuando estén yendo."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Buenísimo."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bueno, gracias."
+            }
+        ]
+    },
+    "governance": {
+        "raw_deleted": true,
+        "raw_text_hash": "50c4779e4df9a90815e02603e66694179cfcb6400abe1f6833f68e3ca976ea1a",
+        "pii_anonymized": true,
+        "anonymization_method": "Hybrid (SpaCy NER + RegEx)",
+        "anonymization_timestamp": "2026-03-07T11:53:39.235263+00:00",
+        "retention_policy_days": 30,
+        "model_integrity_hash": "91b7bb87121a350bcd600bdc31009e987302d7d67439723c793c9696c391d8a6",
+        "security_audit": {
+            "prompt_injection_attempt": false,
+            "pattern_detected": null
+        }
+    },
+    "quality_evaluation": {
+        "model_version": "v_20260307_125257",
+        "model_hash": "91b7bb87121a350bcd600bdc31009e987302d7d67439723c793c9696c391d8a6",
+        "call_type": "sales_and_retention",
+        "final_score": 8.82,
+        "details": {
+            "call_type_detected": "sales_and_retention",
+            "block_scores": {
+                "Identificación y Apertura de Llamada": 8.5,
+                "Detección de Necesidades y Escucha Activa": 8.0,
+                "Argumentación y Manejo de Objeciones": 9.5,
+                "Cierre y Despedida": 9.0
+            },
+            "eliminatorias_triggered": []
+        },
+        "signals": {
+            "math_sentiment_score": 100,
+            "churn_risk_flag": true,
+            "positive_signals": 2,
+            "negative_signals": 0
+        },
+        "bi_export": {
+            "score": 8.82,
+            "ko": false,
+            "ko_reasons": [],
+            "input_tokens": 2294,
+            "output_tokens": 109
+        }
+    },
+    "finops": {
+        "stt_cost_usd": 0.036924,
+        "llm_cost_usd": 0.000205,
+        "total_transaction_cost_usd": 0.037129
+    }
+}

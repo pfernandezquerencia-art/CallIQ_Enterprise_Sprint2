@@ -1,0 +1,160 @@
+{
+    "metadata_pack_version": "3.0",
+    "conversation_id": "E257B01234394251AC01",
+    "context": {
+        "agent_id": "AG-BELEN",
+        "tenant_id": "tenant_banca",
+        "extension": "7302",
+        "queue": "Soporte_Tecnico",
+        "ani": "+34630375835",
+        "dnis": "900123456"
+    },
+    "source": {
+        "call_timestamp": "2026-03-06T09:28:30.482041+00:00",
+        "ingestion_timestamp": "2026-03-07T11:54:55.210006+00:00",
+        "technical_metadata": {
+            "duration_sec": 189,
+            "audio_hash_sha256": "92d126b958ee198113457eed309c8eb773e3d589573b147ab0118465692f3548"
+        }
+    },
+    "transcription": {
+        "full_text": "Express Telecomunicaciones. Buenos días, mi nombre es Belén. ¿Cómo le puedo ayudar? Hola. Hola, buenos días. ¿Me escucha señora? Sí, ¿Qué tal? Buenos días. Mira, te llamo porque no tengo servicio de wifi y escuché el mensaje, no estoy en las zonas en teoría que están preparando. Bien, dígame. ¿Tenés el titular, por favor? [TLF]. Bien. ¿Cuál es la dirección donde tiene contratado el servicio? Santa Fe 4771. ¿Capaz que está nombre de entrelazo? No, está a nombre de Luciana, pero en fallo ya lo pasaban a nombre de la Luciana Natal. Pensé que los iban a pasar o lo iban a pasar Bien. Tenemos en el sistema un celular que es 152.417. ¿Es correcto esto? Y ese del personal de Luciano, no sé si lo podés cambiar, si no, dejalo. Me pasa que sí lo podemos cambiar. Si usted me quiere dejar otro número ¿Para que lo busco en mi teléfono? 3 4 1 3. 343. 032990. Bien, gracias. Bien, Le comento que hay un corte general del servicio en la zona, por eso no está funcionando en este momento. Ya se ha informado el área técnica, así que lo van a estar solucionando en breves. ¿Tenés ideas? ¿Te figura cuánto puede llegar a tardar? Todavía no, fue hace unos 25 minutos más o menos. Así que todavía no nos pasaron qué fue exactamente lo que pasó. Así que ya están trabajando eso. ¿Sí, pero qué es lo que pasó? No le puedo asegurar en este momento, fue muy reciente. Bueno, bueno, listo, entonces llamo más tarde como para verlo. Espero que vuelva. Bueno, bueno. Perfecto. Igual dejaste asentado el reclamo. Así es, exactamente. Bueno, dale. Listo, gracias. Muy bien. Gracias por contactarse con nosotros. Va a quedar ahora con una pequeña encuesta. Buenos días. Bueno,",
+        "utterances": [
+            {
+                "speaker_id": "A",
+                "text": "Express Telecomunicaciones. Buenos días, mi nombre es Belén. ¿Cómo le puedo ayudar?"
+            },
+            {
+                "speaker_id": "B",
+                "text": "Hola."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Hola, buenos días. ¿Me escucha señora? Sí, ¿Qué tal? Buenos días."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Mira, te llamo porque no tengo servicio de wifi y escuché el mensaje, no estoy en las zonas en teoría que están preparando."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bien, dígame. ¿Tenés el titular, por favor?"
+            },
+            {
+                "speaker_id": "B",
+                "text": "[TLF]."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bien. ¿Cuál es la dirección donde tiene contratado el servicio?"
+            },
+            {
+                "speaker_id": "B",
+                "text": "Santa Fe 4771. ¿Capaz que está nombre de entrelazo? No, está a nombre de Luciana, pero en fallo ya lo pasaban a nombre"
+            },
+            {
+                "speaker_id": "A",
+                "text": "de la Luciana Natal."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Pensé que los iban a pasar o lo iban a pasar Bien."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Tenemos en el sistema un celular que es 152.417. ¿Es correcto esto?"
+            },
+            {
+                "speaker_id": "B",
+                "text": "Y ese del personal de Luciano, no sé si lo podés cambiar, si no, dejalo. Me pasa que sí lo podemos cambiar."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Si usted me quiere dejar otro número"
+            },
+            {
+                "speaker_id": "B",
+                "text": "¿Para que lo busco en mi teléfono? 3 4 1 3. 343. 032990."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bien, gracias. Bien, Le comento que hay un corte general del servicio en la zona, por eso no está funcionando en este momento. Ya se ha informado el área técnica, así que lo van a estar solucionando en breves."
+            },
+            {
+                "speaker_id": "B",
+                "text": "¿Tenés ideas? ¿Te figura cuánto puede llegar a tardar?"
+            },
+            {
+                "speaker_id": "A",
+                "text": "Todavía no, fue hace unos 25 minutos más o menos. Así que todavía no nos pasaron qué fue exactamente lo que pasó. Así que ya están trabajando eso. ¿Sí, pero qué es lo que pasó? No le puedo asegurar en este momento, fue muy reciente."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Bueno, bueno, listo, entonces llamo más tarde como para verlo. Espero que vuelva. Bueno, bueno. Perfecto. Igual dejaste asentado el reclamo."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Así es, exactamente."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Bueno, dale. Listo, gracias."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Muy bien. Gracias por contactarse con nosotros. Va a quedar ahora con una pequeña encuesta. Buenos días."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Bueno,"
+            }
+        ]
+    },
+    "governance": {
+        "raw_deleted": true,
+        "raw_text_hash": "b3203806a11c154292fcdafdc31e514adef5a6fbe9d140eee73bee38a4549b77",
+        "pii_anonymized": true,
+        "anonymization_method": "Hybrid (SpaCy NER + RegEx)",
+        "anonymization_timestamp": "2026-03-07T11:54:55.210861+00:00",
+        "retention_policy_days": 30,
+        "model_integrity_hash": "78b06721365f10ee4b4d7bb1427f0ff26295fbb5e39bc1f69d6231ce43afe476",
+        "security_audit": {
+            "prompt_injection_attempt": false,
+            "pattern_detected": null
+        }
+    },
+    "quality_evaluation": {
+        "model_version": "v_20260307_125502",
+        "model_hash": "78b06721365f10ee4b4d7bb1427f0ff26295fbb5e39bc1f69d6231ce43afe476",
+        "call_type": "standard",
+        "final_score": 8.75,
+        "details": {
+            "call_type_detected": "standard",
+            "block_scores": {
+                "Identificación y Apertura": 8.0,
+                "Diagnóstico del Problema": 9.5,
+                "Resolución o Propuesta de Solución": 9.0,
+                "Cierre de la Llamada": 7.5
+            },
+            "eliminatorias_triggered": []
+        },
+        "signals": {
+            "math_sentiment_score": 100,
+            "churn_risk_flag": false,
+            "positive_signals": 1,
+            "negative_signals": 0
+        },
+        "bi_export": {
+            "score": 8.75,
+            "ko": false,
+            "ko_reasons": [],
+            "input_tokens": 1458,
+            "output_tokens": 94
+        }
+    },
+    "finops": {
+        "stt_cost_usd": 0.019278,
+        "llm_cost_usd": 0.000138,
+        "total_transaction_cost_usd": 0.024416
+    }
+}

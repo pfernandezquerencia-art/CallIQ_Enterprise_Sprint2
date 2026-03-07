@@ -1,0 +1,148 @@
+{
+    "metadata_pack_version": "3.0",
+    "conversation_id": "1CA510EF1931453A91AC",
+    "context": {
+        "agent_id": "AG-MARCELO",
+        "tenant_id": "tenant_banca",
+        "extension": "7257",
+        "queue": "Ventas",
+        "ani": "+34612514832",
+        "dnis": "900123456"
+    },
+    "source": {
+        "call_timestamp": "2026-03-06T17:28:30.522917+00:00",
+        "ingestion_timestamp": "2026-03-07T12:00:59.621533+00:00",
+        "technical_metadata": {
+            "duration_sec": 108,
+            "audio_hash_sha256": "1e112ee67e882dae9c37f954b65f31286c03a538a28f55d773e067603ed38526"
+        }
+    },
+    "transcription": {
+        "full_text": "Hola, sí, buenos días, hablo con Daniela. Daniela te llamamos de la empresa Express Telecomunicaciones. Estamos respondiendo una consulta que habías ingresado a nuestras redes sociales. ¿De dónde perdón? Servicio de cable de Internet Express. No, yo no tengo cable express. Nosotros llamamos respondiendo una consulta que han ingresado a tu nombre, Daniela. Por lo menos dejaron todos tus datos. Daniela López Cross. Con mi nombre nadie consulto nada. Mi marido consultó pero no con mi nombre. Habrá sido él quizás. No, no puso mi nombre. Te estoy diciendo, viste que yo te nombré yo a vos. ¿Tu nombre, tu apellido? Tengo tu correo. Dejó DanielaJavier 2001. Pero vos ¿Cuál es la consulta? ¿Daniel? Ese no es el. Hola, Sí, qué tal, buenos días. Le comentaba a la señora recién de que llamamos en base a una consulta que realizaron en nuestra página web, cliente nuestro. ¿Querías consultar por el servicio? Si, mandé hace un tiempo ya, digamos el tema para consultar por servicio, pero bueno, ya tenemos otro servicio. ¿Instalas otra empresa? Sí. OK, OK, bien, bien. Pero claro, yo cuando pregunté por ella era porque completaron los datos de ella. Pero bueno, no importa, no te molesto más. Gracias igual, que tengas buen día. Hasta luego.",
+        "utterances": [
+            {
+                "speaker_id": "A",
+                "text": "Hola,"
+            },
+            {
+                "speaker_id": "C",
+                "text": "sí, buenos días, hablo con Daniela. Daniela te llamamos de la empresa Express Telecomunicaciones. Estamos respondiendo una consulta que habías ingresado a nuestras redes sociales. ¿De dónde"
+            },
+            {
+                "speaker_id": "A",
+                "text": "perdón?"
+            },
+            {
+                "speaker_id": "C",
+                "text": "Servicio de cable de Internet Express."
+            },
+            {
+                "speaker_id": "A",
+                "text": "No, yo no tengo cable express."
+            },
+            {
+                "speaker_id": "C",
+                "text": "Nosotros llamamos respondiendo una consulta que han ingresado a tu nombre, Daniela. Por lo menos dejaron todos tus datos. Daniela López Cross. Con mi nombre nadie"
+            },
+            {
+                "speaker_id": "A",
+                "text": "consulto nada. Mi marido consultó pero no con mi nombre."
+            },
+            {
+                "speaker_id": "C",
+                "text": "Habrá sido él quizás."
+            },
+            {
+                "speaker_id": "A",
+                "text": "No, no puso mi nombre. Te estoy diciendo,"
+            },
+            {
+                "speaker_id": "C",
+                "text": "viste que yo te nombré yo a vos. ¿Tu nombre, tu apellido? Tengo tu correo. Dejó DanielaJavier 2001. Pero vos ¿Cuál es la consulta? ¿Daniel? Ese no es el."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Hola, Sí, qué tal, buenos días."
+            },
+            {
+                "speaker_id": "C",
+                "text": "Le comentaba a la señora recién de que llamamos en base a una consulta que realizaron en nuestra página web, cliente nuestro. ¿Querías consultar por el servicio?"
+            },
+            {
+                "speaker_id": "B",
+                "text": "Si, mandé hace un tiempo ya, digamos el tema para consultar por servicio, pero bueno, ya tenemos otro servicio."
+            },
+            {
+                "speaker_id": "C",
+                "text": "¿Instalas otra empresa?"
+            },
+            {
+                "speaker_id": "B",
+                "text": "Sí."
+            },
+            {
+                "speaker_id": "C",
+                "text": "OK, OK, bien, bien. Pero claro, yo cuando pregunté por ella era porque completaron los datos de ella. Pero bueno, no importa, no te molesto más. Gracias"
+            },
+            {
+                "speaker_id": "B",
+                "text": "igual, que tengas"
+            },
+            {
+                "speaker_id": "C",
+                "text": "buen día. Hasta luego."
+            }
+        ]
+    },
+    "governance": {
+        "raw_deleted": true,
+        "raw_text_hash": "00822c08160943bfeda8fa6a42e92f6723d28187398714caf6d6c257ede2d228",
+        "pii_anonymized": true,
+        "anonymization_method": "Hybrid (SpaCy NER + RegEx)",
+        "anonymization_timestamp": "2026-03-07T12:00:59.622151+00:00",
+        "retention_policy_days": 30,
+        "model_integrity_hash": "46389bed15c1a37c57d0f02f347ea8cf0e08514be8d839a6bb114e7e07d48dd4",
+        "security_audit": {
+            "prompt_injection_attempt": false,
+            "pattern_detected": null
+        }
+    },
+    "quality_evaluation": {
+        "model_version": "v_20260307_130013",
+        "model_hash": "46389bed15c1a37c57d0f02f347ea8cf0e08514be8d839a6bb114e7e07d48dd4",
+        "call_type": "Soporte Técnico (Resolución)",
+        "final_score": 0.0,
+        "details": {
+            "call_type_detected": "Soporte Técnico (Resolución)",
+            "block_scores": {
+                "Identificación y Cumplimiento": 3.5,
+                "Diagnóstico y Eficacia Técnica": 0.0,
+                "Empatía y Gestión Emocional": 6.5,
+                "Cierre y Seguimiento": 3.0
+            },
+            "eliminatorias_triggered": [
+                "No solicitar el DNI para verificar al titular."
+            ]
+        },
+        "signals": {
+            "math_sentiment_score": 50,
+            "churn_risk_flag": true,
+            "positive_signals": 1,
+            "negative_signals": 0
+        },
+        "bi_export": {
+            "score": 0.0,
+            "ko": true,
+            "ko_reasons": [
+                "No solicitar el DNI para verificar al titular."
+            ],
+            "input_tokens": 1487,
+            "output_tokens": 118
+        }
+    },
+    "finops": {
+        "stt_cost_usd": 0.011016,
+        "llm_cost_usd": 0.000147,
+        "total_transaction_cost_usd": 0.011163
+    }
+}

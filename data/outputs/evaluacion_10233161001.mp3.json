@@ -1,0 +1,132 @@
+{
+    "metadata_pack_version": "3.0",
+    "conversation_id": "0887A68605124A218E77",
+    "context": {
+        "agent_id": "AG-CARLA",
+        "tenant_id": "tenant_banca",
+        "extension": "7693",
+        "queue": "Atencion_Cliente",
+        "ani": "+34657623765",
+        "dnis": "900123456"
+    },
+    "source": {
+        "call_timestamp": "2026-03-04T19:28:30.493980+00:00",
+        "ingestion_timestamp": "2026-03-07T11:55:40.298960+00:00",
+        "technical_metadata": {
+            "duration_sec": 560,
+            "audio_hash_sha256": "de3fe6cfd8489f5fc58448aa4b212d30f7ed119ef1935adb8ab57317ea096f26"
+        }
+    },
+    "transcription": {
+        "full_text": "Buenas tardes, mi nombre es Cintia. ¿Que le puedo ayudar? Hola, sí, quería consultar porque tenía agendado una visita técnica hoy. Quería saber si iban a ir [TLF]. No quiero que se olviden de ir por eso, porque ya habíamos agendado. Es la segunda visita técnica porque no anda Internet. A ver, vamos a dar. Señora, ¿Y la orden está en curso, Señor, o sea, van a ir? Sí, sí, está en curso. No le quiero decir ahora si van veinte, treinta, cuarenta minutos, pero sí están, ¿Para que se ha asistido? Bueno, el domicilio. Cochabamba 1969. Es el edificio. Sí, dígame. Me gestionaron ya la nota de crédito porque todo agosto no tuve servicio. Yo ya lo pedí, no es la primera vez que lo digo, pero no me dieron ningún número de registro ni nada. Todo agosto no sé cómo lo van a ir. Sí están los registros igual que yo llame todo el mes. Todo el mes me comunique con el chat virtual SMA. Bueno, ya hicieron dos visitas técnicas. Vamos a verificar. Sí, con el sector. Permítame, aguárdeme por favor. Hacia los consultados. Bueno, Mejor. Atención, por favor. Ingrese su número de documento y será atendido a la brevedad. Hola. Sí, ¿Qué tal? Estaba hablando recién con una representante y no sé qué pasó. Se cortó. Sí, ¿Qué tal? Buenos días, mi nombre es Carla Fabricio. ¿De qué localidad habla, señora? De Rosario. Bien, denme un segundo, pero recién estaba en llamada y me redirigió otra vez. Está bien, Porque quizás no podían resolver su inquietud. Dígame su DNI, por favor. 39.25. 57.31. Ana Laura Sánchez, dígame. ¿En qué la puedo ayudar? Estaba justamente consultando por si me iban a hacer la nota de crédito. Hoy tengo una visita técnica. Todo agosto no tuve Internet. No es la primera vez que lo consulto y quería saber cómo se llevaba adelante esa nota de crédito. Si no me va a cobrar en el mes de septiembre, ¿Cómo van a efectivizarlo? En realidad los reclamos que hay es que tuvo Internet, pero le funcionaba lento, ¿No? Pero durante todo el mes habré tenido cinco días y esos cinco días funcionó mal. Los otros días no tuve servicio. Y es lo que vengo diciendo en cada llamado y en cada chat con la oficina virtual. Y siempre me dicen que espere a que vaya el técnico. El técnico ya fue una vez, funcionó un día, medio día. Ahora hoy va a ir el técnico otra vez. Yo lo vengo esperando porque me dijeron que luego que vaya el técnico podía pedirle nota de crédito. El servicio no anduvo. Bueno, le voy a corroborar unos datos. El correo electrónico es anitasangesgomezmail. Com. Número de teléfono [TLF]. Guárdeme, no me corte, No me corte. Bueno, Bueno, te voy a hacer una nota de crédito sí te va a impactar para el mes de octubre porque septiembre obviamente ya está facturado. Bueno, ¿Me das algún número de registro o algo? Sí, el número es 85554. Bueno, vamos a ver entonces si se soluciona, porque si no voy a tener que pedir por este medio. Lo daré de baja. Supongo que hoy el técnico lo debería solucionar. Bueno. Así que bueno, quédate tranquila. Que tengas buen día entonces. Gracias, igualmente. Adiós.",
+        "utterances": [
+            {
+                "speaker_id": "A",
+                "text": "Buenas tardes, mi nombre es Cintia. ¿Que le puedo ayudar?"
+            },
+            {
+                "speaker_id": "B",
+                "text": "Hola, sí, quería consultar porque tenía agendado una visita técnica hoy. Quería saber si iban a ir [TLF]. No quiero que se olviden de ir por eso, porque ya habíamos agendado. Es la segunda visita técnica porque no anda Internet."
+            },
+            {
+                "speaker_id": "A",
+                "text": "A ver, vamos a dar. Señora, ¿Y la orden está en curso,"
+            },
+            {
+                "speaker_id": "B",
+                "text": "Señor, o sea, van a ir?"
+            },
+            {
+                "speaker_id": "A",
+                "text": "Sí, sí, está en curso. No le quiero decir ahora si van veinte, treinta, cuarenta minutos, pero sí están, ¿Para que se ha asistido?"
+            },
+            {
+                "speaker_id": "B",
+                "text": "Bueno, el domicilio."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Cochabamba 1969. Es el edificio. Sí, dígame."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Me gestionaron ya la nota de crédito porque todo agosto no tuve servicio. Yo ya lo pedí, no es la primera vez que lo digo, pero no me dieron ningún número de registro ni nada. Todo agosto no sé cómo lo van a ir. Sí están los registros igual que yo llame todo el mes. Todo el mes me comunique con el chat virtual SMA. Bueno, ya hicieron dos visitas técnicas."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Vamos a verificar. Sí, con el sector. Permítame, aguárdeme por favor. Hacia los consultados. Bueno,"
+            },
+            {
+                "speaker_id": "B",
+                "text": "Mejor. Atención, por favor."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Ingrese su número de documento y será"
+            },
+            {
+                "speaker_id": "B",
+                "text": "atendido a la brevedad. Hola. Sí, ¿Qué tal? Estaba hablando recién con una representante y no sé qué pasó. Se cortó. Sí, ¿Qué tal? Buenos días, mi nombre es Carla Fabricio. ¿De qué localidad habla, señora? De Rosario. Bien, denme un segundo, pero recién estaba en llamada y me redirigió otra vez. Está bien, Porque quizás no podían resolver su inquietud. Dígame su DNI, por favor. 39.25. 57.31. Ana Laura Sánchez, dígame. ¿En qué la puedo ayudar? Estaba justamente consultando por si me iban a hacer la nota de crédito. Hoy tengo una visita técnica. Todo agosto no tuve Internet. No es la primera vez que lo consulto y quería saber cómo se llevaba adelante esa nota de crédito. Si no me va a cobrar en el mes de septiembre, ¿Cómo van a efectivizarlo? En realidad los reclamos que hay es que tuvo Internet, pero le funcionaba lento, ¿No? Pero durante todo el mes habré tenido cinco días y esos cinco días funcionó mal. Los otros días no tuve servicio. Y es lo que vengo diciendo en cada llamado y en cada chat con la oficina virtual. Y siempre me dicen que espere a que vaya el técnico. El técnico ya fue una vez, funcionó un día, medio día. Ahora hoy va a ir el técnico otra vez. Yo lo vengo esperando porque me dijeron que luego que vaya el técnico podía pedirle nota de crédito. El servicio no anduvo. Bueno, le voy a corroborar unos datos. El correo electrónico es anitasangesgomezmail. Com. Número de teléfono [TLF]. Guárdeme, no me corte, No me corte. Bueno, Bueno, te voy a hacer una nota de crédito sí te va a impactar para el mes de octubre porque septiembre obviamente ya está facturado. Bueno, ¿Me das algún número de registro o algo? Sí, el número es 85554. Bueno, vamos a ver entonces si se soluciona, porque si no voy a tener que pedir por este medio. Lo daré de baja. Supongo que hoy el técnico lo debería solucionar."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bueno."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Así que bueno, quédate tranquila. Que tengas buen día entonces. Gracias, igualmente. Adiós."
+            }
+        ]
+    },
+    "governance": {
+        "raw_deleted": true,
+        "raw_text_hash": "6f42ec8dcb2e985b0607102a6984d6cf9c5cf72e590645ff5111eb94c2504e08",
+        "pii_anonymized": true,
+        "anonymization_method": "Hybrid (SpaCy NER + RegEx)",
+        "anonymization_timestamp": "2026-03-07T11:55:40.300550+00:00",
+        "retention_policy_days": 30,
+        "model_integrity_hash": "78b06721365f10ee4b4d7bb1427f0ff26295fbb5e39bc1f69d6231ce43afe476",
+        "security_audit": {
+            "prompt_injection_attempt": false,
+            "pattern_detected": null
+        }
+    },
+    "quality_evaluation": {
+        "model_version": "v_20260307_125502",
+        "model_hash": "78b06721365f10ee4b4d7bb1427f0ff26295fbb5e39bc1f69d6231ce43afe476",
+        "call_type": "standard",
+        "final_score": 0.0,
+        "details": {
+            "call_type_detected": "standard",
+            "block_scores": {
+                "Identificación y Apertura": 4.0,
+                "Diagnóstico del Problema": 5.0,
+                "Resolución o Propuesta de Solución": 8.5,
+                "Cierre de la Llamada": 5.0
+            },
+            "eliminatorias_triggered": [
+                "Proporcionar información incorrecta sobre el servicio."
+            ]
+        },
+        "signals": {
+            "math_sentiment_score": 50,
+            "churn_risk_flag": true,
+            "positive_signals": 2,
+            "negative_signals": 0
+        },
+        "bi_export": {
+            "score": 0.0,
+            "ko": true,
+            "ko_reasons": [
+                "Proporcionar información incorrecta sobre el servicio."
+            ],
+            "input_tokens": 1758,
+            "output_tokens": 110
+        }
+    },
+    "finops": {
+        "stt_cost_usd": 0.05712,
+        "llm_cost_usd": 0.000165,
+        "total_transaction_cost_usd": 0.057285
+    }
+}

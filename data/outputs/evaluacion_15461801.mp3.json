@@ -1,0 +1,164 @@
+{
+    "metadata_pack_version": "3.0",
+    "conversation_id": "1727FA114FA04E2FBCAF",
+    "context": {
+        "agent_id": "AG-CAMILA",
+        "tenant_id": "tenant_banca",
+        "extension": "7272",
+        "queue": "Ventas",
+        "ani": "+34678929947",
+        "dnis": "900123456"
+    },
+    "source": {
+        "call_timestamp": "2026-03-04T03:28:30.525927+00:00",
+        "ingestion_timestamp": "2026-03-07T12:01:51.469542+00:00",
+        "technical_metadata": {
+            "duration_sec": 261,
+            "audio_hash_sha256": "0d6f3e2cead774a9c4f2d61ee57fe6db90bf1cb56f82ccf6db5314c622fadb22"
+        }
+    },
+    "transcription": {
+        "full_text": "Hola. Hola, ¿Qué tal? Buenas tardes. ¿Con la Sra? ¿Andrea? Sí. Mi nombre es César, me estoy comunicando de pre. De servicio de cable por una consulta que hiciste a través de nuestra página web. Queríamos chequear, Andrea, si ya sos cliente de pre o necesitas contratar el servicio antes de. Ahora no soy antera. Antes eras cliente y ahora necesitas contratarlo. Sí, quería. Yo tengo. Claro, quería cambiar. Perfecto. Dame un segundito. Ahora te corroboramos disponibilidad. Contame. ¿Tenés el DNI de titular? ¿Así van corroborando el domicilio? Sí, yo la titular. Bueno, decime el DNI, por favor. 27.500. 277. 377. Bien. Estaba el servicio a nombre de Andrea Toledo de radio del Plata 2489. Así es. Perfecto. ¿Tuviste el servicio de Internet también? Nuestro, sí. Excelente. ¿Es para el mismo domicilio entonces? Radio del Plata 2489, Barrio Miguel Alau. Muy bien. Lo que es servicio de Internet se está buscando contratar. Tenemos dos promociones. La primera promoción que tenemos es con un servicio de Internet de 100 megas. Y el de 300 megas de Internet 100 mega. Actualmente, si te adherís a débito automático con alguna tarjeta de débito crédito, te queda en un valor de 11.999. Eso ya es precio final, 12.000 pesos precio final. Y la de 300 megas te queda en un valor De 14.000 pesos precio final 000. Esto ya contiene IVA. Además te bonificamos el servicio febrero, marzo. En abril pagaría tu primer factura. Y a partir de mayo, abril, perdón, a partir de abril, que sería mayo, junio y julio. Vas a tener precio congelado, el mismo valor. Y no te cobramos costo de instalación. Te bonificamos el costo de instalación. Internet y telefonía fija es la promoción solamente de Internet y teléfono fijo. Con cable te queda con 100 megas, 27 mil pesos. Con débito crédito y 300 megas te queda en un valor de 29 mil pesos. Y con eso de los fútbol packfootball te sale 21 mil pesos. Aparte va a sumar al servicio de. Del plan que elija, ya sea de 100 megas o 300 megas con el cable y la TV HD. No sé qué te pareció el plan, si te interesa podemos contratarlo y coordinar día y horario de visita. Pero yo vamos a emplear para digamos, dar de baja al otro para los cables tenés que llamar a tu empresa actual y ellos verificar qué día te pueden tomar la baja. Nosotros te podemos instalar de todas maneras el servicio. Una vez instalado, da de baja el servicio actual. La primera factura recién pagas en abril, entonces por eso no hay problema que solicite la baja una vez instalado el servicio nuestro. Déjame lo consult Bien, ¿Querés que te vuelva a llamar mañana? Perfecto, muy bien. Bueno, muy bien, excelente. Muchísimas gracias por atenderme. Que tenga buenas tardes. Gracias, igualmente.",
+        "utterances": [
+            {
+                "speaker_id": "A",
+                "text": "Hola."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Hola, ¿Qué tal? Buenas tardes. ¿Con la Sra? ¿Andrea?"
+            },
+            {
+                "speaker_id": "A",
+                "text": "Sí."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Mi nombre es César, me estoy comunicando de pre. De servicio de cable por una consulta que hiciste a través de nuestra página web. Queríamos chequear, Andrea, si ya sos cliente de pre o necesitas contratar el servicio antes de."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Ahora no soy antera."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Antes eras cliente y ahora necesitas contratarlo."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Sí, quería. Yo tengo. Claro, quería cambiar. Perfecto."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Dame un segundito. Ahora te corroboramos disponibilidad. Contame. ¿Tenés el DNI de titular? ¿Así van corroborando el domicilio?"
+            },
+            {
+                "speaker_id": "A",
+                "text": "Sí, yo la titular."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Bueno, decime el DNI, por favor."
+            },
+            {
+                "speaker_id": "A",
+                "text": "27.500. 277. 377."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Bien. Estaba el servicio a nombre de Andrea Toledo de radio del Plata 2489."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Así es."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Perfecto. ¿Tuviste el servicio de Internet también? Nuestro,"
+            },
+            {
+                "speaker_id": "A",
+                "text": "sí."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Excelente. ¿Es para el mismo domicilio entonces? Radio del Plata 2489, Barrio Miguel Alau. Muy bien. Lo que es servicio de Internet se está buscando contratar. Tenemos dos promociones. La primera promoción que tenemos es con un servicio de Internet de 100 megas. Y el de 300 megas de Internet 100 mega. Actualmente, si te adherís a débito automático con alguna tarjeta de débito crédito, te queda en un valor de 11.999. Eso ya es precio final, 12.000 pesos precio final. Y la de 300 megas te queda en un valor De 14.000 pesos precio final 000. Esto ya contiene IVA. Además te bonificamos el servicio febrero, marzo. En abril pagaría tu primer factura. Y a partir de mayo, abril, perdón, a partir de abril, que sería mayo, junio y julio. Vas a tener precio congelado, el mismo valor. Y no te cobramos costo de instalación. Te bonificamos el costo de instalación. Internet y telefonía fija es la promoción solamente de Internet y teléfono fijo. Con cable te queda con 100 megas, 27 mil pesos. Con débito crédito y 300 megas te queda en un valor de 29 mil pesos."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Y con eso de los fútbol packfootball"
+            },
+            {
+                "speaker_id": "B",
+                "text": "te sale 21 mil pesos. Aparte va a sumar al servicio de. Del plan que elija, ya sea de 100 megas o 300 megas con el cable y la TV HD. No sé qué te pareció el plan, si te interesa podemos contratarlo y coordinar día y horario de visita."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Pero yo vamos a emplear para digamos,"
+            },
+            {
+                "speaker_id": "B",
+                "text": "dar de baja al otro para los cables tenés que llamar a tu empresa actual y ellos verificar qué día te pueden tomar la baja. Nosotros te podemos instalar de todas maneras el servicio. Una vez instalado, da de baja el servicio actual. La primera factura recién pagas en abril, entonces por eso no hay problema que solicite la baja una vez instalado el servicio nuestro."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Déjame lo consult Bien, ¿Querés que te"
+            },
+            {
+                "speaker_id": "B",
+                "text": "vuelva a llamar mañana? Perfecto, muy bien. Bueno, muy bien, excelente. Muchísimas gracias por atenderme. Que tenga buenas tardes."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Gracias, igualmente."
+            }
+        ]
+    },
+    "governance": {
+        "raw_deleted": true,
+        "raw_text_hash": "b996c55102f62a1208fc0ad39a1da3d99c034a5c0c2fe222b7aff953dd7ee0e1",
+        "pii_anonymized": true,
+        "anonymization_method": "Hybrid (SpaCy NER + RegEx)",
+        "anonymization_timestamp": "2026-03-07T12:01:51.470429+00:00",
+        "retention_policy_days": 30,
+        "model_integrity_hash": "4b720b228862a635a6e591a007947f82f6fec977d7cdf45f2cbd55aa83e96070",
+        "security_audit": {
+            "prompt_injection_attempt": false,
+            "pattern_detected": null
+        }
+    },
+    "quality_evaluation": {
+        "model_version": "v_20260307_130200",
+        "model_hash": "4b720b228862a635a6e591a007947f82f6fec977d7cdf45f2cbd55aa83e96070",
+        "call_type": "standard",
+        "final_score": 8.7,
+        "details": {
+            "call_type_detected": "standard",
+            "block_scores": {
+                "Identificación y Apertura de Llamada": 9.5,
+                "Detección de Necesidades y Escucha Activa": 7.0,
+                "Argumentación y Manejo de Objeciones": 9.0,
+                "Cierre y Despedida": 9.5
+            },
+            "eliminatorias_triggered": []
+        },
+        "signals": {
+            "math_sentiment_score": 100,
+            "churn_risk_flag": false,
+            "positive_signals": 2,
+            "negative_signals": 0
+        },
+        "bi_export": {
+            "score": 8.7,
+            "ko": false,
+            "ko_reasons": [],
+            "input_tokens": 1842,
+            "output_tokens": 104
+        }
+    },
+    "finops": {
+        "stt_cost_usd": 0.026622,
+        "llm_cost_usd": 0.000169,
+        "total_transaction_cost_usd": 0.031791
+    }
+}

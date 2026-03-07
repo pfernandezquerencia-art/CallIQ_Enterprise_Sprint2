@@ -1,0 +1,136 @@
+{
+    "metadata_pack_version": "3.0",
+    "conversation_id": "F64BB5A427514C438FC6",
+    "context": {
+        "agent_id": "AG-BELEN",
+        "tenant_id": "tenant_banca",
+        "extension": "7403",
+        "queue": "Atencion_Cliente",
+        "ani": "+34641369871",
+        "dnis": "900123456"
+    },
+    "source": {
+        "call_timestamp": "2026-03-04T07:28:30.517809+00:00",
+        "ingestion_timestamp": "2026-03-07T11:59:27.475382+00:00",
+        "technical_metadata": {
+            "duration_sec": 135,
+            "audio_hash_sha256": "ef2052a6ae258508640dbaeb674aad48b3d8e6525731aba56b6ea45253cf30a4"
+        }
+    },
+    "transcription": {
+        "full_text": "Express. Buenas tardes, mi nombre es Gabriel, ¿En qué puedo ayudarlo? ¿Gabriel? Buenas tardes. Mira, estoy teniendo problemas con el servicio de Internet. El viernes me han cambiado el módem para pasar de 50 megas a 300 y no me llega la señal hasta la habitación que son nada, 10 metros de donde está el módem. Bueno, me brinda por favor el número del documento de titular. 30. 739.3 61. Paula Nabel Morales. La titular. Sarmiento 1314. ¿Su dirección? Sí. Bueno, aguárdame un momento. Ingreso a la conexión. Bueno. Bueno, Paola, en este caso lo que podemos hacer yo te puedo aplicar unos cambios en forma remota y además iniciar el equipo, ¿Sí? Esperame que me voy a donde está el mod a guardar, ¿Sí? En este caso voy a reiniciarte el equipo para que probar en 10 minutos y cheques si ya te funciona todo correctamente, ¿Dale? Bueno, por favor, no necese nada. No, no, yo puedo en este caso apagarlo desde aquí para que solito tome la conexión. Bien. Bueno, ahí mandé la consulta, por favor. Intenta probar el servicio durante la tarde, ¿Sí? Y si usted sigue persistiendo, estamos hasta las 22 horas sola. Muy bien, gracias. Listo, quedé con una breve. Dale, Gracias.",
+        "utterances": [
+            {
+                "speaker_id": "A",
+                "text": "Express. Buenas tardes, mi nombre es Gabriel, ¿En qué puedo ayudarlo?"
+            },
+            {
+                "speaker_id": "B",
+                "text": "¿Gabriel? Buenas tardes. Mira, estoy teniendo problemas con el servicio de Internet. El viernes me han cambiado el módem para pasar de 50 megas a 300 y no me llega la señal hasta la habitación que son nada, 10 metros de donde está el módem."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bueno, me brinda por favor el número del documento de titular."
+            },
+            {
+                "speaker_id": "B",
+                "text": "30. 739.3 61."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Paula Nabel Morales. La titular. Sarmiento 1314. ¿Su dirección?"
+            },
+            {
+                "speaker_id": "B",
+                "text": "Sí."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bueno, aguárdame un momento. Ingreso a la conexión."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Bueno."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bueno, Paola, en este caso lo que podemos hacer yo te puedo aplicar unos cambios en forma remota y además iniciar el equipo, ¿Sí?"
+            },
+            {
+                "speaker_id": "B",
+                "text": "Esperame que me voy a donde está el mod a guardar, ¿Sí?"
+            },
+            {
+                "speaker_id": "A",
+                "text": "En este caso voy a reiniciarte el equipo para que probar en 10 minutos y cheques si ya te funciona todo correctamente, ¿Dale?"
+            },
+            {
+                "speaker_id": "B",
+                "text": "Bueno, por favor, no necese nada."
+            },
+            {
+                "speaker_id": "A",
+                "text": "No, no, yo puedo en este caso apagarlo desde aquí para que solito tome la conexión. Bien. Bueno, ahí mandé la consulta, por favor. Intenta probar el servicio durante la tarde, ¿Sí? Y si usted sigue persistiendo, estamos hasta las 22 horas sola."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Muy bien, gracias."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Listo, quedé con una breve."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Dale, Gracias."
+            }
+        ]
+    },
+    "governance": {
+        "raw_deleted": true,
+        "raw_text_hash": "acf78b6def2d80b3d67220dbc1acf3f913c64b51f0993b08c4f1c554efeba892",
+        "pii_anonymized": true,
+        "anonymization_method": "Hybrid (SpaCy NER + RegEx)",
+        "anonymization_timestamp": "2026-03-07T11:59:27.475723+00:00",
+        "retention_policy_days": 30,
+        "model_integrity_hash": "ac5631912cda754df49d77a0a1b044308ff97616c6326124e43163c803ed5fc5",
+        "security_audit": {
+            "prompt_injection_attempt": false,
+            "pattern_detected": null
+        }
+    },
+    "quality_evaluation": {
+        "model_version": "v_20260307_125811",
+        "model_hash": "ac5631912cda754df49d77a0a1b044308ff97616c6326124e43163c803ed5fc5",
+        "call_type": "standard",
+        "final_score": 7.53,
+        "details": {
+            "call_type_detected": "standard",
+            "block_scores": {
+                "Identificación y Apertura": 9.0,
+                "Diagnóstico del Problema": 6.5,
+                "Resolución o Propuesta de Solución": 8.0,
+                "Cierre de la Llamada": 7.0
+            },
+            "eliminatorias_triggered": []
+        },
+        "signals": {
+            "math_sentiment_score": 100,
+            "churn_risk_flag": false,
+            "positive_signals": 2,
+            "negative_signals": 0
+        },
+        "bi_export": {
+            "score": 7.53,
+            "ko": false,
+            "ko_reasons": [],
+            "input_tokens": 1304,
+            "output_tokens": 94
+        }
+    },
+    "finops": {
+        "stt_cost_usd": 0.01377,
+        "llm_cost_usd": 0.000126,
+        "total_transaction_cost_usd": 0.013896
+    }
+}

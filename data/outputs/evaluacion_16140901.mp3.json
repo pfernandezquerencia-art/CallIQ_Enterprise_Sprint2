@@ -1,0 +1,128 @@
+{
+    "metadata_pack_version": "3.0",
+    "conversation_id": "6D64F039169F4905AC3C",
+    "context": {
+        "agent_id": "AG-CAMILA",
+        "tenant_id": "tenant_banca",
+        "extension": "7845",
+        "queue": "Soporte_Tecnico",
+        "ani": "+34631532314",
+        "dnis": "900123456"
+    },
+    "source": {
+        "call_timestamp": "2026-03-07T04:28:30.458803+00:00",
+        "ingestion_timestamp": "2026-03-07T12:02:36.250556+00:00",
+        "technical_metadata": {
+            "duration_sec": 112,
+            "audio_hash_sha256": "6a8c999534b6a22090016e03763801d9cbc1f4a1f36a822e68b66d53317b3f85"
+        }
+    },
+    "transcription": {
+        "full_text": "Express. Buenas tardes, mi nombre es Camila, ¿Cómo la puedo ayudar? ¿Qué tal? Buenas tardes. Una consulta. Aquí en el Valle Libertad nosotros estamos sin servicio de cable de Internet. Nada. ¿Está habiendo algún inconveniente? Vamos a verificar. ¿Me dices el DNI, por favor? 8. 133. 569. Abel Leopoldo Cajizo. San Juan 2161. Bien, te hago una consulta. ¿Cuál es su nombre? Inés Casizo. Inés, bien. Inés, te consulto. Tengo registrado un teléfono de contacto. Es [TLF]. Dame un segundo si puedo verificar desde cuándo está el servicio. Hace aproximadamente una hora y media. Bueno, sí, pensaba que iba a volver, pero no. Bien, hay un problema en la zona, por eso están sin servicio ese general, entonces. Bueno, los técnicos van a andar bien entonces. Muchísimas gracias. Bueno, gracias a vos. Te dejo ahí una breve encuesta si tienes un momento, Inés. Hasta luego. Dale, Golzón. Gracias.",
+        "utterances": [
+            {
+                "speaker_id": "A",
+                "text": "Express. Buenas tardes, mi nombre es Camila, ¿Cómo la puedo ayudar?"
+            },
+            {
+                "speaker_id": "B",
+                "text": "¿Qué tal? Buenas tardes. Una consulta. Aquí en el Valle Libertad nosotros estamos sin servicio de cable de Internet. Nada. ¿Está habiendo algún inconveniente?"
+            },
+            {
+                "speaker_id": "A",
+                "text": "Vamos a verificar. ¿Me dices el DNI, por favor?"
+            },
+            {
+                "speaker_id": "B",
+                "text": "8. 133. 569."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Abel Leopoldo Cajizo. San Juan 2161. Bien, te hago una consulta. ¿Cuál es su nombre?"
+            },
+            {
+                "speaker_id": "B",
+                "text": "Inés Casizo."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Inés, bien. Inés, te consulto. Tengo registrado un teléfono de contacto. Es [TLF]. Dame un segundo si puedo verificar desde cuándo está el servicio."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Hace aproximadamente una hora y media."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bueno,"
+            },
+            {
+                "speaker_id": "B",
+                "text": "sí, pensaba que iba a volver, pero no."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bien, hay un problema en la zona, por eso están sin servicio"
+            },
+            {
+                "speaker_id": "B",
+                "text": "ese general, entonces. Bueno, los técnicos van a andar bien entonces. Muchísimas gracias."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bueno, gracias a vos. Te dejo ahí una breve encuesta si tienes un momento, Inés. Hasta luego."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Dale, Golzón. Gracias."
+            }
+        ]
+    },
+    "governance": {
+        "raw_deleted": true,
+        "raw_text_hash": "7744f57d5b4ec9f571de96602a8d077500eee4c9af1edc52f86cb55e14525573",
+        "pii_anonymized": true,
+        "anonymization_method": "Hybrid (SpaCy NER + RegEx)",
+        "anonymization_timestamp": "2026-03-07T12:02:36.250830+00:00",
+        "retention_policy_days": 30,
+        "model_integrity_hash": "a1e0b656099c33f9d2c9c39eab56e01d0f1254724c0fe631549c753e9c96d882",
+        "security_audit": {
+            "prompt_injection_attempt": false,
+            "pattern_detected": null
+        }
+    },
+    "quality_evaluation": {
+        "model_version": "v_20260307_130243",
+        "model_hash": "a1e0b656099c33f9d2c9c39eab56e01d0f1254724c0fe631549c753e9c96d882",
+        "call_type": "standard",
+        "final_score": 8.0,
+        "details": {
+            "call_type_detected": "standard",
+            "block_scores": {
+                "Identificación y Apertura": 10.0,
+                "Diagnóstico del Problema": 9.0,
+                "Resolución o Propuesta de Solución": 6.0,
+                "Cierre de la Llamada": 7.0
+            },
+            "eliminatorias_triggered": []
+        },
+        "signals": {
+            "math_sentiment_score": 100,
+            "churn_risk_flag": false,
+            "positive_signals": 1,
+            "negative_signals": 0
+        },
+        "bi_export": {
+            "score": 8.0,
+            "ko": false,
+            "ko_reasons": [],
+            "input_tokens": 1224,
+            "output_tokens": 95
+        }
+    },
+    "finops": {
+        "stt_cost_usd": 0.011424,
+        "llm_cost_usd": 0.00012,
+        "total_transaction_cost_usd": 0.016544
+    }
+}

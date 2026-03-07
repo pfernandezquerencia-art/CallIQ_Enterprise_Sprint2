@@ -1,0 +1,112 @@
+{
+    "metadata_pack_version": "3.0",
+    "conversation_id": "C43000B3D96B44AD9124",
+    "context": {
+        "agent_id": "AG-GABRIEL",
+        "tenant_id": "tenant_banca",
+        "extension": "7602",
+        "queue": "Soporte_Tecnico",
+        "ani": "+34636197694",
+        "dnis": "900123456"
+    },
+    "source": {
+        "call_timestamp": "2026-03-07T02:28:30.508715+00:00",
+        "ingestion_timestamp": "2026-03-07T11:58:03.109594+00:00",
+        "technical_metadata": {
+            "duration_sec": 129,
+            "audio_hash_sha256": "9317f344b16cc94a0db9342aee74c52cafb8a88e0c3ac68a70e2682423c42127"
+        }
+    },
+    "transcription": {
+        "full_text": "Express. Buenas tardes, mi nombre es Gabriel, ¿En qué puedo charlo? Buenas tardes, quería saber si me podría decir ustedes iban a venir hoy día a revisármelo. Yo había hecho un reclamo por el tema de que todo el fin de semana he estado sin wifi, sin Internet. Bueno, a ver, me dicta número del documento titular, por favor. [TLF]. El lunes pasado le han colocado recién [TLF]. Germán Vélez Suárez, la titular Avenida Rojas 211. ¿Hola? Hola, hola, Hola, hola, Hola, hola, hola, señora Suárez, Hola, hola, hola, hola, señora Suárez, ¿Hola, hola, señora, se encuentra en línea?",
+        "utterances": [
+            {
+                "speaker_id": "B",
+                "text": "Express. Buenas tardes, mi nombre es Gabriel, ¿En qué puedo charlo?"
+            },
+            {
+                "speaker_id": "A",
+                "text": "Buenas tardes, quería saber si me podría decir ustedes iban a venir hoy día a revisármelo. Yo había hecho un reclamo por el tema de que todo el fin de semana he estado sin wifi, sin Internet."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Bueno, a ver, me dicta número del documento titular, por favor."
+            },
+            {
+                "speaker_id": "A",
+                "text": "[TLF]. El lunes pasado le han colocado recién"
+            },
+            {
+                "speaker_id": "B",
+                "text": "43 4"
+            },
+            {
+                "speaker_id": "A",
+                "text": "29 118."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Germán Vélez Suárez, la titular Avenida Rojas 211. ¿Hola? Hola, hola, Hola, hola, Hola, hola, hola, señora Suárez,"
+            },
+            {
+                "speaker_id": "A",
+                "text": "Hola,"
+            },
+            {
+                "speaker_id": "B",
+                "text": "hola, hola, hola, señora Suárez, ¿Hola, hola, señora, se encuentra en línea?"
+            }
+        ]
+    },
+    "governance": {
+        "raw_deleted": true,
+        "raw_text_hash": "489c0eac25c7f10e6dde8039928809ab72c89e24020bf5e3d5cde11d97facf73",
+        "pii_anonymized": true,
+        "anonymization_method": "Hybrid (SpaCy NER + RegEx)",
+        "anonymization_timestamp": "2026-03-07T11:58:03.109796+00:00",
+        "retention_policy_days": 30,
+        "model_integrity_hash": "ac5631912cda754df49d77a0a1b044308ff97616c6326124e43163c803ed5fc5",
+        "security_audit": {
+            "prompt_injection_attempt": false,
+            "pattern_detected": null
+        }
+    },
+    "quality_evaluation": {
+        "model_version": "v_20260307_125811",
+        "model_hash": "ac5631912cda754df49d77a0a1b044308ff97616c6326124e43163c803ed5fc5",
+        "call_type": "standard",
+        "final_score": 0.0,
+        "details": {
+            "call_type_detected": "standard",
+            "block_scores": {
+                "Identificación y Apertura": 7.5,
+                "Diagnóstico del Problema": 1.0,
+                "Resolución o Propuesta de Solución": 0.0,
+                "Cierre de la Llamada": 0.0
+            },
+            "eliminatorias_triggered": [
+                "Ignorar la incidencia del cliente o negarse a ayudar."
+            ]
+        },
+        "signals": {
+            "math_sentiment_score": 50,
+            "churn_risk_flag": true,
+            "positive_signals": 1,
+            "negative_signals": 1
+        },
+        "bi_export": {
+            "score": 0.0,
+            "ko": true,
+            "ko_reasons": [
+                "Ignorar la incidencia del cliente o negarse a ayudar."
+            ],
+            "input_tokens": 1136,
+            "output_tokens": 112
+        }
+    },
+    "finops": {
+        "stt_cost_usd": 0.013158,
+        "llm_cost_usd": 0.000119,
+        "total_transaction_cost_usd": 0.018277
+    }
+}

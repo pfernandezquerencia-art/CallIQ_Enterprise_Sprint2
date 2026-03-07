@@ -1,0 +1,116 @@
+{
+    "metadata_pack_version": "3.0",
+    "conversation_id": "8DC5BB59D4414831914A",
+    "context": {
+        "agent_id": "AG-GABRIEL",
+        "tenant_id": "tenant_banca",
+        "extension": "7846",
+        "queue": "Atencion_Cliente",
+        "ani": "+34639525574",
+        "dnis": "900123456"
+    },
+    "source": {
+        "call_timestamp": "2026-03-02T04:28:30.521093+00:00",
+        "ingestion_timestamp": "2026-03-07T12:00:03.377419+00:00",
+        "technical_metadata": {
+            "duration_sec": 167,
+            "audio_hash_sha256": "44b24b57689baf5faab0681b905d542d5ea84657dd7279de5e448c99d0d1166a"
+        }
+    },
+    "transcription": {
+        "full_text": "Buenas noches, mi nombre es Gabriel, ¿En que puedo hacerlo? Hola, buenas noches, necesito mi número de cliente para poder pagar una factura. Bueno, me brinda por favor el número del documento de titular, así ingresemos a su información. Bueno, 23. Bien, 737. Bueno, Emilio Fabián Gómez, Antenor Álvarez 1394. En la dirección. Bueno, anote por favor su código de cliente. Su código es 87. 840. Bueno, para pagar. Lo puede hacer telefónicamente en la opción 5 o por nuestra página web. En la página web hay un botón exclusivo que dice Pagar tu factura y ese es nuestro Nace Online Más rápido para que ingrese el pago. Si no hace falta, con ingresar solamente el DNI en esa opción ya le salta su deuda. El ingresado. Recuerden la ubicación, en su caso tiene que decir Santiago para que lo pueda encontrar, porque si le va a saltar varias ubicaciones, Rosario, San Nicolás, Santiago. Ah, bueno, entonces tiene que hacer doble clic y presionar la opción de Santiago. Bueno, con colocar su DNI ya le figura la deuda. Ahí figura cuánto la deuda figura ahí. Actualmente, según observo, tiene la factura del mes anterior y del mes en curso. La factura anterior es 45206, que en la página le va a salir como pago mínimo. Bien. Y el otro va a ser un pago completo que va a ser la suma de las dos boletas. Bueno, muy bien, queda con una breve encuesta. Que tengan muy buenas noches.",
+        "utterances": [
+            {
+                "speaker_id": "A",
+                "text": "Buenas noches, mi nombre es Gabriel, ¿En que puedo hacerlo?"
+            },
+            {
+                "speaker_id": "B",
+                "text": "Hola, buenas noches, necesito mi número de cliente para poder pagar una factura."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bueno, me brinda por favor el número del documento de titular, así ingresemos a su información."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Bueno, 23. Bien, 737."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Bueno, Emilio Fabián Gómez, Antenor Álvarez 1394. En la dirección. Bueno, anote por favor su código de cliente. Su código es 87. 840."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Bueno, para pagar."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Lo puede hacer telefónicamente en la opción 5 o por nuestra página web. En la página web hay un botón exclusivo que dice Pagar tu factura y ese es nuestro Nace Online Más rápido para que ingrese el pago. Si no hace falta, con ingresar solamente el DNI en esa opción ya le salta su deuda."
+            },
+            {
+                "speaker_id": "B",
+                "text": "El ingresado."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Recuerden la ubicación, en su caso tiene que decir Santiago para que lo pueda encontrar, porque si le va a saltar varias ubicaciones, Rosario, San Nicolás, Santiago. Ah, bueno, entonces tiene que hacer doble clic y presionar la opción de Santiago. Bueno, con colocar su DNI ya le figura la deuda."
+            },
+            {
+                "speaker_id": "B",
+                "text": "Ahí figura cuánto la deuda figura ahí."
+            },
+            {
+                "speaker_id": "A",
+                "text": "Actualmente, según observo, tiene la factura del mes anterior y del mes en curso. La factura anterior es 45206, que en la página le va a salir como pago mínimo. Bien. Y el otro va a ser un pago completo que va a ser la suma de las dos boletas. Bueno, muy bien, queda con una breve encuesta. Que tengan muy buenas noches."
+            }
+        ]
+    },
+    "governance": {
+        "raw_deleted": true,
+        "raw_text_hash": "ec4749d5865ed2d2cac7b52d203b34c1fce149a1266c165602b8f597b3d06504",
+        "pii_anonymized": true,
+        "anonymization_method": "Hybrid (SpaCy NER + RegEx)",
+        "anonymization_timestamp": "2026-03-07T12:00:03.378144+00:00",
+        "retention_policy_days": 30,
+        "model_integrity_hash": "46389bed15c1a37c57d0f02f347ea8cf0e08514be8d839a6bb114e7e07d48dd4",
+        "security_audit": {
+            "prompt_injection_attempt": false,
+            "pattern_detected": null
+        }
+    },
+    "quality_evaluation": {
+        "model_version": "v_20260307_130013",
+        "model_hash": "46389bed15c1a37c57d0f02f347ea8cf0e08514be8d839a6bb114e7e07d48dd4",
+        "call_type": "Soporte Técnico (Resolución)",
+        "final_score": 5.3,
+        "details": {
+            "call_type_detected": "Soporte Técnico (Resolución)",
+            "block_scores": {
+                "Identificación y Cumplimiento": 8.5,
+                "Diagnóstico y Eficacia Técnica": 0.0,
+                "Empatía y Gestión Emocional": 9.5,
+                "Cierre y Seguimiento": 8.5
+            },
+            "eliminatorias_triggered": []
+        },
+        "signals": {
+            "math_sentiment_score": 100,
+            "churn_risk_flag": false,
+            "positive_signals": 2,
+            "negative_signals": 0
+        },
+        "bi_export": {
+            "score": 5.3,
+            "ko": false,
+            "ko_reasons": [],
+            "input_tokens": 1512,
+            "output_tokens": 102
+        }
+    },
+    "finops": {
+        "stt_cost_usd": 0.017034,
+        "llm_cost_usd": 0.000144,
+        "total_transaction_cost_usd": 0.022178
+    }
+}
