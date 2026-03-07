@@ -203,7 +203,8 @@ class IngestionModule:
             time.sleep(3)
 
 class FinOpsEngine:
-    # Tarifas base (USD) para estimación real
+    # Approx pricing for modelling purposes (Gemini 2.5 Flash API / AssemblyAI)
+    # Tarifas base (USD) para estimación real de TCO
     PRICE_STT_PER_SEC = 0.000102      # AssemblyAI estándar
     PRICE_LLM_INPUT_1K = 0.000075     # Gemini Flash Input
     PRICE_LLM_OUTPUT_1K = 0.0003      # Gemini Flash Output
@@ -216,7 +217,7 @@ class FinOpsEngine:
             "llm_cost_usd": round(llm_cost, 6),
             "total_transaction_cost_usd": round(stt_cost + llm_cost, 6)
         }
-
+    
 class AnonymizationModule:
     PAT_ID = re.compile(r"\b\d{8}[A-Z]\b|\b\d{2}\.?\d{3}\.?\d{3}-?[A-Z]?\b")
     PAT_EMAIL = re.compile(r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b")
@@ -608,15 +609,40 @@ class PipelineController:
         data = self.ingestion.process(audio_path)
         duration_sec = data["meta"].get("duration_sec", 0)
         
-        # Construcción inicial alineada a Metadata Pack v3
+        # --- CARGA DEL SIDECAR PBX ---
+        import json # Asegúrate de que json está importado al inicio del script
+        base_path = os.path.splitext(audio_path)[0]
+        pbx_json_path = f"{base_path}.json"
+        
+        pbx_meta = {
+            "ucid": f"ID-{int(time.time())}",
+            "agent_id": agent_id if agent_id != "unknown" else "AG-DEFAULT",
+            "extension": "N/A",
+            "queue": "N/A",
+            "call_timestamp": datetime.now(timezone.utc).isoformat(),
+            "ani": "N/A",
+            "dnis": "N/A"
+        }
+        
+        if os.path.exists(pbx_json_path):
+            with open(pbx_json_path, "r", encoding="utf-8") as f:
+                pbx_meta.update(json.load(f))
+            logger.info(f"Metadatos CTI cargados correctamente para {os.path.basename(audio_path)}")
+
+        # --- ACTUALIZAMOS LA VARIABLE METADATA ORIGINAL ---
         metadata = {
             "metadata_pack_version": "3.0",
-            "conversation_id": compute_sha256(audio_path)[:12],
+            "conversation_id": pbx_meta["ucid"],
             "context": {
-                "agent_id": agent_id,
-                "tenant_id": tenant_id
+                "agent_id": pbx_meta["agent_id"],
+                "tenant_id": tenant_id,
+                "extension": pbx_meta["extension"],
+                "queue": pbx_meta["queue"],
+                "ani": pbx_meta["ani"],
+                "dnis": pbx_meta["dnis"]
             },
             "source": {
+                "call_timestamp": pbx_meta["call_timestamp"],
                 "ingestion_timestamp": datetime.now(timezone.utc).isoformat(),
                 "technical_metadata": {
                     "duration_sec": duration_sec,
@@ -627,12 +653,15 @@ class PipelineController:
             "governance": {}
         }
         
+        
         # 2. Anonimización Segura
         metadata = self.anonymizer.process(metadata)
         
         # --- INICIO ORQUESTACIÓN MULTI-DOMINIO ---
         texto_para_clasificar = metadata["transcription"]["full_text"]
-        tipo_llamada = clasificar_intencion_llamada(texto_para_clasificar, self.engine.gemini_client)
+        
+        # FIX: Usamos la variable global gemini_client directamente
+        tipo_llamada = clasificar_intencion_llamada(texto_para_clasificar, gemini_client)
         
         manuales = {
             "VENTAS": "./data/manual_calidad_ventas.txt",
@@ -669,7 +698,7 @@ class PipelineController:
                     coste_modelo = 0.005 # Coste aproximado de generación del modelo RAG
             except SecurityError as se:
                 logger.error(f"KILL SWITCH ACTIVADO: {se}")
-                self.registry.save_bi_result(tenant_id, os.path.basename(audio_path), "N/A", 0.0, True, 0.0, 0.0)
+                self.registry.save_bi_result(tenant_id, os.path.basename(audio_path), "N/A", 0.0, True, 0.0)
                 return {"error": "Violación de Integridad."}
         else: 
             model = {"model_name": "Fallback", "call_types": [], "blocks": [], "eliminatorias": []}
@@ -777,7 +806,7 @@ if __name__ == "__main__":
     os.makedirs(carpeta_audios, exist_ok=True)
     os.makedirs(carpeta_outputs, exist_ok=True)
 
-    archivos_audio = glob.glob(f"{carpeta_audios}/*.*")
+    archivos_audio = glob.glob(f"{carpeta_audios}/*.mp3") + glob.glob(f"{carpeta_audios}/*.wav")
 
     if not archivos_audio:
         print(f"\n❌ No se han encontrado audios en la carpeta '{carpeta_audios}'.")

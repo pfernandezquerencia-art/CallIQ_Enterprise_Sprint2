@@ -445,3 +445,193 @@
 2026-03-05 19:17:10,736 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
 2026-03-05 19:17:10,748 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 9.12 | KO: False | Coste: $0.0538 ===
 2026-03-05 19:17:10,763 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📊 Export BI completado con éxito: ./data/calliq_export_BI_20260305.csv
+2026-03-07 12:49:19,246 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 08044601.json ===
+2026-03-07 12:52:34,598 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 08044601.mp3 ===
+2026-03-07 12:52:47,429 [INFO] calliq_pipeline_enterprise_v1.5.3 - Metadatos CTI cargados correctamente para 08044601.mp3
+2026-03-07 12:52:47,433 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 12:52:50,066 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 12:52:50,074 [INFO] calliq_pipeline_enterprise_v1.5.3 - 🧭 Router Semántico: Dominio detectado -> VENTAS
+2026-03-07 12:52:50,076 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📖 RAG Inyectado dinámicamente: ./data/manual_calidad_ventas.txt
+2026-03-07 12:52:50,078 [INFO] calliq_pipeline_enterprise_v1.5.3 - 🔄 Rotación de Modelo activada.
+2026-03-07 12:52:50,079 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 12:52:57,494 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 12:52:57,506 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 12:53:04,707 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 12:53:04,709 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 12:53:13,714 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 12:53:13,722 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 9.28 | KO: False | Coste: $0.0631 ===
+2026-03-07 12:53:14,676 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📊 Export BI completado con éxito: ./data/calliq_export_BI_20260307.csv
+2026-03-07 12:53:26,679 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 08571801.mp3 ===
+2026-03-07 12:53:39,232 [INFO] calliq_pipeline_enterprise_v1.5.3 - Metadatos CTI cargados correctamente para 08571801.mp3
+2026-03-07 12:53:39,235 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 12:53:41,811 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 12:53:41,813 [INFO] calliq_pipeline_enterprise_v1.5.3 - 🧭 Router Semántico: Dominio detectado -> VENTAS
+2026-03-07 12:53:41,814 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📖 RAG Inyectado dinámicamente: ./data/manual_calidad_ventas.txt
+2026-03-07 12:53:41,817 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 12:53:45,941 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 12:53:45,944 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 12:53:57,291 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 12:53:57,299 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 8.82 | KO: False | Coste: $0.0371 ===
+2026-03-07 12:53:57,305 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📊 Export BI completado con éxito: ./data/calliq_export_BI_20260307.csv
+2026-03-07 12:54:09,307 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 09061301.mp3 ===
+2026-03-07 12:54:17,708 [INFO] calliq_pipeline_enterprise_v1.5.3 - Metadatos CTI cargados correctamente para 09061301.mp3
+2026-03-07 12:54:17,710 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 12:54:20,052 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 12:54:20,054 [INFO] calliq_pipeline_enterprise_v1.5.3 - 🧭 Router Semántico: Dominio detectado -> VENTAS
+2026-03-07 12:54:20,055 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📖 RAG Inyectado dinámicamente: ./data/manual_calidad_ventas.txt
+2026-03-07 12:54:20,056 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 12:54:24,570 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 12:54:24,572 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 12:54:34,996 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 12:54:35,005 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 7.03 | KO: False | Coste: $0.0279 ===
+2026-03-07 12:54:35,012 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📊 Export BI completado con éxito: ./data/calliq_export_BI_20260307.csv
+2026-03-07 12:54:47,014 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10231966001.mp3 ===
+2026-03-07 12:54:55,209 [INFO] calliq_pipeline_enterprise_v1.5.3 - Metadatos CTI cargados correctamente para 10231966001.mp3
+2026-03-07 12:54:55,210 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 12:54:56,936 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 12:54:56,938 [INFO] calliq_pipeline_enterprise_v1.5.3 - 🧭 Router Semántico: Dominio detectado -> SOPORTE
+2026-03-07 12:54:56,941 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📖 RAG Inyectado dinámicamente: ./data/manual_calidad_soporte.txt
+2026-03-07 12:54:56,942 [INFO] calliq_pipeline_enterprise_v1.5.3 - 🔄 Rotación de Modelo activada.
+2026-03-07 12:54:56,943 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 12:55:02,792 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 12:55:02,800 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 12:55:10,963 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 12:55:10,965 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 12:55:19,740 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 12:55:19,748 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 8.75 | KO: False | Coste: $0.0244 ===
+2026-03-07 12:55:19,755 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📊 Export BI completado con éxito: ./data/calliq_export_BI_20260307.csv
+2026-03-07 12:55:31,756 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10233161001.mp3 ===
+2026-03-07 12:55:40,298 [INFO] calliq_pipeline_enterprise_v1.5.3 - Metadatos CTI cargados correctamente para 10233161001.mp3
+2026-03-07 12:55:40,300 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 12:55:44,884 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 12:55:44,886 [INFO] calliq_pipeline_enterprise_v1.5.3 - 🧭 Router Semántico: Dominio detectado -> SOPORTE
+2026-03-07 12:55:44,887 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📖 RAG Inyectado dinámicamente: ./data/manual_calidad_soporte.txt
+2026-03-07 12:55:44,889 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 12:55:50,688 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 12:55:50,690 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 12:56:06,654 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 12:56:06,662 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: True | Coste: $0.0573 ===
+2026-03-07 12:56:06,668 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📊 Export BI completado con éxito: ./data/calliq_export_BI_20260307.csv
+2026-03-07 12:56:18,670 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10246500001.mp3 ===
+2026-03-07 12:56:26,863 [INFO] calliq_pipeline_enterprise_v1.5.3 - Metadatos CTI cargados correctamente para 10246500001.mp3
+2026-03-07 12:56:26,865 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 12:56:31,007 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 12:56:31,009 [INFO] calliq_pipeline_enterprise_v1.5.3 - 🧭 Router Semántico: Dominio detectado -> SOPORTE
+2026-03-07 12:56:31,010 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📖 RAG Inyectado dinámicamente: ./data/manual_calidad_soporte.txt
+2026-03-07 12:56:31,011 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 12:56:37,258 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 12:56:37,260 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 12:56:49,845 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 12:56:49,855 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: True | Coste: $0.0239 ===
+2026-03-07 12:56:49,861 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📊 Export BI completado con éxito: ./data/calliq_export_BI_20260307.csv
+2026-03-07 12:57:01,863 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10246870001.mp3 ===
+2026-03-07 12:57:14,741 [INFO] calliq_pipeline_enterprise_v1.5.3 - Metadatos CTI cargados correctamente para 10246870001.mp3
+2026-03-07 12:57:14,744 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 12:57:17,577 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 12:57:17,579 [INFO] calliq_pipeline_enterprise_v1.5.3 - 🧭 Router Semántico: Dominio detectado -> RETENCION
+2026-03-07 12:57:17,581 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📖 RAG Inyectado dinámicamente: ./data/manual_calidad_retencion.txt
+2026-03-07 12:57:17,582 [INFO] calliq_pipeline_enterprise_v1.5.3 - 🔄 Rotación de Modelo activada.
+2026-03-07 12:57:17,583 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 12:57:22,223 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 12:57:22,230 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 12:57:25,833 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 12:57:25,835 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 12:57:38,996 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 12:57:39,006 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 8.57 | KO: False | Coste: $0.0859 ===
+2026-03-07 12:57:39,014 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📊 Export BI completado con éxito: ./data/calliq_export_BI_20260307.csv
+2026-03-07 12:57:51,017 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10248092001.mp3 ===
+2026-03-07 12:58:03,109 [INFO] calliq_pipeline_enterprise_v1.5.3 - Metadatos CTI cargados correctamente para 10248092001.mp3
+2026-03-07 12:58:03,109 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 12:58:05,346 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 12:58:05,349 [INFO] calliq_pipeline_enterprise_v1.5.3 - 🧭 Router Semántico: Dominio detectado -> SOPORTE
+2026-03-07 12:58:05,350 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📖 RAG Inyectado dinámicamente: ./data/manual_calidad_soporte.txt
+2026-03-07 12:58:05,352 [INFO] calliq_pipeline_enterprise_v1.5.3 - 🔄 Rotación de Modelo activada.
+2026-03-07 12:58:05,352 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 12:58:11,158 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 12:58:11,166 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 12:58:17,597 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 12:58:17,599 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 12:58:25,001 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 12:58:25,010 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: True | Coste: $0.0183 ===
+2026-03-07 12:58:25,016 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📊 Export BI completado con éxito: ./data/calliq_export_BI_20260307.csv
+2026-03-07 12:58:37,018 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10248839001.mp3 ===
+2026-03-07 12:58:45,460 [INFO] calliq_pipeline_enterprise_v1.5.3 - Metadatos CTI cargados correctamente para 10248839001.mp3
+2026-03-07 12:58:45,461 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 12:58:46,895 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 12:58:46,897 [INFO] calliq_pipeline_enterprise_v1.5.3 - 🧭 Router Semántico: Dominio detectado -> SOPORTE
+2026-03-07 12:58:46,898 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📖 RAG Inyectado dinámicamente: ./data/manual_calidad_soporte.txt
+2026-03-07 12:58:46,900 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 12:58:56,111 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 12:58:56,114 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 12:59:07,405 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 12:59:07,414 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 7.3 | KO: False | Coste: $0.0212 ===
+2026-03-07 12:59:07,420 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📊 Export BI completado con éxito: ./data/calliq_export_BI_20260307.csv
+2026-03-07 12:59:19,422 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249222001.mp3 ===
+2026-03-07 12:59:27,474 [INFO] calliq_pipeline_enterprise_v1.5.3 - Metadatos CTI cargados correctamente para 10249222001.mp3
+2026-03-07 12:59:27,475 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 12:59:30,095 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 12:59:30,097 [INFO] calliq_pipeline_enterprise_v1.5.3 - 🧭 Router Semántico: Dominio detectado -> SOPORTE
+2026-03-07 12:59:30,098 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📖 RAG Inyectado dinámicamente: ./data/manual_calidad_soporte.txt
+2026-03-07 12:59:30,099 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 12:59:35,119 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 12:59:35,121 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 12:59:43,082 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 12:59:43,092 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 7.53 | KO: False | Coste: $0.0139 ===
+2026-03-07 12:59:43,099 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📊 Export BI completado con éxito: ./data/calliq_export_BI_20260307.csv
+2026-03-07 12:59:55,101 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 10249864001.mp3 ===
+2026-03-07 13:00:03,376 [INFO] calliq_pipeline_enterprise_v1.5.3 - Metadatos CTI cargados correctamente para 10249864001.mp3
+2026-03-07 13:00:03,378 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 13:00:05,574 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 13:00:05,576 [INFO] calliq_pipeline_enterprise_v1.5.3 - 🧭 Router Semántico: Dominio detectado -> INFORMACION
+2026-03-07 13:00:05,577 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📖 RAG Inyectado dinámicamente: ./data/manual_calidad.txt
+2026-03-07 13:00:05,579 [INFO] calliq_pipeline_enterprise_v1.5.3 - 🔄 Rotación de Modelo activada.
+2026-03-07 13:00:05,580 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 13:00:13,884 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 13:00:13,895 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 13:00:20,570 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 13:00:20,573 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 13:00:35,632 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 13:00:35,642 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 5.3 | KO: False | Coste: $0.0222 ===
+2026-03-07 13:00:35,648 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📊 Export BI completado con éxito: ./data/calliq_export_BI_20260307.csv
+2026-03-07 13:00:47,651 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 11013901.mp3 ===
+2026-03-07 13:00:59,620 [INFO] calliq_pipeline_enterprise_v1.5.3 - Metadatos CTI cargados correctamente para 11013901.mp3
+2026-03-07 13:00:59,622 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 13:01:02,577 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 13:01:02,579 [INFO] calliq_pipeline_enterprise_v1.5.3 - 🧭 Router Semántico: Dominio detectado -> INFORMACION
+2026-03-07 13:01:02,580 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📖 RAG Inyectado dinámicamente: ./data/manual_calidad.txt
+2026-03-07 13:01:02,581 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 13:01:06,641 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 13:01:06,644 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 13:01:31,030 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 13:01:31,038 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 0.0 | KO: True | Coste: $0.0112 ===
+2026-03-07 13:01:31,045 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📊 Export BI completado con éxito: ./data/calliq_export_BI_20260307.csv
+2026-03-07 13:01:43,048 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 15461801.mp3 ===
+2026-03-07 13:01:51,468 [INFO] calliq_pipeline_enterprise_v1.5.3 - Metadatos CTI cargados correctamente para 15461801.mp3
+2026-03-07 13:01:51,470 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 13:01:54,197 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 13:01:54,200 [INFO] calliq_pipeline_enterprise_v1.5.3 - 🧭 Router Semántico: Dominio detectado -> VENTAS
+2026-03-07 13:01:54,201 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📖 RAG Inyectado dinámicamente: ./data/manual_calidad_ventas.txt
+2026-03-07 13:01:54,202 [INFO] calliq_pipeline_enterprise_v1.5.3 - 🔄 Rotación de Modelo activada.
+2026-03-07 13:01:54,203 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 13:02:00,565 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 13:02:00,576 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 13:02:05,077 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 13:02:05,080 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 13:02:12,173 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 13:02:12,181 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 8.7 | KO: False | Coste: $0.0318 ===
+2026-03-07 13:02:12,188 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📊 Export BI completado con éxito: ./data/calliq_export_BI_20260307.csv
+2026-03-07 13:02:24,191 [INFO] calliq_pipeline_enterprise_v1.5.3 - === PROCESANDO: 16140901.mp3 ===
+2026-03-07 13:02:36,249 [INFO] calliq_pipeline_enterprise_v1.5.3 - Metadatos CTI cargados correctamente para 16140901.mp3
+2026-03-07 13:02:36,250 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 13:02:37,685 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 13:02:37,687 [INFO] calliq_pipeline_enterprise_v1.5.3 - 🧭 Router Semántico: Dominio detectado -> SOPORTE
+2026-03-07 13:02:37,688 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📖 RAG Inyectado dinámicamente: ./data/manual_calidad_soporte.txt
+2026-03-07 13:02:37,690 [INFO] calliq_pipeline_enterprise_v1.5.3 - 🔄 Rotación de Modelo activada.
+2026-03-07 13:02:37,691 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 13:02:43,418 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 13:02:43,427 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 13:02:47,580 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 13:02:47,582 [INFO] models - AFC is enabled with max remote calls: 10.
+2026-03-07 13:02:54,971 [INFO] _client - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-07 13:02:54,979 [INFO] calliq_pipeline_enterprise_v1.5.3 - === FIN: Score 8.0 | KO: False | Coste: $0.0165 ===
+2026-03-07 13:02:54,986 [INFO] calliq_pipeline_enterprise_v1.5.3 - 📊 Export BI completado con éxito: ./data/calliq_export_BI_20260307.csv
