@@ -88,7 +88,7 @@ Características principales:
 * Insights automáticos
 
 <p align="center">
-<img src="docs/images/dashboard_calliq.jpg" width="900" alt="Dashboard CallIQ">
+<img src="docs/images/dashboard_calliq1.jpg" width="900" alt="Dashboard CallIQ">
 </p>
 
 ---
@@ -238,6 +238,7 @@ EOI - Grupo 3 - (abril 2025)
 
 
 Proyecto desarrollado como investigación sobre **inteligencia conversacional aplicada a contact centers**.
+
 
 
 
