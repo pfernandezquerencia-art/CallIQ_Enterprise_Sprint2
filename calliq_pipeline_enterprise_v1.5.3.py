@@ -219,9 +219,11 @@ class FinOpsEngine:
         }
     
 class AnonymizationModule:
-    PAT_ID = re.compile(r"\b\d{8}[A-Z]\b|\b\d{2}\.?\d{3}\.?\d{3}-?[A-Z]?\b")
+    # MEJORA: Atrapa DNIs/NIEs incluso si el transcriptor pone espacios o puntos entre cada número
+    PAT_ID = re.compile(r"\b(?:\d[\s\.\-]*){8}[a-zA-Z]?\b|\b[XYZxyz][\s\.\-]*(?:\d[\s\.\-]*){7}[a-zA-Z]?\b")
     PAT_EMAIL = re.compile(r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b")
-    PAT_PHONE = re.compile(r"\b(?:\+?\d{1,3}[\s.-]?)?(?:\d[\s.-]?){8,14}\b")
+    # MEJORA (Inspirado en script de Óscar): Adaptado para cazar móviles y fijos de España con pausas
+    PAT_PHONE = re.compile(r"\b(?:\+34\s*)?(?:[6789][\s.-]*)(?:\d[\s.-]*){8}\b")
 
     def anonymize_text(self, text):
         if not text: return ""
